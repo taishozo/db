@@ -258,6 +258,8 @@
 
     "thumbnail" : "サムネイル",
     "table" : "テーブル",
-    "graph" : "グラフ"
+    "graph" : "グラフ",
+    "dataset" : "データセット",
+    "inquiry" : "アンケート"
 
   }

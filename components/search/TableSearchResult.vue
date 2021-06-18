@@ -184,14 +184,18 @@ export default class TableSearchResult extends Vue {
     return this.$store.state.result.hits.hits
   }
 
+  uRenja: any = process.env['u-renja']
+
   getUrl(ids: number[]) {
     let params: string = ''
     for (let i = 0; i < ids.length; i++) {
       params += '&fc-通番=' + ids[i]
     }
+
+    const uRenja = this.uRenja
+
     return (
-      'https://nakamura196.github.io/u-renja/search/?u=https://nakamura196.github.io/u-renja/iiif/collection/top.json' +
-      params
+      uRenja + '/search/?u=' + uRenja + '/iiif/collection/top.json' + params
     )
   }
 }

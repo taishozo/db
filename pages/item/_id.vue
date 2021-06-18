@@ -185,7 +185,9 @@
                     <td colspan="2">
                       <a
                         :href="
-                          'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://nakamura196.github.io/sat_iiif/iiif/kandomokuroku/manifest.json&pos=' +
+                          'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=' +
+                          kando +
+                          '&pos=' +
                           (apiResult['ex:勘同目録IIIFコレクション'][0][
                             'ex:ページ'
                           ] -
@@ -384,6 +386,8 @@ export default class Search extends Vue {
     '関与形態',
   ]
 
+  kando: any = process.env.BASE_URL + '/iiif/kandomokuroku/manifest.json'
+
   hFields: string[] = ['国', '所蔵者']
 
   apiResult: any = null
@@ -450,14 +454,17 @@ export default class Search extends Vue {
     return 'http://getpocket.com/edit?url=' + this.url
   }
 
+  uRenja: any = process.env['u-renja']
+
   getUrl(arr: any[]) {
     let params: string = ''
     for (let i = 0; i < arr.length; i++) {
       params += '&fc-通番=' + arr[i]['ex:通番']
     }
+    const uRenja = this.uRenja
+
     return (
-      'https://nakamura196.github.io/u-renja/search/?u=https://nakamura196.github.io/u-renja/iiif/collection/top.json' +
-      params
+      uRenja + '/search/?u=' + uRenja + '/iiif/collection/top.json' + params
     )
   }
 }

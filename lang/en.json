@@ -232,6 +232,8 @@
 
     "thumbnail" : "Thumbnail",
     "table" : "Table",
-    "graph" : "Graph"
+    "graph" : "Graph",
+    "dataset" : "Dataset",
+    "inquiry" : "Questionnaire"
 
   }

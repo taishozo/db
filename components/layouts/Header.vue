@@ -22,7 +22,7 @@
           })
         "
       >
-        <v-icon>mdi-magnify</v-icon> {{ $t('search') }}
+        <v-icon class="mr-1">mdi-magnify</v-icon> {{ $t('search') }}
       </v-btn>
 
       <!--
@@ -47,17 +47,21 @@
         :href="baseUrl + '/底本・校本DB凡例.pdf'"
         target="_blank"
       >
-        <v-icon>mdi-information</v-icon> {{ $t('legend') }}
+        <v-icon class="mr-1">mdi-information</v-icon> {{ $t('legend') }}
+      </v-btn>
+
+      <v-btn class="mr-1" text depressed :to="localePath({ name: 'dataset' })">
+        <v-icon class="mr-1">mdi-database</v-icon> {{ $t('dataset') }}
       </v-btn>
 
       <v-btn
         class="mr-1"
         text
         depressed
-        href="https://www.kanzaki.com/works/2016/pub/image-annotator?u=https%3A%2F%2Fd1av1vcgsldque.cloudfront.net%2Fiiif%2Fcollection%2F%25E9%2585%2589%25E8%2593%25AE%25E7%25A4%25BE%25E7%2594%25BB%25E5%2583%258F.json"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd1gYA3qgLN2qQKn4o5vuzbma3Dgtoj_u555SVNuIgM4CSc-g/viewform?usp=sf_link"
         target="_blank"
       >
-        <v-icon>mdi-image</v-icon> {{ $t('iiif_collection') }}
+        <v-icon class="mr-1">mdi-contacts</v-icon> {{ $t('inquiry') }}
       </v-btn>
 
       <v-menu offset-y>
@@ -65,7 +69,7 @@
           <v-btn depressed btn v-on="on">
             <v-icon class="mr-2">mdi-translate</v-icon>
             <template v-if="!isMobile()">
-              {{ $i18n.locale == 'ja' ? '日本語' : 'English' }}
+              <!-- {{ $i18n.locale == 'ja' ? '日本語' : 'English' }} -->
               <v-icon class="ml-2">mdi-menu-down</v-icon>
             </template>
           </v-btn>
