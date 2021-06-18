@@ -86,7 +86,7 @@ env['u-renja'] = 'https://taishozo.github.io/u-renja'
 
 module.exports = {
   server: {
-    port: 8088, // デフォルト: 3000
+    port: 8089, // デフォルト: 3000
     host: '0.0.0.0', // デフォルト: localhost
   },
   ...routerBase,

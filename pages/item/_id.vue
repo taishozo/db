@@ -463,9 +463,7 @@ export default class Search extends Vue {
     }
     const uRenja = this.uRenja
 
-    return (
-      uRenja + '/search/?u=' + uRenja + '/iiif/collection/top.json' + params
-    )
+    return uRenja + '/search/?' + params.substring(1)
   }
 }
 </script>
