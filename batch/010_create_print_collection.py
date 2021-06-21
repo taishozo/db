@@ -26,14 +26,14 @@ def read_excel(path):
     data = []
     search = []
 
-    uri_context = "https://webpark5032.sakura.ne.jp/tmp/sat/context.json"
+    uri_context = "https://taishozo.github.io/sat/context.json"
 
     context = {
         "@context" : [
             {
                 "ex" : "http://example.org/",
-                "data" : "https://nakamura196.github.io/sat/data",
-                "keiten" : "https://nakamura196.github.io/sat/経典番号/"
+                "data" : "https://taishozo.github.io/sat/data",
+                "keiten" : "https://taishozo.github.io/sat/経典番号/"
             }
         ]
     }
@@ -451,6 +451,6 @@ def read_excel2(path):
     return map
 
 
-path = "data/『大正新脩大蔵経』底本・校本一覧データベース20200819.xlsx"
+path = "data/『大正新脩大蔵経』底本・校本一覧データベース2020226.xlsx"
 # data1 = read_excel(path)
 read_excel(path)
