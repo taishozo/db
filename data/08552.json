@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08552.json",
     "ex:sat": [
         {
@@ -101,7 +101,7 @@
             "@id": "data:08552.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 21,
-            "ex:画像フォルダ": "1510 千手眼大悲心呪行法1巻",
+            "ex:画像フォルダ": "u-renja1523",
             "ex:経典名": "千手眼大悲心呪行法1卷"
         }
     ]

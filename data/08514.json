@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08514.json",
     "ex:sat": [
         {
@@ -101,7 +101,7 @@
             "@id": "data:08514.json#酉蓮社本IIIコレクション1",
             "ex:from": 33,
             "ex:to": 88,
-            "ex:画像フォルダ": "1543 金剛般若經疏1卷 1544 天台四教儀1卷",
+            "ex:画像フォルダ": "u-renja1559-1560",
             "ex:経典名": "天台四教儀1卷"
         }
     ]

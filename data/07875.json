@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:07875.json",
     "ex:sat": [
         {
@@ -94,7 +94,7 @@
             "@id": "data:07875.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 97,
-            "ex:画像フォルダ": "1551 觀音義疏記4卷",
+            "ex:画像フォルダ": "u-renja1566",
             "ex:経典名": "觀音義疏記4卷"
         }
     ]

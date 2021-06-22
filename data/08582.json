@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08582.json",
     "ex:sat": [
         {
@@ -101,7 +101,7 @@
             "@id": "data:08582.json#酉蓮社本IIIコレクション1",
             "ex:from": 25,
             "ex:to": 45,
-            "ex:画像フォルダ": "1566 方等三昧行法1卷 1567 淨土十疑論1卷",
+            "ex:画像フォルダ": "u-renja1581-1582",
             "ex:経典名": "淨土十疑論1卷"
         }
     ]

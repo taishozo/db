@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08357.json",
     "ex:sat": [
         {
@@ -95,7 +95,7 @@
             "@id": "data:08357.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 187,
-            "ex:画像フォルダ": "1621 肇論新疏3卷",
+            "ex:画像フォルダ": "u-renja1636",
             "ex:経典名": "肇論新疏3卷"
         }
     ]

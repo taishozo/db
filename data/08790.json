@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08790.json",
     "ex:sat": [
         {
@@ -97,5 +97,13 @@
             "ex:通番": 1647
         }
     ],
-    "ex:酉蓮社本IIIコレクション": []
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08790.json#酉蓮社本IIIコレクション1",
+            "ex:from": 1,
+            "ex:to": 957,
+            "ex:画像フォルダ": "u-renja1647",
+            "ex:経典名": "佛祖歴代通載22卷目録1卷"
+        }
+    ]
 }

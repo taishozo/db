@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08415.json",
     "ex:sat": [
         {
@@ -97,5 +97,13 @@
             "ex:通番": 1670
         }
     ],
-    "ex:酉蓮社本IIIコレクション": []
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08415.json#酉蓮社本IIIコレクション1",
+            "ex:from": 1,
+            "ex:to": 74,
+            "ex:画像フォルダ": "u-renja1670",
+            "ex:経典名": "華嚴七字經題法界觀三十門頌2卷"
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08709.json",
     "ex:sat": [
         {
@@ -97,5 +97,13 @@
             "ex:通番": 1668
         }
     ],
-    "ex:酉蓮社本IIIコレクション": []
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08709.json#酉蓮社本IIIコレクション1",
+            "ex:from": 52,
+            "ex:to": 78,
+            "ex:画像フォルダ": "u-renja1663-1668",
+            "ex:経典名": "黄檗山斷際禪師傳心法要1卷"
+        }
+    ]
 }
