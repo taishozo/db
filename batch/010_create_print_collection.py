@@ -26,14 +26,14 @@ def read_excel(path):
     data = []
     search = []
 
-    uri_context = "https://taishozo.github.io/sat/context.json"
+    uri_context = "https://taishozo.github.io/db/context.json"
 
     context = {
         "@context" : [
             {
                 "ex" : "http://example.org/",
-                "data" : "https://taishozo.github.io/sat/data",
-                "keiten" : "https://taishozo.github.io/sat/経典番号/"
+                "data" : "https://taishozo.github.io/db/data",
+                "keiten" : "https://taishozo.github.io/db/経典番号/"
             }
         ]
     }
