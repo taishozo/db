@@ -57,7 +57,7 @@ export default class Page extends Vue {
     {
       label: 'メタデータ一覧（JSON-LD）',
       value:
-        'https://www.kanzaki.com/works/2014/pub/ld-browser?u=https://taishozo.github.io/db/data.json',
+        'https://taishozo.github.io/db/data.json',
     },
   ]
 }
