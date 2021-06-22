@@ -1,5 +1,5 @@
 {
-    "@context": "https://taishozo.github.io/sat/context.json",
+    "@context": "https://taishozo.github.io/db/context.json",
     "@id": "data:08795.json",
     "ex:sat": [
         {
