@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:07944.json",
     "ex:sat": [
         {
@@ -94,7 +94,7 @@
             "@id": "data:07944.json#酉蓮社本IIIコレクション1",
             "ex:from": 55,
             "ex:to": 66,
-            "ex:画像フォルダ": "1594 佛説盂蘭盆經疏2卷 1595 金師子章雲間類解1卷 1596 佛説阿彌陀經疏1卷",
+            "ex:画像フォルダ": "u-renja1609-1611",
             "ex:経典名": "佛説阿彌陀經疏1卷"
         }
     ]

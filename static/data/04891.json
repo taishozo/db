@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:04891.json",
     "ex:sat": [
         {
@@ -89,7 +89,7 @@
             "@id": "data:04891.json#酉蓮社本IIIコレクション1",
             "ex:from": 8,
             "ex:to": 11,
-            "ex:画像フォルダ": "1443 大方廣佛華嚴經入界品四十二字觀",
+            "ex:画像フォルダ": "u-renja1456",
             "ex:経典名": "大方廣佛華嚴經入法界品頓證毗盧遮那法身字輪瑜伽儀軌1巻"
         }
     ]

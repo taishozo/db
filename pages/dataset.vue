@@ -1,52 +1,64 @@
 <template>
   <div>
-    <v-container>
-      <h2 class="text-center my-5">{{ $t('dataset') }}</h2>
+    <v-container class="my-5">
+      <h2 class="my-5">データセット</h2>
 
-      <v-row>
-        <v-col v-for="(item, key) in items" :key="key" cols="12" sm="3">
-          <v-card>
-            <div class="pa-4">
-              <a :href="item.url">
-                <h3>{{ item.label }}</h3>
-              </a>
-            </div>
-          </v-card>
-        </v-col>
-      </v-row>
+      <v-simple-table>
+        <template v-slot:default>
+          <thead>
+            <tr>
+              <th class="text-left">
+                Label
+              </th>
+              <th class="text-left">
+                URL
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(item, key) in items" :key="key">
+              <td>{{ item.label }}</td>
+              <td>
+                <a :href="item.value">{{ item.value }}</a>
+              </td>
+            </tr>
+          </tbody>
+        </template>
+      </v-simple-table>
     </v-container>
   </div>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
-// import axios from 'axios'
+import { Component, Vue } from 'nuxt-property-decorator'
+
 @Component
-export default class Volumes extends Vue {
-  baseUrl: any = process.env.BASE_URL
+export default class Page extends Vue {
   head() {
-    return {
-      title: this.$t('dataset'),
-    }
+    return {}
   }
 
-  get items() {
-    return [
-      {
-        label: '酉蓮社画像 ' + this.$t('iiif_collection'),
-        url:
-          'https://www.kanzaki.com/works/2016/pub/image-annotator?u=' +
-          process.env['u-renja'] +
-          '/iiif/collection/top.json',
-      },
-      {
-        label: '大正新脩大蔵経勘同目録 IIIFマニフェスト',
-        url:
-          'https://www.kanzaki.com/works/2016/pub/image-annotator?u=' +
-          process.env.BASE_URL +
-          '/iiif/kandomokuroku/manifest.json',
-      },
-    ]
-  }
+  items: any[] = [
+    {
+      label: '酉蓮社本（IIIFコレクション）',
+      value:
+        'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://taishozo.github.io/u-renja/iiif2/collection/top.json',
+    },
+    {
+      label: '『大正新脩大蔵経勘同目録』（IIIFマニフェスト）',
+      value:
+        'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json',
+    },
+    {
+      label: 'メタデータ一覧（Excel）',
+      value:
+        'https://view.officeapps.live.com/op/view.aspx?src=https://taishozo.github.io/db/metadata/data.xlsx',
+    },
+    {
+      label: 'メタデータ一覧（JSON-LD）',
+      value:
+        'https://www.kanzaki.com/works/2014/pub/ld-browser?u=https://taishozo.github.io/db/data.json',
+    },
+  ]
 }
 </script>

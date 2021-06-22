@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08715.json",
     "ex:sat": [
         {
@@ -102,14 +102,14 @@
             "@id": "data:08715.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 4,
-            "ex:画像フォルダ": "1578 禪宗永嘉集1卷 1578 無相大師行状1卷永嘉證道歌1卷",
+            "ex:画像フォルダ": "u-renja1590",
             "ex:経典名": "無相大師行状1卷永嘉證道歌1卷"
         },
         {
             "@id": "data:08715.json#酉蓮社本IIIコレクション2",
             "ex:from": 49,
             "ex:to": 58,
-            "ex:画像フォルダ": "1578 禪宗永嘉集1卷 1578 無相大師行状1卷永嘉證道歌1卷",
+            "ex:画像フォルダ": "u-renja1590",
             "ex:経典名": "無相大師行状1卷永嘉證道歌1卷"
         }
     ]

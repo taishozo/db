@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:07846.json",
     "ex:sat": [
         {
@@ -95,7 +95,7 @@
             "@id": "data:07846.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 1255,
-            "ex:画像フォルダ": "1528 妙法蓮華經玄義10卷(妙法蓮華經玄籤)",
+            "ex:画像フォルダ": "u-renja1545",
             "ex:経典名": "妙法蓮華經玄義10卷(妙法蓮華經玄籤)"
         }
     ]

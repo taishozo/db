@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08471.json",
     "ex:sat": [
         {
@@ -102,7 +102,7 @@
             "@id": "data:08471.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 514,
-            "ex:画像フォルダ": "1531 摩訶止觀10卷",
+            "ex:画像フォルダ": "u-renja1548",
             "ex:経典名": "摩訶止觀10卷"
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:07957.json",
     "ex:sat": [
         {
@@ -94,7 +94,7 @@
             "@id": "data:07957.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 56,
-            "ex:画像フォルダ": "1537 大般涅槃經玄義2卷 1540 法華經安樂行義1卷",
+            "ex:画像フォルダ": "u-renja1555-1556",
             "ex:経典名": "大般涅槃經玄義2卷"
         }
     ]

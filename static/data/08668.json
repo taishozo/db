@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08668.json",
     "ex:sat": [
         {
@@ -101,7 +101,7 @@
             "@id": "data:08668.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 176,
-            "ex:画像フォルダ": "1520 明覺禪師語録6卷",
+            "ex:画像フォルダ": "u-renja1534",
             "ex:経典名": "明覺禪師語録6卷"
         }
     ]

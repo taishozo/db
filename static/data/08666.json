@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08666.json",
     "ex:sat": [
         {
@@ -98,5 +98,13 @@
             "ex:通番": 1673
         }
     ],
-    "ex:酉蓮社本IIIコレクション": []
+    "ex:酉蓮社本IIIコレクション": [
+        {
+            "@id": "data:08666.json#酉蓮社本IIIコレクション1",
+            "ex:from": 144,
+            "ex:to": 225,
+            "ex:画像フォルダ": "u-renja1673(15-22)",
+            "ex:経典名": "古尊宿語録48卷　(卷20-22)"
+        }
+    ]
 }

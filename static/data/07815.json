@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:07815.json",
     "ex:sat": [
         {
@@ -95,7 +95,7 @@
             "@id": "data:07815.json#酉蓮社本IIIコレクション1",
             "ex:from": 8,
             "ex:to": 38,
-            "ex:画像フォルダ": "1608 般若波羅蜜多心經註解1卷 1609 金剛般若波羅蜜經註解1卷",
+            "ex:画像フォルダ": "u-renja1622-1623",
             "ex:経典名": "金剛般若波羅蜜經註解1卷"
         }
     ]

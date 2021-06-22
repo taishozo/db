@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08548.json",
     "ex:sat": [
         {
@@ -101,7 +101,7 @@
             "@id": "data:08548.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 9,
-            "ex:画像フォルダ": "1515 天台智者大師齋忌禮讚文1卷(実資料上ではこちらが1514の前）",
+            "ex:画像フォルダ": "u-renja1528",
             "ex:経典名": "天台智者大師齋忌禮讚文1卷"
         }
     ]

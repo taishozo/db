@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:07813.json",
     "ex:sat": [
         {
@@ -95,7 +95,7 @@
             "@id": "data:07813.json#酉蓮社本IIIコレクション1",
             "ex:from": 66,
             "ex:to": 287,
-            "ex:画像フォルダ": "1624 金剛般若經疏論纂要2卷 1625 金剛經纂要刊定記7卷",
+            "ex:画像フォルダ": "u-renja1640-1641",
             "ex:経典名": "金剛經纂要刊定記7卷"
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:07925.json",
     "ex:sat": [
         {
@@ -94,7 +94,7 @@
             "@id": "data:07925.json#酉蓮社本IIIコレクション1",
             "ex:from": 33,
             "ex:to": 111,
-            "ex:画像フォルダ": "1552 佛説觀無量壽佛經疏1卷 1553 觀無量壽佛經疏妙宗鈔6卷",
+            "ex:画像フォルダ": "u-renja1567-1568",
             "ex:経典名": "觀無量壽佛經疏妙宗鈔6卷"
         }
     ]

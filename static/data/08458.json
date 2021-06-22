@@ -1,5 +1,5 @@
 {
-    "@context": "https://webpark5032.sakura.ne.jp/tmp/sat/context.json",
+    "@context": "https://taishozo.github.io/sat/context.json",
     "@id": "data:08458.json",
     "ex:sat": [
         {
@@ -102,7 +102,7 @@
             "@id": "data:08458.json#酉蓮社本IIIコレクション1",
             "ex:from": 1,
             "ex:to": 14,
-            "ex:画像フォルダ": "1132b 根本説一切有部苾芻習學畧法1巻",
+            "ex:画像フォルダ": "u-renja1143b",
             "ex:経典名": "根本説一切有部苾芻習學畧法1卷"
         }
     ]

@@ -10,7 +10,7 @@ import json
 import html
 
 def read_excel(path):
-    df = pd.read_excel(path, sheet_name=0, header=None, index_col=None)
+    df = pd.read_excel(path, sheet_name=0, header=None, index_col=None, engine="openpyxl")
 
     r_count = len(df.index)
     c_count = len(df.columns)
@@ -46,6 +46,10 @@ def read_excel(path):
 
     for j in range(2, r_count):
         id = df.iloc[j, 0]
+
+        if id == "" or pd.isnull(id):
+            continue
+
         id = str(id).zfill(5)
 
         print(id)
@@ -332,7 +336,7 @@ def read_excel(path):
             "ex:酉蓮社本IIIコレクション" : yu_i
         }
 
-       
+        # ゆうれんじゃ本の経典名(２)が存在するもの
         if not pd.isnull(df.iloc[j, 130]):
             # print(df.iloc[j, 0], df.iloc[j, 126])
             tmp_arr.append(df.iloc[j, 0])
@@ -451,6 +455,6 @@ def read_excel2(path):
     return map
 
 
-path = "data/『大正新脩大蔵経』底本・校本一覧データベース2020226.xlsx"
+path = "data/『大正新脩大蔵経』底本・校本一覧データベース20210226.xlsx"
 # data1 = read_excel(path)
 read_excel(path)
