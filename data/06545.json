@@ -20,7 +20,8 @@
             "ex:kmID": "km1484",
             "ex:toページ": 397,
             "ex:to段": "c",
-            "ex:ページ": 397,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=245",
+            "ex:ページ": "397",
             "ex:段": "c"
         }
     ],
@@ -39,7 +40,9 @@
                     "ex:経典名": "根本説一切有部百一羯磨",
                     "ex:経典番号": "T1453",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }

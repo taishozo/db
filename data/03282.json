@@ -31,7 +31,8 @@
             "ex:kmID": "km0667",
             "ex:toページ": 285,
             "ex:to段": "c",
-            "ex:ページ": 285,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=133",
+            "ex:ページ": "285",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大方等如來藏經",
                     "ex:経典番号": "T0666",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }

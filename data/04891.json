@@ -31,7 +31,8 @@
             "ex:kmID": "km1035",
             "ex:toページ": 336,
             "ex:to段": "a",
-            "ex:ページ": 335,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=183",
+            "ex:ページ": "335",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大方廣佛花嚴經入法界品頓證毘盧遮那法身字輪瑜伽儀軌",
                     "ex:経典番号": "T1020",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }
@@ -79,16 +82,18 @@
         {
             "@id": "data:04891.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1456",
             "ex:枝番": 2,
             "ex:經典番號": "U1443",
-            "ex:通番": 1456
+            "ex:通番": "1456"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:04891.json#酉蓮社本IIIコレクション1",
+            "@id": "data:04891.json#酉蓮社本IIIFコレクション1",
             "ex:from": 8,
             "ex:to": 11,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/eb86f883bd04ba0f797a36c3585c662e/manifest.json",
             "ex:画像フォルダ": "u-renja1456",
             "ex:経典名": "大方廣佛華嚴經入法界品頓證毗盧遮那法身字輪瑜伽儀軌1巻"
         }

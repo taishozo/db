@@ -39,7 +39,8 @@
             "ex:kmID": "km1829",
             "ex:toページ": 466,
             "ex:to段": "c",
-            "ex:ページ": 466,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=314",
+            "ex:ページ": "466",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "大毘盧遮那經供養次第法疏",
                     "ex:経典番号": "T1797",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }

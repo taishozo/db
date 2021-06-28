@@ -31,7 +31,8 @@
             "ex:kmID": "km0429",
             "ex:toページ": 258,
             "ex:to段": "a",
-            "ex:ページ": 258,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=106",
+            "ex:ページ": "258",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説八陽神呪經",
                     "ex:経典番号": "T0428",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

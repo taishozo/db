@@ -39,7 +39,8 @@
             "ex:kmID": "km0978",
             "ex:toページ": 328,
             "ex:to段": "b",
-            "ex:ページ": 328,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=176",
+            "ex:ページ": "328",
             "ex:段": "a"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "最勝佛頂陀羅尼淨除業障呪經",
                     "ex:経典番号": "T0970",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

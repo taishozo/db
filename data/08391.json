@@ -21,7 +21,8 @@
             "ex:kmID": "km1906",
             "ex:toページ": 486,
             "ex:to段": "a",
-            "ex:ページ": 485,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=333",
+            "ex:ページ": "485",
             "ex:段": "c"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "華嚴經明法品内三寶章",
                     "ex:経典番号": "T1874",
                     "ex:部門": "諸宗部2",
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km1665",
             "ex:toページ": 439,
             "ex:to段": "a",
-            "ex:ページ": 439,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=287",
+            "ex:ページ": "439",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "入大乘論",
                     "ex:経典番号": "T1634",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km0603",
             "ex:toページ": 276,
             "ex:to段": "a",
-            "ex:ページ": 276,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=124",
+            "ex:ページ": "276",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説大安般守意經",
                     "ex:経典番号": "T0602",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

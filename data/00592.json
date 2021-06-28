@@ -21,7 +21,8 @@
             "ex:kmID": "km0142",
             "ex:toページ": 187,
             "ex:to段": "b",
-            "ex:ページ": 187,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=35",
+            "ex:ページ": "187",
             "ex:段": "b"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "佛説玉耶女經",
                     "ex:経典番号": "T0142",
                     "ex:部門": "阿含部下",
-                    "ex:配本": 5
+                    "ex:配本": [
+                        5
+                    ]
                 }
             ]
         }

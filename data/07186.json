@@ -31,7 +31,8 @@
             "ex:kmID": "km1602",
             "ex:toページ": 423,
             "ex:to段": "c",
-            "ex:ページ": 423,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=271",
+            "ex:ページ": "423",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大乘廣百論釋論",
                     "ex:経典番号": "T1571",
                     "ex:部門": "中観部全/瑜伽部上",
-                    "ex:配本": 42
+                    "ex:配本": [
+                        42
+                    ]
                 }
             ]
         }

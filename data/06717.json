@@ -32,7 +32,8 @@
             "ex:kmID": "km1514",
             "ex:toページ": 402,
             "ex:to段": "c",
-            "ex:ページ": 402,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=250",
+            "ex:ページ": "402",
             "ex:段": "b"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "佛説目連問戒律中五百輕重事（別本）",
                     "ex:経典番号": "T1483",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }
@@ -81,9 +84,10 @@
         {
             "@id": "data:06717.json#酉目1",
             "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1154",
             "ex:枝番": 1,
             "ex:經典番號": "U1143",
-            "ex:通番": 1154
+            "ex:通番": "1154"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

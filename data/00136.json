@@ -31,7 +31,8 @@
             "ex:kmID": "km0031",
             "ex:toページ": 160,
             "ex:to段": "a",
-            "ex:ページ": 160,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=8",
+            "ex:ページ": "160",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説一切流攝守因經",
                     "ex:経典番号": "T0031",
                     "ex:部門": "阿含部上",
-                    "ex:配本": 1
+                    "ex:配本": [
+                        1
+                    ]
                 }
             ]
         }

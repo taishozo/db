@@ -31,7 +31,8 @@
             "ex:kmID": "km0878",
             "ex:toページ": 310,
             "ex:to段": "c",
-            "ex:ページ": 310,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=158",
+            "ex:ページ": "310",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "金剛頂經瑜伽修習毘盧遮那三摩地法",
                     "ex:経典番号": "T0876",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:04317.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1433",
             "ex:枝番": 1,
             "ex:經典番號": "U1420",
-            "ex:通番": 1433
+            "ex:通番": "1433"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

@@ -41,7 +41,8 @@
             "ex:kmID": "km0306",
             "ex:toページ": 232,
             "ex:to段": "c",
-            "ex:ページ": 232,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=80",
+            "ex:ページ": "232",
             "ex:段": "b"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "信力入印法門經",
                     "ex:経典番号": "T0305",
                     "ex:部門": "華厳部下",
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }

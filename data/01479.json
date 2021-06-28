@@ -29,7 +29,8 @@
             "ex:kmID": "km0322",
             "ex:toページ": 238,
             "ex:to段": "c",
-            "ex:ページ": 238,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=86",
+            "ex:ページ": "238",
             "ex:段": "b"
         }
     ],
@@ -48,7 +49,9 @@
                     "ex:経典名": "佛説護國尊者所問大乘經",
                     "ex:経典番号": "T0321",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

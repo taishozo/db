@@ -31,7 +31,8 @@
             "ex:kmID": "km0583",
             "ex:toページ": 273,
             "ex:to段": "c",
-            "ex:ページ": 273,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=121",
+            "ex:ページ": "273",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説孫多耶致經",
                     "ex:経典番号": "T0582",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:02856.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=762",
             "ex:枝番": 1,
             "ex:經典番號": "U0756",
-            "ex:通番": 762
+            "ex:通番": "762"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

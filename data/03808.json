@@ -38,7 +38,8 @@
             "ex:kmID": "km0770",
             "ex:toページ": 296,
             "ex:to段": "c",
-            "ex:ページ": 296,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=144",
+            "ex:ページ": "296",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説四輩經",
                     "ex:経典番号": "T0769",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

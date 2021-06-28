@@ -52,7 +52,8 @@
             "ex:kmID": "km0293",
             "ex:toページ": 231,
             "ex:to段": "a",
-            "ex:ページ": 230,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=78",
+            "ex:ページ": "230",
             "ex:段": "c"
         }
     ],
@@ -71,7 +72,9 @@
                     "ex:経典名": "度世品經",
                     "ex:経典番号": "T0292",
                     "ex:部門": "華厳部下",
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }

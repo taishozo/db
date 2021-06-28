@@ -29,7 +29,8 @@
             "ex:kmID": "km1635",
             "ex:toページ": 433,
             "ex:to段": "c",
-            "ex:ページ": 433,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=281",
+            "ex:ページ": "433",
             "ex:段": "b"
         }
     ],
@@ -48,7 +49,9 @@
                     "ex:経典名": "大乘莊嚴經論",
                     "ex:経典番号": "T1604",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

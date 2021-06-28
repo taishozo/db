@@ -38,7 +38,8 @@
             "ex:kmID": "km1690",
             "ex:toページ": 444,
             "ex:to段": "c",
-            "ex:ページ": 444,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=292",
+            "ex:ページ": "444",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "發菩提心經論",
                     "ex:経典番号": "T1659",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

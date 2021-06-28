@@ -21,7 +21,8 @@
             "ex:kmID": "km1870",
             "ex:toページ": 475,
             "ex:to段": "b",
-            "ex:ページ": 475,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=323",
+            "ex:ページ": "475",
             "ex:段": "a"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "大乘法界無差別論疏并序",
                     "ex:経典番号": "T1838",
                     "ex:部門": "論疏部5/諸宗部1",
-                    "ex:配本": 39
+                    "ex:配本": [
+                        39
+                    ]
                 }
             ]
         }

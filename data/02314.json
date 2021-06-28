@@ -49,7 +49,8 @@
             "ex:kmID": "km0476",
             "ex:toページ": 264,
             "ex:to段": "a",
-            "ex:ページ": 263,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=111",
+            "ex:ページ": "263",
             "ex:段": "b"
         }
     ],
@@ -68,7 +69,9 @@
                     "ex:経典名": "維摩詰所説經",
                     "ex:経典番号": "T0475",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

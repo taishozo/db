@@ -31,7 +31,8 @@
             "ex:kmID": "km1502",
             "ex:toページ": 401,
             "ex:to段": "c",
-            "ex:ページ": 401,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=249",
+            "ex:ページ": "401",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "沙彌十戒并威儀",
                     "ex:経典番号": "T1471",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }

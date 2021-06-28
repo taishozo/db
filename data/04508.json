@@ -39,7 +39,8 @@
             "ex:kmID": "km0926",
             "ex:toページ": 320,
             "ex:to段": "c",
-            "ex:ページ": 320,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=168",
+            "ex:ページ": "320",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "藥師瑠璃光如來消災除難念誦儀軌",
                     "ex:経典番号": "T0922",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

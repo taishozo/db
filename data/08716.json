@@ -38,7 +38,8 @@
             "ex:kmID": "km2054",
             "ex:toページ": 518,
             "ex:to段": "a",
-            "ex:ページ": 517,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=365",
+            "ex:ページ": "517",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "永嘉證道歌/附、無相大師行状",
                     "ex:経典番号": "T2014",
                     "ex:部門": "諸宗部5",
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }

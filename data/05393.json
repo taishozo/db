@@ -33,7 +33,8 @@
             "ex:kmID": "km1171",
             "ex:toページ": 354,
             "ex:to段": "b",
-            "ex:ページ": 354,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=202",
+            "ex:ページ": "354",
             "ex:段": "a"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "虚空藏菩薩能滿諸願最勝心陀羅尼求聞持法",
                     "ex:経典番号": "T1145",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

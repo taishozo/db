@@ -38,7 +38,8 @@
             "ex:kmID": "km0452",
             "ex:toページ": 260,
             "ex:to段": "c",
-            "ex:ページ": 260,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=108",
+            "ex:ページ": "260",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "藥師琉璃光七佛本願功德經",
                     "ex:経典番号": "T0451",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

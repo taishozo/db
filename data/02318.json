@@ -31,7 +31,8 @@
             "ex:kmID": "km0477",
             "ex:toページ": 264,
             "ex:to段": "b",
-            "ex:ページ": 264,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=112",
+            "ex:ページ": "264",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "説無垢稱經",
                     "ex:経典番号": "T0476",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:02318.json#酉目1",
             "ex:to枝番": 7,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=150",
             "ex:枝番": 1,
             "ex:經典番號": "U0145",
-            "ex:通番": 150
+            "ex:通番": "150"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

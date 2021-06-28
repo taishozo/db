@@ -38,7 +38,8 @@
             "ex:kmID": "km2076",
             "ex:toページ": 527,
             "ex:to段": "a",
-            "ex:ページ": 523,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=371",
+            "ex:ページ": "523",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛祖統紀",
                     "ex:経典番号": "T2035",
                     "ex:部門": "史伝部1",
-                    "ex:配本": 40
+                    "ex:配本": [
+                        40
+                    ]
                 }
             ]
         }
@@ -92,16 +95,18 @@
         {
             "@id": "data:08788.json#酉目1",
             "ex:to枝番": 60,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1675",
             "ex:枝番": 1,
             "ex:經典番號": "U1655",
-            "ex:通番": 1675
+            "ex:通番": "1675"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08788.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08788.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 1201,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/b2ede148fae7e6c98bdd315a1a6b3260/manifest.json",
             "ex:画像フォルダ": "u-renja1675",
             "ex:経典名": "佛祖統紀54卷"
         }

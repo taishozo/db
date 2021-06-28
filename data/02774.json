@@ -40,7 +40,8 @@
             "ex:kmID": "km0567",
             "ex:toページ": 272,
             "ex:to段": "b",
-            "ex:ページ": 272,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=120",
+            "ex:ページ": "272",
             "ex:段": "b"
         }
     ],
@@ -59,7 +60,9 @@
                     "ex:経典名": "樂瓔珞莊嚴方便品經",
                     "ex:経典番号": "T0566",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

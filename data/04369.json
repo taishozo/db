@@ -38,7 +38,8 @@
             "ex:kmID": "km0889",
             "ex:toページ": 312,
             "ex:to段": "b",
-            "ex:ページ": 312,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=160",
+            "ex:ページ": "312",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説無二平等最上瑜伽大教王經",
                     "ex:経典番号": "T0887",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

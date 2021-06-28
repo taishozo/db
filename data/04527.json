@@ -39,7 +39,8 @@
             "ex:kmID": "km0935",
             "ex:toページ": 321,
             "ex:to段": "b",
-            "ex:ページ": 321,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=169",
+            "ex:ページ": "321",
             "ex:段": "a"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "淨瑠璃淨土標",
                     "ex:経典番号": "T0929",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

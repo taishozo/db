@@ -39,7 +39,8 @@
             "ex:kmID": "km1299",
             "ex:toページ": 369,
             "ex:to段": "a",
-            "ex:ページ": 369,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=217",
+            "ex:ページ": "369",
             "ex:段": "a"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "大使呪法經",
                     "ex:経典番号": "T1268",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

@@ -39,7 +39,8 @@
             "ex:kmID": "km0444",
             "ex:toページ": 259,
             "ex:to段": "c",
-            "ex:ページ": 259,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=107",
+            "ex:ページ": "259",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "五千五百佛名神呪除障滅罪經",
                     "ex:経典番号": "T0443",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

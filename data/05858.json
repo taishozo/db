@@ -31,7 +31,8 @@
             "ex:kmID": "km1307",
             "ex:toページ": 370,
             "ex:to段": "a",
-            "ex:ページ": 369,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=217",
+            "ex:ページ": "369",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "文殊師利菩薩根本大教王經金翅鳥王品",
                     "ex:経典番号": "T1276",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }
@@ -80,9 +83,10 @@
         {
             "@id": "data:05858.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1055",
             "ex:枝番": 1,
             "ex:經典番號": "U1049",
-            "ex:通番": 1055
+            "ex:通番": "1055"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

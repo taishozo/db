@@ -31,7 +31,8 @@
             "ex:kmID": "km0995",
             "ex:toページ": 330,
             "ex:to段": "b",
-            "ex:ページ": 330,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=178",
+            "ex:ページ": "330",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛母大孔雀明王經　※勘同目録作佛母大金曜孔雀明王經",
                     "ex:経典番号": "T0982",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

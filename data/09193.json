@@ -31,7 +31,8 @@
             "ex:kmID": "km2197",
             "ex:toページ": 653,
             "ex:to段": "a",
-            "ex:ページ": 652,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=500",
+            "ex:ページ": "652",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "開元釋教録/附、入藏目録",
                     "ex:経典番号": "T2154",
                     "ex:部門": "目録部全",
-                    "ex:配本": 55
+                    "ex:配本": [
+                        55
+                    ]
                 }
             ]
         }

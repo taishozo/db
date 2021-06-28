@@ -41,7 +41,8 @@
             "ex:kmID": "km0026",
             "ex:toページ": 159,
             "ex:to段": "c",
-            "ex:ページ": 156,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=4",
+            "ex:ページ": "156",
             "ex:段": "a"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "中阿含經",
                     "ex:経典番号": "T0026",
                     "ex:部門": "阿含部上",
-                    "ex:配本": 1
+                    "ex:配本": [
+                        1
+                    ]
                 }
             ]
         }

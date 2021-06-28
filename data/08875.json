@@ -31,7 +31,8 @@
             "ex:kmID": "km2099",
             "ex:toページ": 539,
             "ex:to段": "a",
-            "ex:ページ": 538,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=386",
+            "ex:ページ": "538",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "付法藏因縁傳",
                     "ex:経典番号": "T2058",
                     "ex:部門": "史伝部2",
-                    "ex:配本": 33
+                    "ex:配本": [
+                        33
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:08875.json#酉目1",
             "ex:to枝番": 5,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1346",
             "ex:枝番": 1,
             "ex:經典番號": "U1333",
-            "ex:通番": 1346
+            "ex:通番": "1346"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

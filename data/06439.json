@@ -31,7 +31,8 @@
             "ex:kmID": "km1463",
             "ex:toページ": 389,
             "ex:to段": "a",
-            "ex:ページ": 388,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=236",
+            "ex:ページ": "388",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "曇無德律部雜羯磨",
                     "ex:経典番号": "T1432",
                     "ex:部門": "律部1",
-                    "ex:配本": 24
+                    "ex:配本": [
+                        24
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06439.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1168",
             "ex:枝番": 1,
             "ex:經典番號": "U1157",
-            "ex:通番": 1168
+            "ex:通番": "1168"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

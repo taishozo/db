@@ -38,7 +38,8 @@
             "ex:kmID": "km2153",
             "ex:toページ": 610,
             "ex:to段": "b",
-            "ex:ページ": 610,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=458",
+            "ex:ページ": "610",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "甄正論",
                     "ex:経典番号": "T2112",
                     "ex:部門": "史伝部4",
-                    "ex:配本": 37
+                    "ex:配本": [
+                        37
+                    ]
                 }
             ]
         }

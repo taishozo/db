@@ -39,7 +39,8 @@
             "ex:kmID": "km1865",
             "ex:toページ": 474,
             "ex:to段": "c",
-            "ex:ページ": 474,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=322",
+            "ex:ページ": "474",
             "ex:段": "c"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "成唯識論演祕",
                     "ex:経典番号": "T1833",
                     "ex:部門": "論疏部4",
-                    "ex:配本": 51
+                    "ex:配本": [
+                        51
+                    ]
                 }
             ]
         }

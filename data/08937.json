@@ -48,7 +48,8 @@
             "ex:kmID": "km2122",
             "ex:toページ": 594,
             "ex:to段": "b",
-            "ex:ページ": 594,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=442",
+            "ex:ページ": "594",
             "ex:段": "a"
         }
     ],
@@ -67,7 +68,9 @@
                     "ex:経典名": "兩部大法相承師資付法記",
                     "ex:経典番号": "T2081",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

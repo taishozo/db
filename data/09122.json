@@ -32,7 +32,8 @@
             "ex:kmID": "km2173",
             "ex:toページ": 648,
             "ex:to段": "a",
-            "ex:ページ": 648,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=496",
+            "ex:ページ": "648",
             "ex:段": "a"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "悉曇字記",
                     "ex:経典番号": "T2132",
                     "ex:部門": "事彙部下/外教部全",
-                    "ex:配本": 53
+                    "ex:配本": [
+                        53
+                    ]
                 }
             ]
         }

@@ -32,7 +32,8 @@
             "ex:kmID": "km0447",
             "ex:toページ": 259,
             "ex:to段": "c",
-            "ex:ページ": 259,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=107",
+            "ex:ページ": "259",
             "ex:段": "c"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "過去莊嚴劫千佛名經/附、卷首三劫三千佛縁起",
                     "ex:経典番号": "T0446",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

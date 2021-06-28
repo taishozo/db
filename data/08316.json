@@ -38,7 +38,8 @@
             "ex:kmID": "km1872",
             "ex:toページ": 475,
             "ex:to段": "b",
-            "ex:ページ": 475,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=323",
+            "ex:ページ": "475",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "因明入正理論疏",
                     "ex:経典番号": "T1840",
                     "ex:部門": "論疏部5/諸宗部1",
-                    "ex:配本": 39
+                    "ex:配本": [
+                        39
+                    ]
                 }
             ]
         }

@@ -33,7 +33,8 @@
             "ex:kmID": "km0969",
             "ex:toページ": 327,
             "ex:to段": "a",
-            "ex:ページ": 326,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=174",
+            "ex:ページ": "326",
             "ex:段": "c"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "如意寶珠轉輪祕密現身成佛金輪呪王經",
                     "ex:経典番号": "T0961",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

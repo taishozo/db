@@ -31,7 +31,8 @@
             "ex:kmID": "km1658",
             "ex:toページ": 437,
             "ex:to段": "a",
-            "ex:ページ": 437,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=285",
+            "ex:ページ": "437",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大乘法界無差別論",
                     "ex:経典番号": "T1627",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1496",
             "ex:toページ": 401,
             "ex:to段": "a",
-            "ex:ページ": 401,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=249",
+            "ex:ページ": "401",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "舍利弗問經",
                     "ex:経典番号": "T1465",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06619.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1158",
             "ex:枝番": 1,
             "ex:經典番號": "U1147",
-            "ex:通番": 1158
+            "ex:通番": "1158"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

@@ -39,7 +39,8 @@
             "ex:kmID": "km1768",
             "ex:toページ": 457,
             "ex:to段": "c",
-            "ex:ページ": 457,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=305",
+            "ex:ページ": "457",
             "ex:段": "a"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "大方廣佛華嚴經隨疏演義鈔",
                     "ex:経典番号": "T1736",
                     "ex:部門": "経疏部4",
-                    "ex:配本": 35
+                    "ex:配本": [
+                        35
+                    ]
                 }
             ]
         }

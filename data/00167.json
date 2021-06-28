@@ -31,7 +31,8 @@
             "ex:kmID": "km0038",
             "ex:toページ": 160,
             "ex:to段": "c",
-            "ex:ページ": 160,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=8",
+            "ex:ページ": "160",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説輪王七寶經",
                     "ex:経典番号": "T0038",
                     "ex:部門": "阿含部上",
-                    "ex:配本": 1
+                    "ex:配本": [
+                        1
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:00167.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=990",
             "ex:枝番": 1,
             "ex:經典番號": "U0984",
-            "ex:通番": 990
+            "ex:通番": "990"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

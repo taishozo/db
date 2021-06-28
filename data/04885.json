@@ -31,7 +31,8 @@
             "ex:kmID": "km1034",
             "ex:toページ": 335,
             "ex:to段": "c",
-            "ex:ページ": 335,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=183",
+            "ex:ページ": "335",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大方廣佛華嚴經入法界品四十二字觀門",
                     "ex:経典番号": "T1019",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km2111",
             "ex:toページ": 553,
             "ex:to段": "c",
-            "ex:ページ": 553,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=401",
+            "ex:ページ": "553",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "往生西方淨土瑞應傳",
                     "ex:経典番号": "T2070",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

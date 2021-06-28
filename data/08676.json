@@ -21,7 +21,8 @@
             "ex:kmID": "km2036",
             "ex:toページ": 514,
             "ex:to段": "a",
-            "ex:ページ": 514,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=362",
+            "ex:ページ": "514",
             "ex:段": "a"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "大慧普覺禪師宗門武庫",
                     "ex:経典番号": "T1998B",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km2035",
             "ex:toページ": 514,
             "ex:to段": "a",
-            "ex:ページ": 513,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=361",
+            "ex:ページ": "513",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "大慧普覺禪師語録",
                     "ex:経典番号": "T1998A",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }
@@ -92,16 +95,18 @@
         {
             "@id": "data:08672.json#酉目1",
             "ex:to枝番": 40,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1542",
             "ex:枝番": 1,
             "ex:經典番號": "U1525",
-            "ex:通番": 1542
+            "ex:通番": "1542"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08672.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08672.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 475,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/40df446ab011c414c276df3a603197aa/manifest.json",
             "ex:画像フォルダ": "u-renja1542",
             "ex:経典名": "大慧普覺禪師語録30卷"
         }

@@ -41,7 +41,8 @@
             "ex:kmID": "km0645",
             "ex:toページ": 281,
             "ex:to段": "b",
-            "ex:ページ": 281,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=129",
+            "ex:ページ": "281",
             "ex:段": "a"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "佛説金剛三昧本性淸淨不壞不滅經",
                     "ex:経典番号": "T0644",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

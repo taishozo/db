@@ -38,7 +38,8 @@
             "ex:kmID": "km2051",
             "ex:toページ": 517,
             "ex:to段": "b",
-            "ex:ページ": 517,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=365",
+            "ex:ページ": "517",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "黄檗山斷際禪師傳心法要",
                     "ex:経典番号": "T2012A",
                     "ex:部門": "諸宗部5",
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }
@@ -92,16 +95,18 @@
         {
             "@id": "data:08709.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1668",
             "ex:枝番": 1,
             "ex:經典番號": "U1648",
-            "ex:通番": 1668
+            "ex:通番": "1668"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08709.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08709.json#酉蓮社本IIIFコレクション1",
             "ex:from": 52,
             "ex:to": 78,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/86ff53dd86251352843b514eb29b4608/manifest.json",
             "ex:画像フォルダ": "u-renja1663-1668",
             "ex:経典名": "黄檗山斷際禪師傳心法要1卷"
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km1542",
             "ex:toページ": 408,
             "ex:to段": "b",
-            "ex:ページ": 408,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=256",
+            "ex:ページ": "408",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "金剛般若波羅蜜經論",
                     "ex:経典番号": "T1511",
                     "ex:部門": "釈経論部上",
-                    "ex:配本": 21
+                    "ex:配本": [
+                        21
+                    ]
                 }
             ]
         }

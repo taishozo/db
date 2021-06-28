@@ -31,7 +31,8 @@
             "ex:kmID": "km1005",
             "ex:toページ": 331,
             "ex:to段": "b",
-            "ex:ページ": 331,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=179",
+            "ex:ページ": "331",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大雲輪請雨經",
                     "ex:経典番号": "T0991",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:04768.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=189",
             "ex:枝番": 1,
             "ex:經典番號": "U0184",
-            "ex:通番": 189
+            "ex:通番": "189"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

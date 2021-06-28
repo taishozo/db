@@ -31,7 +31,8 @@
             "ex:kmID": "km1758",
             "ex:toページ": 455,
             "ex:to段": "b",
-            "ex:ページ": 455,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=303",
+            "ex:ページ": "455",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "觀音玄義",
                     "ex:経典番号": "T1726",
                     "ex:部門": "経疏部2",
-                    "ex:配本": 29
+                    "ex:配本": [
+                        29
+                    ]
                 }
             ]
         }
@@ -84,16 +87,18 @@
         {
             "@id": "data:07869.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1563",
             "ex:枝番": 1,
             "ex:經典番號": "U1548",
-            "ex:通番": 1563
+            "ex:通番": "1563"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07869.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07869.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 60,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/e7bc56b7705e4f6f382ef3d746b1760c/manifest.json",
             "ex:画像フォルダ": "u-renja1563",
             "ex:経典名": "觀音玄義2卷"
         }

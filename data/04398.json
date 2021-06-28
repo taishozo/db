@@ -39,7 +39,8 @@
             "ex:kmID": "km0897",
             "ex:toページ": 314,
             "ex:to段": "c",
-            "ex:ページ": 313,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=161",
+            "ex:ページ": "313",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "蘇悉地羯囉經（別本二）",
                     "ex:経典番号": "T0893C",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

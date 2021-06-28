@@ -38,7 +38,8 @@
             "ex:kmID": "km0910",
             "ex:toページ": 319,
             "ex:to段": "a",
-            "ex:ページ": 319,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=167",
+            "ex:ページ": "319",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛頂尊勝心破地獄轉業障出三界祕密三身佛果三種悉地眞言儀軌",
                     "ex:経典番号": "T0906",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

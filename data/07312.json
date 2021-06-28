@@ -38,7 +38,8 @@
             "ex:kmID": "km1623",
             "ex:toページ": 429,
             "ex:to段": "c",
-            "ex:ページ": 429,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=277",
+            "ex:ページ": "429",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "攝大乘論（二卷）（後魏佛陀扇多譯）",
                     "ex:経典番号": "T1592",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

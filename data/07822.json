@@ -31,7 +31,8 @@
             "ex:kmID": "km1738",
             "ex:toページ": 451,
             "ex:to段": "c",
-            "ex:ページ": 451,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=299",
+            "ex:ページ": "451",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説仁王護國般若波羅蜜經疏神寶記",
                     "ex:経典番号": "T1706",
                     "ex:部門": "経疏部1",
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }
@@ -85,16 +88,18 @@
         {
             "@id": "data:07822.json#酉目1",
             "ex:to枝番": 5,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1575",
             "ex:枝番": 1,
             "ex:經典番號": "U1560",
-            "ex:通番": 1575
+            "ex:通番": "1575"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07822.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07822.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 108,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/da9dce14d0fa0104f65cab9993c0fd1d/manifest.json",
             "ex:画像フォルダ": "u-renja1575-1576",
             "ex:経典名": "佛説仁王護國般若波羅蜜經疏神寶記4卷"
         }

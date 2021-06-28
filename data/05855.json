@@ -33,7 +33,8 @@
             "ex:kmID": "km1306",
             "ex:toページ": 369,
             "ex:to段": "c",
-            "ex:ページ": 369,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=217",
+            "ex:ページ": "369",
             "ex:段": "c"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "聖歡喜天式法",
                     "ex:経典番号": "T1275",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

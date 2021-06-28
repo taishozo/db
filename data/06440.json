@@ -38,7 +38,8 @@
             "ex:kmID": "km1463",
             "ex:toページ": 389,
             "ex:to段": "a",
-            "ex:ページ": 388,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=236",
+            "ex:ページ": "388",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "曇無德律部雜羯磨",
                     "ex:経典番号": "T1432",
                     "ex:部門": "律部1",
-                    "ex:配本": 24
+                    "ex:配本": [
+                        24
+                    ]
                 }
             ]
         }

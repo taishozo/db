@@ -31,7 +31,8 @@
             "ex:kmID": "km0321",
             "ex:toページ": 238,
             "ex:to段": "b",
-            "ex:ページ": 238,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=86",
+            "ex:ページ": "238",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "父子合集經",
                     "ex:経典番号": "T0320",
                     "ex:部門": "宝積部上",
-                    "ex:配本": 12
+                    "ex:配本": [
+                        12
+                    ]
                 }
             ]
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km1538",
             "ex:toページ": 406,
             "ex:to段": "a",
-            "ex:ページ": 406,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=254",
+            "ex:ページ": "406",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "分別功德論",
                     "ex:経典番号": "T1507",
                     "ex:部門": "釈経論部上",
-                    "ex:配本": 21
+                    "ex:配本": [
+                        21
+                    ]
                 }
             ]
         }

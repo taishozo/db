@@ -31,7 +31,8 @@
             "ex:kmID": "km1461",
             "ex:toページ": 388,
             "ex:to段": "c",
-            "ex:ページ": 388,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=236",
+            "ex:ページ": "388",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "四分僧戒本",
                     "ex:経典番号": "T1430",
                     "ex:部門": "律部1",
-                    "ex:配本": 24
+                    "ex:配本": [
+                        24
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06427.json#酉目1",
             "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1160",
             "ex:枝番": 3,
             "ex:經典番號": "U1149",
-            "ex:通番": 1160
+            "ex:通番": "1160"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

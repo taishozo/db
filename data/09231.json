@@ -33,7 +33,8 @@
             "ex:kmID": "km2211",
             "ex:toページ": 654,
             "ex:to段": "c",
-            "ex:ページ": 654,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=502",
+            "ex:ページ": "654",
             "ex:段": "c"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "惠運禪師將來教法目録",
                     "ex:経典番号": "T2168A",
                     "ex:部門": "目録部全",
-                    "ex:配本": 55
+                    "ex:配本": [
+                        55
+                    ]
                 }
             ]
         }

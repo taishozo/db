@@ -31,7 +31,8 @@
             "ex:kmID": "km0341",
             "ex:toページ": 240,
             "ex:to段": "c",
-            "ex:ページ": 240,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=88",
+            "ex:ページ": "240",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "文殊師利所説不思議佛境界經",
                     "ex:経典番号": "T0340",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

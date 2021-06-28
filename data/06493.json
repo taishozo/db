@@ -53,7 +53,8 @@
             "ex:kmID": "km1472",
             "ex:toページ": 392,
             "ex:to段": "b",
-            "ex:ページ": 392,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=240",
+            "ex:ページ": "392",
             "ex:段": "a"
         }
     ],
@@ -72,7 +73,9 @@
                     "ex:経典名": "薩婆多部毘尼摩得勒伽",
                     "ex:経典番号": "T1441",
                     "ex:部門": "律部2",
-                    "ex:配本": 18
+                    "ex:配本": [
+                        18
+                    ]
                 }
             ]
         }

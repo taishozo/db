@@ -38,7 +38,8 @@
             "ex:kmID": "km1182",
             "ex:toページ": 355,
             "ex:to段": "c",
-            "ex:ページ": 355,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=203",
+            "ex:ページ": "355",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "大隨求即得大陀羅尼明王懺悔法",
                     "ex:経典番号": "T1156A",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

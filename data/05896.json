@@ -31,7 +31,8 @@
             "ex:kmID": "km1319",
             "ex:toページ": 371,
             "ex:to段": "a",
-            "ex:ページ": 371,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=219",
+            "ex:ページ": "371",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説最上祕密那拏天經",
                     "ex:経典番号": "T1288",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:05896.json#酉目1",
             "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1038",
             "ex:枝番": 1,
             "ex:經典番號": "U1033",
-            "ex:通番": 1038
+            "ex:通番": "1038"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

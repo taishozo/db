@@ -32,7 +32,8 @@
             "ex:kmID": "km0850",
             "ex:toページ": 307,
             "ex:to段": "a",
-            "ex:ページ": 307,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=155",
+            "ex:ページ": "307",
             "ex:段": "a"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "大毘盧遮那佛説要略念誦經",
                     "ex:経典番号": "T0849",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

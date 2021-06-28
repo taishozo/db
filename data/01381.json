@@ -38,7 +38,8 @@
             "ex:kmID": "km0303",
             "ex:toページ": 232,
             "ex:to段": "a",
-            "ex:ページ": 232,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=80",
+            "ex:ページ": "232",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "度諸佛境界智光嚴經",
                     "ex:経典番号": "T0302",
                     "ex:部門": "華厳部下",
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }

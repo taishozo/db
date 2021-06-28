@@ -38,7 +38,8 @@
             "ex:kmID": "km1240",
             "ex:toページ": 362,
             "ex:to段": "c",
-            "ex:ページ": 362,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=210",
+            "ex:ページ": "362",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "金剛頂瑜伽降三世成就極深密門",
                     "ex:経典番号": "T1209",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

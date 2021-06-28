@@ -39,7 +39,8 @@
             "ex:kmID": "km1451",
             "ex:toページ": 386,
             "ex:to段": "a",
-            "ex:ページ": 385,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=233",
+            "ex:ページ": "385",
             "ex:段": "c"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "龍樹五明論",
                     "ex:経典番号": "T1420",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

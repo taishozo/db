@@ -39,7 +39,8 @@
             "ex:kmID": "km1817",
             "ex:toページ": 464,
             "ex:to段": "c",
-            "ex:ページ": 464,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=312",
+            "ex:ページ": "464",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "金光明經文句",
                     "ex:経典番号": "T1785",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }

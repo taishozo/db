@@ -31,7 +31,8 @@
             "ex:kmID": "km0931",
             "ex:toページ": 321,
             "ex:to段": "a",
-            "ex:ページ": 320,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=168",
+            "ex:ページ": "320",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "藥師琉璃光王七佛本願功德經念誦儀軌",
                     "ex:経典番号": "T0925",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

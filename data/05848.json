@@ -31,7 +31,8 @@
             "ex:kmID": "km1303",
             "ex:toページ": 369,
             "ex:to段": "b",
-            "ex:ページ": 369,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=217",
+            "ex:ページ": "369",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "金剛薩埵説頻那夜迦天成就儀軌經",
                     "ex:経典番号": "T1272",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

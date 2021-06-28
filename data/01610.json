@@ -41,7 +41,8 @@
             "ex:kmID": "km0346",
             "ex:toページ": 241,
             "ex:to段": "b",
-            "ex:ページ": 241,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=89",
+            "ex:ページ": "241",
             "ex:段": "a"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "慧上菩薩問大善權經",
                     "ex:経典番号": "T0345",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

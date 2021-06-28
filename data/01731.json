@@ -36,7 +36,8 @@
             "ex:kmID": "km0368",
             "ex:toページ": 246,
             "ex:to段": "c",
-            "ex:ページ": 246,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=94",
+            "ex:ページ": "246",
             "ex:段": "c"
         }
     ],
@@ -55,7 +56,9 @@
                     "ex:経典名": "稱讃淨土佛攝受經",
                     "ex:経典番号": "T0367",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

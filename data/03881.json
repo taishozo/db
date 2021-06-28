@@ -39,7 +39,8 @@
             "ex:kmID": "km0786",
             "ex:toページ": 298,
             "ex:to段": "a",
-            "ex:ページ": 298,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=146",
+            "ex:ページ": "298",
             "ex:段": "a"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "得道梯橙錫杖經",
                     "ex:経典番号": "T0785",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

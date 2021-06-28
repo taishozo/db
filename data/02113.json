@@ -31,7 +31,8 @@
             "ex:kmID": "km0437",
             "ex:toページ": 259,
             "ex:to段": "a",
-            "ex:ページ": 258,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=106",
+            "ex:ページ": "258",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "受持七佛名號所生功德經",
                     "ex:経典番号": "T0436",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

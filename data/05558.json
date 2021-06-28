@@ -29,7 +29,8 @@
             "ex:kmID": "km1218",
             "ex:toページ": 359,
             "ex:to段": "c",
-            "ex:ページ": 359,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=207",
+            "ex:ページ": "359",
             "ex:段": "b"
         }
     ],
@@ -48,7 +49,9 @@
                     "ex:経典名": "佛説最勝妙吉祥根本智最上祕密一切名義三摩地分",
                     "ex:経典番号": "T1187",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

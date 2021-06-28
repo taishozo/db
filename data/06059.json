@@ -31,7 +31,8 @@
             "ex:kmID": "km1372",
             "ex:toページ": 378,
             "ex:to段": "c",
-            "ex:ページ": 378,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=226",
+            "ex:ページ": "378",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大威德陀羅尼經",
                     "ex:経典番号": "T1341",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06059.json#酉目1",
             "ex:to枝番": 20,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=424",
             "ex:枝番": 1,
             "ex:經典番號": "U0419",
-            "ex:通番": 424
+            "ex:通番": "424"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

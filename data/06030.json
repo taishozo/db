@@ -31,7 +31,8 @@
             "ex:kmID": "km1365",
             "ex:toページ": 375,
             "ex:to段": "b",
-            "ex:ページ": 375,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=223",
+            "ex:ページ": "375",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "如來方便善巧呪經",
                     "ex:経典番号": "T1334",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

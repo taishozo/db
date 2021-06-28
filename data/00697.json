@@ -31,7 +31,8 @@
             "ex:kmID": "km0168",
             "ex:toページ": 192,
             "ex:to段": "a",
-            "ex:ページ": 192,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=40",
+            "ex:ページ": "192",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説太子慕魄經",
                     "ex:経典番号": "T0167",
                     "ex:部門": "本縁部上",
-                    "ex:配本": 2
+                    "ex:配本": [
+                        2
+                    ]
                 }
             ]
         }

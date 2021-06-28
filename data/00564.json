@@ -31,7 +31,8 @@
             "ex:kmID": "km0135",
             "ex:toページ": 187,
             "ex:to段": "a",
-            "ex:ページ": 186,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=34",
+            "ex:ページ": "186",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説力士移山經",
                     "ex:経典番号": "T0135",
                     "ex:部門": "阿含部下",
-                    "ex:配本": 5
+                    "ex:配本": [
+                        5
+                    ]
                 }
             ]
         }

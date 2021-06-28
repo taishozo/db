@@ -31,7 +31,8 @@
             "ex:kmID": "km0817",
             "ex:toページ": 300,
             "ex:to段": "c",
-            "ex:ページ": 300,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=148",
+            "ex:ページ": "300",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説道神足無極變化經",
                     "ex:経典番号": "T0816",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

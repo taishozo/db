@@ -31,7 +31,8 @@
             "ex:kmID": "km1733",
             "ex:toページ": 451,
             "ex:to段": "a",
-            "ex:ページ": 451,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=299",
+            "ex:ページ": "451",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "金剛般若經疏論纂要",
                     "ex:経典番号": "T1701",
                     "ex:部門": "経疏部1",
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }
@@ -85,16 +88,18 @@
         {
             "@id": "data:07811.json#酉目1",
             "ex:to枝番": 4,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1640",
             "ex:枝番": 1,
             "ex:經典番號": "U1624",
-            "ex:通番": 1640
+            "ex:通番": "1640"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07811.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07811.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 66,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/1514b8fda6dee951e2c076e11bf168a3/manifest.json",
             "ex:画像フォルダ": "u-renja1640-1641",
             "ex:経典名": "金剛般若經疏論纂要2卷"
         }

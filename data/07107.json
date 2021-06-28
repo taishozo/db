@@ -36,7 +36,8 @@
             "ex:kmID": "km1587",
             "ex:toページ": 419,
             "ex:to段": "a",
-            "ex:ページ": 419,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=267",
+            "ex:ページ": "419",
             "ex:段": "a"
         }
     ],
@@ -55,7 +56,9 @@
                     "ex:経典名": "薩婆多宗五事論",
                     "ex:経典番号": "T1556",
                     "ex:部門": "毘曇部3",
-                    "ex:配本": 25
+                    "ex:配本": [
+                        25
+                    ]
                 }
             ]
         }

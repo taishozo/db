@@ -38,7 +38,8 @@
             "ex:kmID": "km0324",
             "ex:toページ": 238,
             "ex:to段": "c",
-            "ex:ページ": 238,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=86",
+            "ex:ページ": "238",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "郁迦羅越問菩薩行經",
                     "ex:経典番号": "T0323",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

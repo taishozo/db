@@ -31,7 +31,8 @@
             "ex:kmID": "km1710",
             "ex:toページ": 449,
             "ex:to段": "a",
-            "ex:ページ": 449,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=297",
+            "ex:ページ": "449",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛三身讃",
                     "ex:経典番号": "T1678",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1471",
             "ex:toページ": 392,
             "ex:to段": "a",
-            "ex:ページ": 391,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=239",
+            "ex:ページ": "391",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "薩婆多毘尼毘婆沙",
                     "ex:経典番号": "T1440",
                     "ex:部門": "律部2",
-                    "ex:配本": 18
+                    "ex:配本": [
+                        18
+                    ]
                 }
             ]
         }
@@ -79,16 +82,18 @@
         {
             "@id": "data:06487.json#酉目1",
             "ex:to枝番": 8,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1141",
             "ex:枝番": 1,
             "ex:經典番號": "U1130",
-            "ex:通番": 1141
+            "ex:通番": "1141"
         },
         {
             "@id": "data:06487.json#酉目2",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1142",
             "ex:枝番": 1,
             "ex:經典番號": "U1131",
-            "ex:通番": 1142
+            "ex:通番": "1142"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

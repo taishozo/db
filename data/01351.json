@@ -38,7 +38,8 @@
             "ex:kmID": "km0297",
             "ex:toページ": 231,
             "ex:to段": "b",
-            "ex:ページ": 231,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=79",
+            "ex:ページ": "231",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "文殊師利發願經",
                     "ex:経典番号": "T0296",
                     "ex:部門": "華厳部下",
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }

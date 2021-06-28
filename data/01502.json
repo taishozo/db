@@ -31,7 +31,8 @@
             "ex:kmID": "km0326",
             "ex:toページ": 239,
             "ex:to段": "a",
-            "ex:ページ": 239,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=87",
+            "ex:ページ": "239",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説決定毘尼經",
                     "ex:経典番号": "T0325",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:01502.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=36",
             "ex:枝番": 1,
             "ex:經典番號": "U0033",
-            "ex:通番": 36
+            "ex:通番": "36"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

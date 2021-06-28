@@ -31,7 +31,8 @@
             "ex:kmID": "km1429",
             "ex:toページ": 384,
             "ex:to段": "a",
-            "ex:ページ": 384,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=232",
+            "ex:ページ": "384",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説智光滅一切業障陀羅尼經",
                     "ex:経典番号": "T1398",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06288.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=836",
             "ex:枝番": 1,
             "ex:經典番號": "U0830",
-            "ex:通番": 836
+            "ex:通番": "836"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

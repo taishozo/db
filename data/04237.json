@@ -31,7 +31,8 @@
             "ex:kmID": "km0858",
             "ex:toページ": 308,
             "ex:to段": "a",
-            "ex:ページ": 308,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=156",
+            "ex:ページ": "308",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大日經略攝念誦隨行法",
                     "ex:経典番号": "T0857",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:04237.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1410",
             "ex:枝番": 1,
             "ex:經典番號": "U1397",
-            "ex:通番": 1410
+            "ex:通番": "1410"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

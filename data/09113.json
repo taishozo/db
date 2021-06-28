@@ -32,7 +32,8 @@
             "ex:kmID": "km2169",
             "ex:toページ": 645,
             "ex:to段": "c",
-            "ex:ページ": 632,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=480",
+            "ex:ページ": "632",
             "ex:段": "c"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "一切經音義",
                     "ex:経典番号": "T2128",
                     "ex:部門": "事彙部下/外教部全",
-                    "ex:配本": 53
+                    "ex:配本": [
+                        53
+                    ]
                 }
             ]
         }

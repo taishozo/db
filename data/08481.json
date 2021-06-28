@@ -38,7 +38,8 @@
             "ex:kmID": "km1948",
             "ex:toページ": 492,
             "ex:to段": "b",
-            "ex:ページ": 492,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=340",
+            "ex:ページ": "492",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "修習止觀坐禪法要",
                     "ex:経典番号": "T1915",
                     "ex:部門": "諸宗部3",
-                    "ex:配本": 44
+                    "ex:配本": [
+                        44
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08481.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1550",
             "ex:枝番": 1,
             "ex:經典番號": "U1533",
-            "ex:通番": 1550
+            "ex:通番": "1550"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08481.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08481.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 74,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/7061a45cd0d08fd2d27675eed00ca554/manifest.json",
             "ex:画像フォルダ": "u-renja1550-1551",
             "ex:経典名": "修習止觀坐禪法要1卷"
         }

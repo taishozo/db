@@ -38,7 +38,8 @@
             "ex:kmID": "km2033",
             "ex:toページ": 513,
             "ex:to段": "c",
-            "ex:ページ": 513,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=361",
+            "ex:ページ": "513",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "明覺禪師語録/附、明州雪竇山資聖寺第六租明覺大師塔銘(呂夏卿)",
                     "ex:経典番号": "T1996",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08668.json#酉目1",
             "ex:to枝番": 7,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1534",
             "ex:枝番": 1,
             "ex:經典番號": "U1520",
-            "ex:通番": 1534
+            "ex:通番": "1534"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08668.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08668.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 176,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/051641bd700420de103ea2474f264910/manifest.json",
             "ex:画像フォルダ": "u-renja1534",
             "ex:経典名": "明覺禪師語録6卷"
         }

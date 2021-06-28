@@ -32,7 +32,8 @@
             "ex:kmID": "km2139",
             "ex:toページ": 602,
             "ex:to段": "a",
-            "ex:ページ": 602,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=450",
+            "ex:ページ": "602",
             "ex:段": "a"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "古淸涼傳",
                     "ex:経典番号": "T2098",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

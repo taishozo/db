@@ -32,7 +32,8 @@
             "ex:kmID": "km1751",
             "ex:toページ": 453,
             "ex:to段": "c",
-            "ex:ページ": 453,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=301",
+            "ex:ページ": "453",
             "ex:段": "b"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "法華文句記",
                     "ex:経典番号": "T1719",
                     "ex:部門": "経疏部2",
-                    "ex:配本": 29
+                    "ex:配本": [
+                        29
+                    ]
                 }
             ]
         }
@@ -79,16 +82,18 @@
         {
             "@id": "data:07850.json#酉目1",
             "ex:to枝番": 31,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1547",
             "ex:枝番": 1,
             "ex:經典番號": "U1530",
-            "ex:通番": 1547
+            "ex:通番": "1547"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07850.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07850.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 770,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/684d3e556e36ded92f46f2b55d71ac5b/manifest.json",
             "ex:画像フォルダ": "u-renja1547",
             "ex:経典名": "法華文句記10卷"
         }

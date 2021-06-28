@@ -33,7 +33,8 @@
             "ex:kmID": "km1827",
             "ex:toページ": 466,
             "ex:to段": "a",
-            "ex:ページ": 466,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=314",
+            "ex:ページ": "466",
             "ex:段": "a"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "大方廣圓覺修多羅了義經略疏註",
                     "ex:経典番号": "T1795",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }
@@ -87,16 +90,18 @@
         {
             "@id": "data:08023.json#酉目1",
             "ex:to枝番": 6,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1639",
             "ex:枝番": 1,
             "ex:經典番號": "U1623",
-            "ex:通番": 1639
+            "ex:通番": "1639"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08023.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08023.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 121,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/e3c6ea854599d0f9bdcf9379dcbb081a/manifest.json",
             "ex:画像フォルダ": "u-renja1639",
             "ex:経典名": "大方廣圓覺修多羅了義經略疏註2卷"
         }

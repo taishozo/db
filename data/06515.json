@@ -31,7 +31,8 @@
             "ex:kmID": "km1478",
             "ex:toページ": 397,
             "ex:to段": "a",
-            "ex:ページ": 396,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=244",
+            "ex:ページ": "396",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "根本説一切有部毘奈耶皮革事",
                     "ex:経典番号": "T1447",
                     "ex:部門": "律部2",
-                    "ex:配本": 18
+                    "ex:配本": [
+                        18
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1648",
             "ex:toページ": 436,
             "ex:to段": "a",
-            "ex:ページ": 436,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=284",
+            "ex:ページ": "436",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "三無性論",
                     "ex:経典番号": "T1617",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

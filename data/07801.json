@@ -32,7 +32,8 @@
             "ex:kmID": "km1728",
             "ex:toページ": 450,
             "ex:to段": "c",
-            "ex:ページ": 450,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=298",
+            "ex:ページ": "450",
             "ex:段": "b"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "大品遊意",
                     "ex:経典番号": "T1696",
                     "ex:部門": "経疏部1",
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }

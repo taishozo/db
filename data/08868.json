@@ -38,7 +38,8 @@
             "ex:kmID": "km2097",
             "ex:toページ": 538,
             "ex:to段": "c",
-            "ex:ページ": 538,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=386",
+            "ex:ページ": "538",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "大唐故大德贈司空大辨正廣智不空三藏行状",
                     "ex:経典番号": "T2056",
                     "ex:部門": "史伝部2",
-                    "ex:配本": 33
+                    "ex:配本": [
+                        33
+                    ]
                 }
             ]
         }

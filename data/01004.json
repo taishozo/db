@@ -40,7 +40,8 @@
             "ex:kmID": "km0232",
             "ex:toページ": 213,
             "ex:to段": "b",
-            "ex:ページ": 213,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=61",
+            "ex:ページ": "213",
             "ex:段": "a"
         }
     ],
@@ -59,7 +60,9 @@
                     "ex:経典名": "勝天王般若波羅蜜經",
                     "ex:経典番号": "T0231",
                     "ex:部門": "般若部4",
-                    "ex:配本": 4
+                    "ex:配本": [
+                        4
+                    ]
                 }
             ]
         }

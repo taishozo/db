@@ -31,7 +31,8 @@
             "ex:kmID": "km0424",
             "ex:toページ": 257,
             "ex:to段": "b",
-            "ex:ページ": 257,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=105",
+            "ex:ページ": "257",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "僧伽吒經",
                     "ex:経典番号": "T0423",
                     "ex:部門": "大集部",
-                    "ex:配本": 7
+                    "ex:配本": [
+                        7
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:02043.json#酉目1",
             "ex:to枝番": 4,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=450",
             "ex:枝番": 1,
             "ex:經典番號": "U0445",
-            "ex:通番": 450
+            "ex:通番": "450"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

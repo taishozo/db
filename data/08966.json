@@ -21,7 +21,8 @@
             "ex:kmID": "km2130",
             "ex:toページ": 598,
             "ex:to段": "c",
-            "ex:ページ": 598,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=446",
+            "ex:ページ": "598",
             "ex:段": "c"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "遊方記抄　往五天竺國傳",
                     "ex:経典番号": "T2089",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

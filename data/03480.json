@@ -31,7 +31,8 @@
             "ex:kmID": "km0704",
             "ex:toページ": 291,
             "ex:to段": "a",
-            "ex:ページ": 290,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=138",
+            "ex:ページ": "290",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "燈指因縁經",
                     "ex:経典番号": "T0703",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:03480.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=721",
             "ex:枝番": 1,
             "ex:經典番號": "U0716",
-            "ex:通番": 721
+            "ex:通番": "721"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

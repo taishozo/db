@@ -31,7 +31,8 @@
             "ex:kmID": "km0310",
             "ex:toページ": 233,
             "ex:to段": "b",
-            "ex:ページ": 233,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=81",
+            "ex:ページ": "233",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "最勝問菩薩十住除垢斷結經",
                     "ex:経典番号": "T0309",
                     "ex:部門": "華厳部下",
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:01421.json#酉目1",
             "ex:to枝番": 14,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=377",
             "ex:枝番": 1,
             "ex:經典番號": "U0372",
-            "ex:通番": 377
+            "ex:通番": "377"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

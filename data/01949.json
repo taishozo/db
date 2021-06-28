@@ -41,7 +41,8 @@
             "ex:kmID": "km0408",
             "ex:toページ": 254,
             "ex:to段": "c",
-            "ex:ページ": 254,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=102",
+            "ex:ページ": "254",
             "ex:段": "b"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "虚空藏菩薩神呪經",
                     "ex:経典番号": "T0407",
                     "ex:部門": "大集部",
-                    "ex:配本": 7
+                    "ex:配本": [
+                        7
+                    ]
                 }
             ]
         }

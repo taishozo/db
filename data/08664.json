@@ -32,7 +32,8 @@
             "ex:kmID": "km2031",
             "ex:toページ": 513,
             "ex:to段": "b",
-            "ex:ページ": 513,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=361",
+            "ex:ページ": "513",
             "ex:段": "b"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "楊岐方會和尚後録",
                     "ex:経典番号": "T1994B",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }

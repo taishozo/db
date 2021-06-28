@@ -63,7 +63,8 @@
             "ex:kmID": "km1459",
             "ex:toページ": 388,
             "ex:to段": "b",
-            "ex:ページ": 387,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=235",
+            "ex:ページ": "387",
             "ex:段": "b"
         }
     ],
@@ -82,7 +83,9 @@
                     "ex:経典名": "四分律",
                     "ex:経典番号": "T1428",
                     "ex:部門": "律部1",
-                    "ex:配本": 24
+                    "ex:配本": [
+                        24
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1424",
             "ex:toページ": 383,
             "ex:to段": "c",
-            "ex:ページ": 383,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=231",
+            "ex:ページ": "383",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説摩尼羅亶經",
                     "ex:経典番号": "T1393",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

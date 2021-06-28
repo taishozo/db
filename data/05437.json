@@ -31,7 +31,8 @@
             "ex:kmID": "km1184",
             "ex:toページ": 355,
             "ex:to段": "c",
-            "ex:ページ": 355,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=203",
+            "ex:ページ": "355",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "香王菩薩陀羅尼呪經",
                     "ex:経典番号": "T1157",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

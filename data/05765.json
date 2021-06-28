@@ -39,7 +39,8 @@
             "ex:kmID": "km1281",
             "ex:toページ": 367,
             "ex:to段": "b",
-            "ex:ページ": 367,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=215",
+            "ex:ページ": "367",
             "ex:段": "a"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "北方毘沙門多聞寶藏天王神妙陀羅尼別行儀軌",
                     "ex:経典番号": "T1250",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

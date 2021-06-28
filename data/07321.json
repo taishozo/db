@@ -31,7 +31,8 @@
             "ex:kmID": "km1625",
             "ex:toページ": 430,
             "ex:to段": "a",
-            "ex:ページ": 430,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=278",
+            "ex:ページ": "430",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "攝大乘論本（三卷）（唐玄奘譯）",
                     "ex:経典番号": "T1594",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:07321.json#酉目1",
             "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1253",
             "ex:枝番": 1,
             "ex:經典番號": "U1241",
-            "ex:通番": 1253
+            "ex:通番": "1253"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

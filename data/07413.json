@@ -31,7 +31,8 @@
             "ex:kmID": "km1642",
             "ex:toページ": 435,
             "ex:to段": "a",
-            "ex:ページ": 434,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=282",
+            "ex:ページ": "434",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "究竟一乘寶性論",
                     "ex:経典番号": "T1611",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:07413.json#酉目1",
             "ex:to枝番": 5,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1243",
             "ex:枝番": 1,
             "ex:經典番號": "U1230",
-            "ex:通番": 1243
+            "ex:通番": "1243"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

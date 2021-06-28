@@ -21,7 +21,8 @@
             "ex:kmID": "km1349",
             "ex:toページ": 373,
             "ex:to段": "c",
-            "ex:ページ": 373,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=221",
+            "ex:ページ": "373",
             "ex:段": "c"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "瑜伽集要救阿難陀羅尼焔口軌儀經",
                     "ex:経典番号": "T1318",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

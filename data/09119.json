@@ -31,7 +31,8 @@
             "ex:kmID": "km2172",
             "ex:toページ": 648,
             "ex:to段": "a",
-            "ex:ページ": 647,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=495",
+            "ex:ページ": "647",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "翻譯名義集",
                     "ex:経典番号": "T2131",
                     "ex:部門": "事彙部下/外教部全",
-                    "ex:配本": 53
+                    "ex:配本": [
+                        53
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:09119.json#酉目1",
             "ex:to枝番": 18,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1650",
             "ex:枝番": 1,
             "ex:經典番號": "U1634",
-            "ex:通番": 1650
+            "ex:通番": "1650"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

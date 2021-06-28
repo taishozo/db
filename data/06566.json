@@ -31,7 +31,8 @@
             "ex:kmID": "km1488",
             "ex:toページ": 398,
             "ex:to段": "b",
-            "ex:ページ": 398,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=246",
+            "ex:ページ": "398",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "根本説一切有部略毘奈耶雜事攝頌",
                     "ex:経典番号": "T1457",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06566.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1147",
             "ex:枝番": 1,
             "ex:經典番號": "U1136",
-            "ex:通番": 1147
+            "ex:通番": "1147"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

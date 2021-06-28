@@ -31,7 +31,8 @@
             "ex:kmID": "km0990",
             "ex:toページ": 329,
             "ex:to段": "c",
-            "ex:ページ": 329,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=177",
+            "ex:ページ": "329",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説大白傘蓋總持陀羅尼經/附、大白傘蓋佛母總讃歎祷祝偈",
                     "ex:経典番号": "T0977",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }
@@ -78,9 +81,10 @@
         {
             "@id": "data:04711.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1017",
             "ex:枝番": 1,
             "ex:經典番號": "U1011",
-            "ex:通番": 1017
+            "ex:通番": "1017"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

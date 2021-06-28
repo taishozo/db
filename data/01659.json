@@ -31,7 +31,8 @@
             "ex:kmID": "km0355",
             "ex:toページ": 242,
             "ex:to段": "b",
-            "ex:ページ": 242,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=90",
+            "ex:ページ": "242",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "毘耶娑問經",
                     "ex:経典番号": "T0354",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

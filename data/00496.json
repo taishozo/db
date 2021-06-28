@@ -31,7 +31,8 @@
             "ex:kmID": "km0120",
             "ex:toページ": 181,
             "ex:to段": "c",
-            "ex:ページ": 181,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=29",
+            "ex:ページ": "181",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "央掘魔羅經",
                     "ex:経典番号": "T0120",
                     "ex:部門": "阿含部下",
-                    "ex:配本": 5
+                    "ex:配本": [
+                        5
+                    ]
                 }
             ]
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km0689",
             "ex:toページ": 289,
             "ex:to段": "b",
-            "ex:ページ": 289,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=137",
+            "ex:ページ": "289",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説未曾有經",
                     "ex:経典番号": "T0688",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }

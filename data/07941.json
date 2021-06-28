@@ -21,7 +21,8 @@
             "ex:kmID": "km1789",
             "ex:toページ": 460,
             "ex:to段": "b",
-            "ex:ページ": 460,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=308",
+            "ex:ページ": "460",
             "ex:段": "b"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "阿彌陀經疏",
                     "ex:経典番号": "T1757",
                     "ex:部門": "経疏部5",
-                    "ex:配本": 30
+                    "ex:配本": [
+                        30
+                    ]
                 }
             ]
         }

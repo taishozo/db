@@ -38,7 +38,8 @@
             "ex:kmID": "km2007",
             "ex:toページ": 508,
             "ex:to段": "c",
-            "ex:ページ": 507,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=355",
+            "ex:ページ": "507",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "廬山蓮宗寶鑑",
                     "ex:経典番号": "T1973",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08609.json#酉目1",
             "ex:to枝番": 11,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1662",
             "ex:枝番": 1,
             "ex:經典番號": "U1645",
-            "ex:通番": 1662
+            "ex:通番": "1662"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08609.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08609.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 194,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/ff2c6ec83284bd32c53351c5d6eba617/manifest.json",
             "ex:画像フォルダ": "u-renja1662",
             "ex:経典名": "廬山蓮宗寶鑑10卷"
         }

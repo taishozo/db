@@ -32,7 +32,8 @@
             "ex:kmID": "km1893",
             "ex:toページ": 481,
             "ex:to段": "a",
-            "ex:ページ": 480,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=328",
+            "ex:ページ": "480",
             "ex:段": "b"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "大乘法苑義林章",
                     "ex:経典番号": "T1861",
                     "ex:部門": "諸宗部2",
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

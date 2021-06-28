@@ -31,7 +31,8 @@
             "ex:kmID": "km0190",
             "ex:toページ": 194,
             "ex:to段": "c",
-            "ex:ページ": 194,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=42",
+            "ex:ページ": "194",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "過去現在因果經",
                     "ex:経典番号": "T0189",
                     "ex:部門": "本縁部上",
-                    "ex:配本": 2
+                    "ex:配本": [
+                        2
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:00799.json#酉目1",
             "ex:to枝番": 4,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=669",
             "ex:枝番": 1,
             "ex:經典番號": "U0662",
-            "ex:通番": 669
+            "ex:通番": "669"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

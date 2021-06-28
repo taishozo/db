@@ -31,7 +31,8 @@
             "ex:kmID": "km0649",
             "ex:toページ": 281,
             "ex:to段": "c",
-            "ex:ページ": 281,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=129",
+            "ex:ページ": "281",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "寂照神變三摩地經",
                     "ex:経典番号": "T0648",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

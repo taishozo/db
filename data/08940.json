@@ -33,7 +33,8 @@
             "ex:kmID": "km2123",
             "ex:toページ": 594,
             "ex:to段": "b",
-            "ex:ページ": 594,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=442",
+            "ex:ページ": "594",
             "ex:段": "b"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "冥報記",
                     "ex:経典番号": "T2082",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

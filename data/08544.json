@@ -38,7 +38,8 @@
             "ex:kmID": "km1979",
             "ex:toページ": 499,
             "ex:to段": "c",
-            "ex:ページ": 499,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=347",
+            "ex:ページ": "499",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "金光明最勝懺儀",
                     "ex:経典番号": "T1946",
                     "ex:部門": "諸宗部3",
-                    "ex:配本": 44
+                    "ex:配本": [
+                        44
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08544.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1522",
             "ex:枝番": 1,
             "ex:經典番號": "U1509",
-            "ex:通番": 1522
+            "ex:通番": "1522"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08544.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08544.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 8,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/d34b27a740bc86d3492162075a4c3542/manifest.json",
             "ex:画像フォルダ": "u-renja1522",
             "ex:経典名": "金光明最勝懺儀1卷"
         }

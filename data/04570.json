@@ -32,7 +32,8 @@
             "ex:kmID": "km0947",
             "ex:toページ": 322,
             "ex:to段": "b",
-            "ex:ページ": 322,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=170",
+            "ex:ページ": "322",
             "ex:段": "b"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "釋迦牟尼佛成道在菩提樹降魔讃",
                     "ex:経典番号": "T0941",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

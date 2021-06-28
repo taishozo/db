@@ -21,7 +21,8 @@
             "ex:kmID": "km1936",
             "ex:toページ": 490,
             "ex:to段": "c",
-            "ex:ページ": 490,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=338",
+            "ex:ページ": "490",
             "ex:段": "c"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "説罪要行法",
                     "ex:経典番号": "T1903",
                     "ex:部門": "諸宗部2",
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

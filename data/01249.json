@@ -31,7 +31,8 @@
             "ex:kmID": "km0280",
             "ex:toページ": 229,
             "ex:to段": "a",
-            "ex:ページ": 228,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=76",
+            "ex:ページ": "228",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大方廣佛華嚴經八十卷（唐實叉難陀譯）",
                     "ex:経典番号": "T0279",
                     "ex:部門": "華厳部下",
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:01249.json#酉目1",
             "ex:to枝番": 84,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=88",
             "ex:枝番": 1,
             "ex:經典番號": "U0084",
-            "ex:通番": 88
+            "ex:通番": "88"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

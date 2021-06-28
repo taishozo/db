@@ -31,7 +31,8 @@
             "ex:kmID": "km1749",
             "ex:toページ": 453,
             "ex:to段": "a",
-            "ex:ページ": 453,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=301",
+            "ex:ページ": "453",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "法華玄義釋籤",
                     "ex:経典番号": "T1717",
                     "ex:部門": "経疏部1",
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }
@@ -85,16 +88,18 @@
         {
             "@id": "data:07846.json#酉目1",
             "ex:to枝番": 24,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1545",
             "ex:枝番": 1,
             "ex:經典番號": "U1528",
-            "ex:通番": 1545
+            "ex:通番": "1545"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07846.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07846.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 1255,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/d8728b87a6608def78973b0d98fbcf81/manifest.json",
             "ex:画像フォルダ": "u-renja1545",
             "ex:経典名": "妙法蓮華經玄義10卷(妙法蓮華經玄籤)"
         }

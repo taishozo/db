@@ -38,7 +38,8 @@
             "ex:kmID": "km0425",
             "ex:toページ": 257,
             "ex:to段": "b",
-            "ex:ページ": 257,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=105",
+            "ex:ページ": "257",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説大集會正法經",
                     "ex:経典番号": "T0424",
                     "ex:部門": "大集部",
-                    "ex:配本": 7
+                    "ex:配本": [
+                        7
+                    ]
                 }
             ]
         }

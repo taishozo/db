@@ -31,7 +31,8 @@
             "ex:kmID": "km0063",
             "ex:toページ": 163,
             "ex:to段": "a",
-            "ex:ページ": 162,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=10",
+            "ex:ページ": "162",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説解夏經",
                     "ex:経典番号": "T0063",
                     "ex:部門": "阿含部上",
-                    "ex:配本": 1
+                    "ex:配本": [
+                        1
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:00266.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=924",
             "ex:枝番": 1,
             "ex:經典番號": "U0918",
-            "ex:通番": 924
+            "ex:通番": "924"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

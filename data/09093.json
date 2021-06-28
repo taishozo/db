@@ -31,7 +31,8 @@
             "ex:kmID": "km2163",
             "ex:toページ": 630,
             "ex:to段": "b",
-            "ex:ページ": 619,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=467",
+            "ex:ページ": "619",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "法苑珠林",
                     "ex:経典番号": "T2122",
                     "ex:部門": "事彙部上",
-                    "ex:配本": 45
+                    "ex:配本": [
+                        45
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:09093.json#酉目1",
             "ex:to枝番": 121,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1488",
             "ex:枝番": 1,
             "ex:經典番號": "U1475",
-            "ex:通番": 1488
+            "ex:通番": "1488"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

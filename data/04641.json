@@ -39,7 +39,8 @@
             "ex:kmID": "km0967",
             "ex:toページ": 326,
             "ex:to段": "c",
-            "ex:ページ": 326,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=174",
+            "ex:ページ": "326",
             "ex:段": "c"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "頂輪王大曼荼羅灌頂儀軌",
                     "ex:経典番号": "T0959",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

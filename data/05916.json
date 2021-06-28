@@ -31,7 +31,8 @@
             "ex:kmID": "km1330",
             "ex:toページ": 372,
             "ex:to段": "a",
-            "ex:ページ": 371,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=219",
+            "ex:ページ": "371",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "文殊師利菩薩及諸仙所説吉凶時日善惡宿曜經",
                     "ex:経典番号": "T1299",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

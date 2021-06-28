@@ -31,7 +31,8 @@
             "ex:kmID": "km1449",
             "ex:toページ": 385,
             "ex:to段": "c",
-            "ex:ページ": 385,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=233",
+            "ex:ページ": "385",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説一切如來安像三昧儀軌經",
                     "ex:経典番号": "T1418",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

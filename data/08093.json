@@ -38,7 +38,8 @@
             "ex:kmID": "km1852",
             "ex:toページ": 469,
             "ex:to段": "c",
-            "ex:ページ": 469,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=317",
+            "ex:ページ": "469",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛遺教經論疏節要",
                     "ex:経典番号": "T1820",
                     "ex:部門": "律疏部全/論疏部1",
-                    "ex:配本": 38
+                    "ex:配本": [
+                        38
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08093.json#酉目1",
             "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1605",
             "ex:枝番": 1,
             "ex:經典番號": "U1590",
-            "ex:通番": 1605
+            "ex:通番": "1605"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08093.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08093.json#酉蓮社本IIIFコレクション1",
             "ex:from": 27,
             "ex:to": 92,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/8cec4c92ef9823e16f3c1f88e6547fb3/manifest.json",
             "ex:画像フォルダ": "u-renja1604-1605",
             "ex:経典名": "佛遺教經論疏節要1卷"
         }

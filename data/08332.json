@@ -38,7 +38,8 @@
             "ex:kmID": "km1880",
             "ex:toページ": 476,
             "ex:to段": "b",
-            "ex:ページ": 476,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=324",
+            "ex:ページ": "476",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "起信論疏筆削記",
                     "ex:経典番号": "T1848",
                     "ex:部門": "論疏部5/諸宗部1",
-                    "ex:配本": 39
+                    "ex:配本": [
+                        39
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08332.json#酉目1",
             "ex:to枝番": 20,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1635",
             "ex:枝番": 1,
             "ex:經典番號": "U1620",
-            "ex:通番": 1635
+            "ex:通番": "1635"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08332.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08332.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 420,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/5c5873cfbdcc294394d4b8827b4a2c7d/manifest.json",
             "ex:画像フォルダ": "u-renja1635",
             "ex:経典名": "起信論疏筆削記20卷"
         }

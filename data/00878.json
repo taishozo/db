@@ -31,7 +31,8 @@
             "ex:kmID": "km0207",
             "ex:toページ": 201,
             "ex:to段": "a",
-            "ex:ページ": 201,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=49",
+            "ex:ページ": "201",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "舊雜譬喩經",
                     "ex:経典番号": "T0206",
                     "ex:部門": "本縁部下",
-                    "ex:配本": 3
+                    "ex:配本": [
+                        3
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:00878.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1365",
             "ex:枝番": 1,
             "ex:經典番號": "U1352",
-            "ex:通番": 1365
+            "ex:通番": "1365"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

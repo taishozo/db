@@ -29,7 +29,8 @@
             "ex:kmID": "km0640",
             "ex:toページ": 280,
             "ex:to段": "c",
-            "ex:ページ": 280,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=128",
+            "ex:ページ": "280",
             "ex:段": "b"
         }
     ],
@@ -48,7 +49,9 @@
                     "ex:経典名": "月燈三昧經",
                     "ex:経典番号": "T0639",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

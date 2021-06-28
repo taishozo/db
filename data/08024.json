@@ -38,7 +38,8 @@
             "ex:kmID": "km1827",
             "ex:toページ": 466,
             "ex:to段": "a",
-            "ex:ページ": 466,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=314",
+            "ex:ページ": "466",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "大方廣圓覺修多羅了義經略疏註",
                     "ex:経典番号": "T1795",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }

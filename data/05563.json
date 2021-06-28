@@ -31,7 +31,8 @@
             "ex:kmID": "km1221",
             "ex:toページ": 360,
             "ex:to段": "a",
-            "ex:ページ": 359,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=207",
+            "ex:ページ": "359",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "聖妙吉祥眞實名經",
                     "ex:経典番号": "T1190",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }
@@ -78,9 +81,10 @@
         {
             "@id": "data:05563.json#酉目1",
             "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1033",
             "ex:枝番": 1,
             "ex:經典番號": "U1027",
-            "ex:通番": 1033
+            "ex:通番": "1033"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

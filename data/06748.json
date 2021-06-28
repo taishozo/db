@@ -42,7 +42,8 @@
             "ex:kmID": "km1519",
             "ex:toページ": 404,
             "ex:to段": "b",
-            "ex:ページ": 404,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=252",
+            "ex:ページ": "404",
             "ex:段": "a"
         }
     ],
@@ -61,7 +62,9 @@
                     "ex:経典名": "優婆塞戒經",
                     "ex:経典番号": "T1488",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1550",
             "ex:toページ": 409,
             "ex:to段": "c",
-            "ex:ページ": 409,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=257",
+            "ex:ページ": "409",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "妙法蓮華經憂波提舍",
                     "ex:経典番号": "T1519",
                     "ex:部門": "釈経論部下/毘曇部1",
-                    "ex:配本": 23
+                    "ex:配本": [
+                        23
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06907.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1238",
             "ex:枝番": 1,
             "ex:經典番號": "U1226",
-            "ex:通番": 1238
+            "ex:通番": "1238"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

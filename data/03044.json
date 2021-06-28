@@ -38,7 +38,8 @@
             "ex:kmID": "km0619",
             "ex:toページ": 278,
             "ex:to段": "a",
-            "ex:ページ": 277,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=125",
+            "ex:ページ": "277",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "達摩多羅禪經",
                     "ex:経典番号": "T0618",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

@@ -41,7 +41,8 @@
             "ex:kmID": "km0213",
             "ex:toページ": 203,
             "ex:to段": "a",
-            "ex:ページ": 202,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=50",
+            "ex:ページ": "202",
             "ex:段": "c"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "出曜經",
                     "ex:経典番号": "T0212",
                     "ex:部門": "本縁部下",
-                    "ex:配本": 3
+                    "ex:配本": [
+                        3
+                    ]
                 }
             ]
         }

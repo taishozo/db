@@ -20,7 +20,8 @@
             "ex:kmID": "km1230",
             "ex:toページ": 361,
             "ex:to段": "b",
-            "ex:ページ": 361,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=209",
+            "ex:ページ": "361",
             "ex:段": "a"
         }
     ],
@@ -39,7 +40,9 @@
                     "ex:経典名": "金剛手光明灌頂經最勝立印聖無動尊大威怒王念誦儀軌法品",
                     "ex:経典番号": "T1199",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }
