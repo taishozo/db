@@ -31,7 +31,8 @@
             "ex:kmID": "km1701",
             "ex:toページ": 448,
             "ex:to段": "b",
-            "ex:ページ": 448,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=296",
+            "ex:ページ": "448",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "那先比丘經",
                     "ex:経典番号": "T1670A",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

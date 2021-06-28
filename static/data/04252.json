@@ -39,7 +39,8 @@
             "ex:kmID": "km0863",
             "ex:toページ": 308,
             "ex:to段": "b",
-            "ex:ページ": 308,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=156",
+            "ex:ページ": "308",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "阿闍梨大曼荼攞灌頂儀軌",
                     "ex:経典番号": "T0862",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

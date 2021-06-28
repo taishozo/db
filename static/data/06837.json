@@ -38,7 +38,8 @@
             "ex:kmID": "km1536",
             "ex:toページ": 405,
             "ex:to段": "c",
-            "ex:ページ": 405,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=253",
+            "ex:ページ": "405",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "四阿鋡暮抄解",
                     "ex:経典番号": "T1505",
                     "ex:部門": "釈経論部上",
-                    "ex:配本": 21
+                    "ex:配本": [
+                        21
+                    ]
                 }
             ]
         }

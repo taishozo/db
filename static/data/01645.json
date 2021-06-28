@@ -39,7 +39,8 @@
             "ex:kmID": "km0352",
             "ex:toページ": 242,
             "ex:to段": "a",
-            "ex:ページ": 241,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=89",
+            "ex:ページ": "241",
             "ex:段": "c"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "佛説摩訶衍寶嚴經",
                     "ex:経典番号": "T0351",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

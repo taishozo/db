@@ -41,7 +41,9 @@
             {{ apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:部門'] }}
           </td>
           <td>
-            {{ apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:配本'] }}
+            {{
+              apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:配本'].join(', ')
+            }}
           </td>
           <td>
             {{
@@ -333,10 +335,7 @@
           </table>
         </v-col>
       </v-row>
-      <v-sheet
-        class="grey lighten-3 py-5 px-3 py-3 text-center"
-        style="background-color: #f9f6f0;"
-      >
+      <v-sheet class="py-10 px-3 text-center">
         <v-btn depressed icon :href="uri" target="_blank">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
@@ -350,6 +349,7 @@
           </v-tooltip>
         </v-btn>
 
+        <!--
         <v-menu open-on-hover top offset-y>
           <template v-slot:activator="{ on }">
             <v-btn depressed icon v-on="on">
@@ -359,6 +359,15 @@
 
           <ShareButtons :url="url" :title="title" />
         </v-menu>
+        -->
+
+        <ResultOption
+          class="ma-1"
+          :item="{
+            label: title,
+            url: url,
+          }"
+        />
       </v-sheet>
     </v-container>
   </div>
@@ -366,11 +375,13 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import ShareButtons from '~/components/common/ShareButtons.vue'
+// import ShareButtons from '~/components/common/ShareButtons.vue'
+import ResultOption from '~/components/display/ResultOption.vue'
 
 @Component({
   components: {
-    ShareButtons,
+    ResultOption,
+    // ShareButtons,
   },
 })
 export default class Search extends Vue {

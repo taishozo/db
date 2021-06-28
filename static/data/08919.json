@@ -38,7 +38,8 @@
             "ex:kmID": "km2114",
             "ex:toページ": 556,
             "ex:to段": "a",
-            "ex:ページ": 555,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=403",
+            "ex:ページ": "555",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "華嚴經傳記",
                     "ex:経典番号": "T2073",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

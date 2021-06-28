@@ -32,7 +32,8 @@
             "ex:kmID": "km2080",
             "ex:toページ": 536,
             "ex:to段": "c",
-            "ex:ページ": 535,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=383",
+            "ex:ページ": "535",
             "ex:段": "b"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "三國遺事",
                     "ex:経典番号": "T2039",
                     "ex:部門": "史伝部1",
-                    "ex:配本": 40
+                    "ex:配本": [
+                        40
+                    ]
                 }
             ]
         }

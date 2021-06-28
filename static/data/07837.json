@@ -31,7 +31,8 @@
             "ex:kmID": "km1745",
             "ex:toページ": 452,
             "ex:to段": "b",
-            "ex:ページ": 452,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=300",
+            "ex:ページ": "452",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "般若心經略疏連珠記",
                     "ex:経典番号": "T1713",
                     "ex:部門": "経疏部1",
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }
@@ -85,16 +88,18 @@
         {
             "@id": "data:07837.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1608",
             "ex:枝番": 1,
             "ex:經典番號": "U1593",
-            "ex:通番": 1608
+            "ex:通番": "1608"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07837.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07837.json#酉蓮社本IIIFコレクション1",
             "ex:from": 55,
             "ex:to": 108,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/24fe9f015470e01761d7ac67909406df/manifest.json",
             "ex:画像フォルダ": "u-renja1606-1608",
             "ex:経典名": "般若心經略疏連珠記2卷"
         }

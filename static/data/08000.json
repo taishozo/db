@@ -38,7 +38,8 @@
             "ex:kmID": "km1817",
             "ex:toページ": 464,
             "ex:to段": "c",
-            "ex:ページ": 464,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=312",
+            "ex:ページ": "464",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "金光明經文句",
                     "ex:経典番号": "T1785",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08000.json#酉目1",
             "ex:to枝番": 8,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1561",
             "ex:枝番": 1,
             "ex:經典番號": "U1546",
-            "ex:通番": 1561
+            "ex:通番": "1561"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08000.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08000.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 661,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/c1bab5ec5d2232276f177a9b4318592b/manifest.json",
             "ex:画像フォルダ": "u-renja1561",
             "ex:経典名": "金光明經文句（U1546文句記から抽出）"
         }

@@ -21,7 +21,8 @@
             "ex:kmID": "km0781",
             "ex:toページ": 297,
             "ex:to段": "c",
-            "ex:ページ": 297,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=145",
+            "ex:ページ": "297",
             "ex:段": "c"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "佛説十力經",
                     "ex:経典番号": "T0780",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

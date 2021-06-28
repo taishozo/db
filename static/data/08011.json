@@ -38,7 +38,8 @@
             "ex:kmID": "km1821",
             "ex:toページ": 465,
             "ex:to段": "b",
-            "ex:ページ": 465,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=313",
+            "ex:ページ": "465",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "楞伽阿跋多羅寶經註解",
                     "ex:経典番号": "T1789",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08011.json#酉目1",
             "ex:to枝番": 11,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1621",
             "ex:枝番": 1,
             "ex:經典番號": "U1607",
-            "ex:通番": 1621
+            "ex:通番": "1621"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08011.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08011.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 225,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/c8f764ff2818e3c531604797570f33b3/manifest.json",
             "ex:画像フォルダ": "u-renja1621",
             "ex:経典名": "楞伽阿跋多羅寶經註解4卷"
         }

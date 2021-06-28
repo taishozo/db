@@ -38,7 +38,8 @@
             "ex:kmID": "km0446",
             "ex:toページ": 259,
             "ex:to段": "c",
-            "ex:ページ": 259,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=107",
+            "ex:ページ": "259",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説不思議功德諸佛所護念經",
                     "ex:経典番号": "T0445",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

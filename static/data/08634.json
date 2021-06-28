@@ -38,7 +38,8 @@
             "ex:kmID": "km2018",
             "ex:toページ": 512,
             "ex:to段": "a",
-            "ex:ページ": 511,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=359",
+            "ex:ページ": "511",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "往生淨土懺願儀",
                     "ex:経典番号": "T1984",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }

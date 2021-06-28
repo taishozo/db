@@ -31,7 +31,8 @@
             "ex:kmID": "km1483",
             "ex:toページ": 397,
             "ex:to段": "c",
-            "ex:ページ": 397,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=245",
+            "ex:ページ": "397",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "根本説一切有部尼陀那目得迦",
                     "ex:経典番号": "T1452",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }
@@ -79,16 +82,18 @@
         {
             "@id": "data:06534.json#酉目1",
             "ex:to枝番": 6,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1139",
             "ex:枝番": 1,
             "ex:經典番號": "U1128",
-            "ex:通番": 1139
+            "ex:通番": "1139"
         },
         {
             "@id": "data:06534.json#酉目2",
             "ex:to枝番": 5,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1140",
             "ex:枝番": 1,
             "ex:經典番號": "U1129",
-            "ex:通番": 1140
+            "ex:通番": "1140"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

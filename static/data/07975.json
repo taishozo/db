@@ -21,7 +21,8 @@
             "ex:kmID": "km1805",
             "ex:toページ": 462,
             "ex:to段": "c",
-            "ex:ページ": 462,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=310",
+            "ex:ページ": "462",
             "ex:段": "b"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "彌勒上生經宗要",
                     "ex:経典番号": "T1773",
                     "ex:部門": "経疏部6",
-                    "ex:配本": 32
+                    "ex:配本": [
+                        32
+                    ]
                 }
             ]
         }

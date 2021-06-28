@@ -31,7 +31,8 @@
             "ex:kmID": "km0251",
             "ex:toページ": 217,
             "ex:to段": "b",
-            "ex:ページ": 217,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=65",
+            "ex:ページ": "217",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "摩訶般若波羅蜜大明呪經",
                     "ex:経典番号": "T0250",
                     "ex:部門": "般若部4",
-                    "ex:配本": 4
+                    "ex:配本": [
+                        4
+                    ]
                 }
             ]
         }

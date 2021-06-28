@@ -33,7 +33,8 @@
             "ex:kmID": "km1019",
             "ex:toページ": 333,
             "ex:to段": "b",
-            "ex:ページ": 333,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=181",
+            "ex:ページ": "333",
             "ex:段": "b"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "大寶廣博樓閣善住祕密陀羅尼經",
                     "ex:経典番号": "T1005A",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

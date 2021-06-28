@@ -31,7 +31,8 @@
             "ex:kmID": "km1349",
             "ex:toページ": 373,
             "ex:to段": "c",
-            "ex:ページ": 373,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=221",
+            "ex:ページ": "373",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "瑜伽集要救阿難陀羅尼焔口軌儀經",
                     "ex:経典番号": "T1318",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:05970.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=986",
             "ex:枝番": 1,
             "ex:經典番號": "U0980",
-            "ex:通番": 986
+            "ex:通番": "986"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

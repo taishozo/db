@@ -38,7 +38,8 @@
             "ex:kmID": "km1867",
             "ex:toページ": 475,
             "ex:to段": "a",
-            "ex:ページ": 475,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=323",
+            "ex:ページ": "475",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "辯中邊論述記",
                     "ex:経典番号": "T1835",
                     "ex:部門": "論疏部5/諸宗部1",
-                    "ex:配本": 39
+                    "ex:配本": [
+                        39
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1487",
             "ex:toページ": 398,
             "ex:to段": "a",
-            "ex:ページ": 398,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=246",
+            "ex:ページ": "398",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "根本説一切有部毘奈耶尼陀那目得迦攝頌",
                     "ex:経典番号": "T1456",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }

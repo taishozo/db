@@ -31,7 +31,8 @@
             "ex:kmID": "km0598",
             "ex:toページ": 275,
             "ex:to段": "b",
-            "ex:ページ": 275,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=123",
+            "ex:ページ": "275",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "龍王兄弟經",
                     "ex:経典番号": "T0597",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1018",
             "ex:toページ": 333,
             "ex:to段": "b",
-            "ex:ページ": 333,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=181",
+            "ex:ページ": "333",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "般若波羅蜜多理趣經大樂不空三昧眞實金剛薩埵菩薩等一十七聖大曼荼羅義述",
                     "ex:経典番号": "T1004",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

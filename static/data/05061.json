@@ -21,7 +21,8 @@
             "ex:kmID": "km1082",
             "ex:toページ": 342,
             "ex:to段": "a",
-            "ex:ページ": 342,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=190",
+            "ex:ページ": "342",
             "ex:段": "a"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "千手千眼觀世音菩薩大身呪本",
                     "ex:経典番号": "T1062A",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

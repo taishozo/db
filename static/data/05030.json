@@ -31,7 +31,8 @@
             "ex:kmID": "km1073",
             "ex:toページ": 340,
             "ex:to段": "a",
-            "ex:ページ": 339,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=187",
+            "ex:ページ": "339",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "聖觀自在菩薩一百八名經",
                     "ex:経典番号": "T1054",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }
@@ -85,16 +88,18 @@
         {
             "@id": "data:05030.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=817",
             "ex:枝番": 1,
             "ex:經典番號": "U0811",
-            "ex:通番": 817
+            "ex:通番": "817"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:05030.json#酉蓮社本IIIコレクション1",
+            "@id": "data:05030.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 9,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/50766096cd0b93e1f94dfe811e32ab68/manifest.json",
             "ex:画像フォルダ": "u-renja0817",
             "ex:経典名": "聖觀自在菩薩一百八名經1卷"
         }

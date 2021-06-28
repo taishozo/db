@@ -31,7 +31,8 @@
             "ex:kmID": "km1457",
             "ex:toページ": 387,
             "ex:to段": "a",
-            "ex:ページ": 387,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=235",
+            "ex:ページ": "387",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "摩訶僧祇律大比丘戒本",
                     "ex:経典番号": "T1426",
                     "ex:部門": "律部1",
-                    "ex:配本": 24
+                    "ex:配本": [
+                        24
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06401.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1164",
             "ex:枝番": 1,
             "ex:經典番號": "U1153",
-            "ex:通番": 1164
+            "ex:通番": "1164"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

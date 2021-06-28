@@ -38,7 +38,8 @@
             "ex:kmID": "km2074",
             "ex:toページ": 522,
             "ex:to段": "c",
-            "ex:ページ": 522,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=370",
+            "ex:ページ": "522",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "部執異論",
                     "ex:経典番号": "T2033",
                     "ex:部門": "史伝部1",
-                    "ex:配本": 40
+                    "ex:配本": [
+                        40
+                    ]
                 }
             ]
         }

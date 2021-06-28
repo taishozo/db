@@ -31,7 +31,8 @@
             "ex:kmID": "km0481",
             "ex:toページ": 264,
             "ex:to段": "c",
-            "ex:ページ": 264,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=112",
+            "ex:ページ": "264",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説月上女經",
                     "ex:経典番号": "T0480",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:02341.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=442",
             "ex:枝番": 1,
             "ex:經典番號": "U0437",
-            "ex:通番": 442
+            "ex:通番": "442"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

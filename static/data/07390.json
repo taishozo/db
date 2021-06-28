@@ -31,7 +31,8 @@
             "ex:kmID": "km1638",
             "ex:toページ": 434,
             "ex:to段": "b",
-            "ex:ページ": 434,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=282",
+            "ex:ページ": "434",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "六門教授習定論",
                     "ex:経典番号": "T1607",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

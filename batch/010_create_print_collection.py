@@ -24,7 +24,7 @@ def read_excel(path):
     print(map)
 
     data = []
-    search = []
+    # search = []
 
     uri_context = "https://taishozo.github.io/db/context.json"
 
@@ -61,6 +61,9 @@ def read_excel(path):
         if id != "04309":
             continue
         '''
+
+        if j > 10:
+            break
 
         経典番号 = df.iloc[j, 1]
 
@@ -121,7 +124,7 @@ def read_excel(path):
             if not pd.isnull(df.iloc[j, 72+start]):
                 obj = {
                     "@id": uri+"#所蔵者"+str(c+1)+"（勘同目録）",
-                    "ex:国" : df.iloc[j, 72+start],
+                    "ex:国" : df.iloc[j, 72+start]
                 }
                 if not pd.isnull(df.iloc[j, 73+start]):
                     obj["ex:所蔵者"] = df.iloc[j, 73+start]
@@ -236,6 +239,8 @@ def read_excel(path):
 
         # --------
 
+        print(df.iloc[j, 3], df.iloc[j, 0])
+
         keiten = {
             "@id" : uri_経典番号,
             "ex:経典番号" : 経典番号,
@@ -291,7 +296,7 @@ def read_excel(path):
 
         yu_i = []
 
-        for c in range(0, 2):
+        for c in range(0, 3):
             start = c * 4
             index = 126 + start
             if not pd.isnull(df.iloc[j, index]):
@@ -351,6 +356,8 @@ def read_excel(path):
 
         # ------------
 
+        '''
+        
         qdata = {
             "No." : df.iloc[j, 0],
             "基-経典番号" : df.iloc[j, 1],
@@ -418,15 +425,19 @@ def read_excel(path):
         if not pd.isnull(df.iloc[j, 126]):
             qdata["画像"] = "あり"
 
-        search.append(qdata)
+        # search.append(qdata)
+
+        '''
 
     with open("../static/data.json", 'w') as f:
         json.dump(data, f, ensure_ascii=False, indent=4,
         sort_keys=True, separators=(',', ': '))
 
+    '''
     with open("../static/index.json", 'w') as f:
         json.dump(search, f, ensure_ascii=False, indent=4,
         sort_keys=True, separators=(',', ': '))
+    '''
 
     # return data
 
@@ -454,7 +465,6 @@ def read_excel2(path):
 
     return map
 
-
-path = "data/『大正新脩大蔵経』底本・校本一覧データベース20210226.xlsx"
+path = "../static/metadata/data.xlsx"
 # data1 = read_excel(path)
 read_excel(path)

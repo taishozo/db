@@ -38,7 +38,8 @@
             "ex:kmID": "km1100",
             "ex:toページ": 344,
             "ex:to段": "c",
-            "ex:ページ": 344,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=192",
+            "ex:ページ": "344",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "七佛倶胝佛母心大准提陀羅尼法",
                     "ex:経典番号": "T1078",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

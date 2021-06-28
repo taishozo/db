@@ -31,7 +31,8 @@
             "ex:kmID": "km1783",
             "ex:toページ": 459,
             "ex:to段": "c",
-            "ex:ページ": 459,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=307",
+            "ex:ページ": "459",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "觀無量壽佛經疏妙宗鈔",
                     "ex:経典番号": "T1751",
                     "ex:部門": "経疏部5",
-                    "ex:配本": 30
+                    "ex:配本": [
+                        30
+                    ]
                 }
             ]
         }
@@ -84,16 +87,18 @@
         {
             "@id": "data:07925.json#酉目1",
             "ex:to枝番": 4,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1568",
             "ex:枝番": 1,
             "ex:經典番號": "U1553",
-            "ex:通番": 1568
+            "ex:通番": "1568"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07925.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07925.json#酉蓮社本IIIFコレクション1",
             "ex:from": 33,
             "ex:to": 111,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/b89bbafc5b73a4c4236ce9316059f532/manifest.json",
             "ex:画像フォルダ": "u-renja1567-1568",
             "ex:経典名": "觀無量壽佛經疏妙宗鈔6卷"
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1797",
             "ex:toページ": 461,
             "ex:to段": "b",
-            "ex:ページ": 461,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=309",
+            "ex:ページ": "461",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大般涅槃經玄義",
                     "ex:経典番号": "T1765",
                     "ex:部門": "経疏部6",
-                    "ex:配本": 32
+                    "ex:配本": [
+                        32
+                    ]
                 }
             ]
         }
@@ -84,16 +87,18 @@
         {
             "@id": "data:07957.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1555",
             "ex:枝番": 1,
             "ex:經典番號": "U1537",
-            "ex:通番": 1555
+            "ex:通番": "1555"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07957.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07957.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 56,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/270f23055aefd00a1cc77bc460a22494/manifest.json",
             "ex:画像フォルダ": "u-renja1555-1556",
             "ex:経典名": "大般涅槃經玄義2卷"
         }

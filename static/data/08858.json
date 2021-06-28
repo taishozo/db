@@ -31,7 +31,8 @@
             "ex:kmID": "km2094",
             "ex:toページ": 538,
             "ex:to段": "b",
-            "ex:ページ": 538,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=386",
+            "ex:ページ": "538",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大唐大慈恩寺三藏法師傳",
                     "ex:経典番号": "T2053",
                     "ex:部門": "史伝部2",
-                    "ex:配本": 33
+                    "ex:配本": [
+                        33
+                    ]
                 }
             ]
         }

@@ -29,7 +29,8 @@
             "ex:kmID": "km1130",
             "ex:toページ": 350,
             "ex:to段": "a",
-            "ex:ページ": 350,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=198",
+            "ex:ページ": "350",
             "ex:段": "a"
         }
     ],
@@ -48,7 +49,9 @@
                     "ex:経典名": "聖救度佛母二十一種禮讃經/附、卷首御製救度佛母讃",
                     "ex:経典番号": "T1108A",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

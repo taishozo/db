@@ -38,7 +38,8 @@
             "ex:kmID": "km1786",
             "ex:toページ": 460,
             "ex:to段": "a",
-            "ex:ページ": 460,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=308",
+            "ex:ページ": "460",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "觀無量壽佛經義疏",
                     "ex:経典番号": "T1754",
                     "ex:部門": "経疏部5",
-                    "ex:配本": 30
+                    "ex:配本": [
+                        30
+                    ]
                 }
             ]
         }

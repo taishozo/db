@@ -41,7 +41,8 @@
             "ex:kmID": "km1491",
             "ex:toページ": 400,
             "ex:to段": "b",
-            "ex:ページ": 400,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=248",
+            "ex:ページ": "400",
             "ex:段": "b"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "解脱戒經",
                     "ex:経典番号": "T1460",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }

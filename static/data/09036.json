@@ -38,7 +38,8 @@
             "ex:kmID": "km2146",
             "ex:toページ": 607,
             "ex:to段": "a",
-            "ex:ページ": 607,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=455",
+            "ex:ページ": "607",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "續集古今佛道論衡",
                     "ex:経典番号": "T2105",
                     "ex:部門": "史伝部4",
-                    "ex:配本": 37
+                    "ex:配本": [
+                        37
+                    ]
                 }
             ]
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km2040",
             "ex:toページ": 515,
             "ex:to段": "a",
-            "ex:ページ": 514,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=362",
+            "ex:ページ": "514",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "如淨和尚語録",
                     "ex:経典番号": "T2002A",
                     "ex:部門": "諸宗部5",
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }

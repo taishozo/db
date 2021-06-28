@@ -38,7 +38,8 @@
             "ex:kmID": "km2138",
             "ex:toページ": 602,
             "ex:to段": "a",
-            "ex:ページ": 600,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=448",
+            "ex:ページ": "600",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "南嶽總勝集",
                     "ex:経典番号": "T2097",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

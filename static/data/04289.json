@@ -38,7 +38,8 @@
             "ex:kmID": "km0871",
             "ex:toページ": 309,
             "ex:to段": "c",
-            "ex:ページ": 309,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=157",
+            "ex:ページ": "309",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "金剛頂經瑜伽十八會指歸",
                     "ex:経典番号": "T0869",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

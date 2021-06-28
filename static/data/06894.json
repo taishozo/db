@@ -31,7 +31,8 @@
             "ex:kmID": "km1547",
             "ex:toページ": 409,
             "ex:to段": "a",
-            "ex:ページ": 409,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=257",
+            "ex:ページ": "409",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "聖佛母般若波羅蜜多九頌精義論",
                     "ex:経典番号": "T1516",
                     "ex:部門": "釈経論部上",
-                    "ex:配本": 21
+                    "ex:配本": [
+                        21
+                    ]
                 }
             ]
         }

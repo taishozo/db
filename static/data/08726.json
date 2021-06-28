@@ -38,7 +38,8 @@
             "ex:kmID": "km2059",
             "ex:toページ": 518,
             "ex:to段": "b",
-            "ex:ページ": 518,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=366",
+            "ex:ページ": "518",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "眞心直説",
                     "ex:経典番号": "T2019A",
                     "ex:部門": "諸宗部5",
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }
@@ -92,9 +95,10 @@
         {
             "@id": "data:08726.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1660",
             "ex:枝番": 1,
             "ex:經典番號": "U1643",
-            "ex:通番": 1660
+            "ex:通番": "1660"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

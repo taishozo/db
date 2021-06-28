@@ -31,7 +31,8 @@
             "ex:kmID": "km0674",
             "ex:toページ": 287,
             "ex:to段": "a",
-            "ex:ページ": 287,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=135",
+            "ex:ページ": "287",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大乘同性經",
                     "ex:経典番号": "T0673",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:03322.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=196",
             "ex:枝番": 1,
             "ex:經典番號": "U0191",
-            "ex:通番": 196
+            "ex:通番": "196"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

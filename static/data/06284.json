@@ -29,7 +29,8 @@
             "ex:kmID": "km1428",
             "ex:toページ": 384,
             "ex:to段": "a",
-            "ex:ページ": 383,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=231",
+            "ex:ページ": "383",
             "ex:段": "c"
         }
     ],
@@ -48,7 +49,9 @@
                     "ex:経典名": "智炬陀羅尼經",
                     "ex:経典番号": "T1397",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

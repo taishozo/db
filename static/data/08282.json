@@ -32,7 +32,8 @@
             "ex:kmID": "km1861",
             "ex:toページ": 474,
             "ex:to段": "b",
-            "ex:ページ": 474,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=322",
+            "ex:ページ": "474",
             "ex:段": "a"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "瑜伽師地論略纂",
                     "ex:経典番号": "T1829",
                     "ex:部門": "論疏部4",
-                    "ex:配本": 51
+                    "ex:配本": [
+                        51
+                    ]
                 }
             ]
         }

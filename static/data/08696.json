@@ -38,7 +38,8 @@
             "ex:kmID": "km2045",
             "ex:toページ": 516,
             "ex:to段": "c",
-            "ex:ページ": 516,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=364",
+            "ex:ページ": "516",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "人天眼目",
                     "ex:経典番号": "T2006",
                     "ex:部門": "諸宗部5",
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }

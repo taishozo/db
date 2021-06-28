@@ -38,7 +38,8 @@
             "ex:kmID": "km0222",
             "ex:toページ": 208,
             "ex:to段": "b",
-            "ex:ページ": 207,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=55",
+            "ex:ページ": "207",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "放光般若經",
                     "ex:経典番号": "T0221",
                     "ex:部門": "般若部4",
-                    "ex:配本": 4
+                    "ex:配本": [
+                        4
+                    ]
                 }
             ]
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km0573",
             "ex:toページ": 273,
             "ex:to段": "a",
-            "ex:ページ": 272,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=120",
+            "ex:ページ": "272",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説長者法志妻經",
                     "ex:経典番号": "T0572",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

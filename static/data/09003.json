@@ -50,7 +50,8 @@
             "ex:kmID": "km2136",
             "ex:toページ": 600,
             "ex:to段": "b",
-            "ex:ページ": 599,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=447",
+            "ex:ページ": "599",
             "ex:段": "b"
         }
     ],
@@ -69,7 +70,9 @@
                     "ex:経典名": "廬山記",
                     "ex:経典番号": "T2095",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

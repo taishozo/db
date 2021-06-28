@@ -41,7 +41,8 @@
             "ex:kmID": "km0411",
             "ex:toページ": 255,
             "ex:to段": "a",
-            "ex:ページ": 254,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=102",
+            "ex:ページ": "254",
             "ex:段": "c"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "大方廣十輪經",
                     "ex:経典番号": "T0410",
                     "ex:部門": "大集部",
-                    "ex:配本": 7
+                    "ex:配本": [
+                        7
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km0231",
             "ex:toページ": 213,
             "ex:to段": "a",
-            "ex:ページ": 213,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=61",
+            "ex:ページ": "213",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "聖八千頌般若波羅蜜多一百八名眞實圓義陀羅尼經",
                     "ex:経典番号": "T0230",
                     "ex:部門": "般若部4",
-                    "ex:配本": 4
+                    "ex:配本": [
+                        4
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:00998.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1000",
             "ex:枝番": 1,
             "ex:經典番號": "U0994",
-            "ex:通番": 1000
+            "ex:通番": "1000"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

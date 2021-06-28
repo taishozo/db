@@ -31,7 +31,8 @@
             "ex:kmID": "km2159",
             "ex:toページ": 611,
             "ex:to段": "a",
-            "ex:ページ": 610,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=458",
+            "ex:ページ": "610",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "折疑論",
                     "ex:経典番号": "T2118",
                     "ex:部門": "史伝部4",
-                    "ex:配本": 37
+                    "ex:配本": [
+                        37
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:09077.json#酉目1",
             "ex:to枝番": 7,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1644",
             "ex:枝番": 1,
             "ex:經典番號": "U1628",
-            "ex:通番": 1644
+            "ex:通番": "1644"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

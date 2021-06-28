@@ -38,7 +38,8 @@
             "ex:kmID": "km0383",
             "ex:toページ": 249,
             "ex:to段": "c",
-            "ex:ページ": 249,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=97",
+            "ex:ページ": "249",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "集一切福德三昧經",
                     "ex:経典番号": "T0382",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

@@ -29,7 +29,8 @@
             "ex:kmID": "km1621",
             "ex:toページ": 429,
             "ex:to段": "b",
-            "ex:ページ": 429,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=277",
+            "ex:ページ": "429",
             "ex:段": "b"
         }
     ],
@@ -48,7 +49,9 @@
                     "ex:経典名": "唯識二十論",
                     "ex:経典番号": "T1590",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

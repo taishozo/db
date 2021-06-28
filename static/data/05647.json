@@ -21,7 +21,8 @@
             "ex:kmID": "km1244",
             "ex:toページ": 363,
             "ex:to段": "b",
-            "ex:ページ": 363,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=211",
+            "ex:ページ": "363",
             "ex:段": "b"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "千臂軍荼利梵字眞言",
                     "ex:経典番号": "T1213",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

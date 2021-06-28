@@ -31,7 +31,8 @@
             "ex:kmID": "km1684",
             "ex:toページ": 444,
             "ex:to段": "a",
-            "ex:ページ": 443,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=291",
+            "ex:ページ": "443",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大乘縁生論",
                     "ex:経典番号": "T1653",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:07617.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1320",
             "ex:枝番": 1,
             "ex:經典番號": "U1307",
-            "ex:通番": 1320
+            "ex:通番": "1320"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

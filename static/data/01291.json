@@ -41,7 +41,8 @@
             "ex:kmID": "km0286",
             "ex:toページ": 229,
             "ex:to段": "c",
-            "ex:ページ": 229,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=77",
+            "ex:ページ": "229",
             "ex:段": "c"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "漸備一切智德經",
                     "ex:経典番号": "T0285",
                     "ex:部門": "華厳部下",
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }

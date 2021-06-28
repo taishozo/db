@@ -31,7 +31,8 @@
             "ex:kmID": "km2166",
             "ex:toページ": 632,
             "ex:to段": "a",
-            "ex:ページ": 631,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=479",
+            "ex:ページ": "631",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "南海寄歸内法傳",
                     "ex:経典番号": "T2125",
                     "ex:部門": "事彙部下/外教部全",
-                    "ex:配本": 53
+                    "ex:配本": [
+                        53
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:09105.json#酉目1",
             "ex:to枝番": 4,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1498",
             "ex:枝番": 1,
             "ex:經典番號": "U1485",
-            "ex:通番": 1498
+            "ex:通番": "1498"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

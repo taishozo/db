@@ -31,7 +31,8 @@
             "ex:kmID": "km0131",
             "ex:toページ": 186,
             "ex:to段": "c",
-            "ex:ページ": 186,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=34",
+            "ex:ページ": "186",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説婆羅門避死經",
                     "ex:経典番号": "T0131",
                     "ex:部門": "阿含部下",
-                    "ex:配本": 5
+                    "ex:配本": [
+                        5
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:00549.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=618",
             "ex:枝番": 1,
             "ex:經典番號": "U0613",
-            "ex:通番": 618
+            "ex:通番": "618"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

@@ -39,7 +39,8 @@
             "ex:kmID": "km1277",
             "ex:toページ": 366,
             "ex:to段": "c",
-            "ex:ページ": 366,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=214",
+            "ex:ページ": "366",
             "ex:段": "c"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "摩訶吠室囉末那野提婆喝囉闍陀羅尼儀軌",
                     "ex:経典番号": "T1246",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

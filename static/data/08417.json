@@ -38,7 +38,8 @@
             "ex:kmID": "km1918",
             "ex:toページ": 488,
             "ex:to段": "b",
-            "ex:ページ": 488,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=336",
+            "ex:ページ": "488",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "原人論",
                     "ex:経典番号": "T1886",
                     "ex:部門": "諸宗部2",
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }
@@ -92,16 +95,18 @@
         {
             "@id": "data:08417.json#酉目1",
             "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1602",
             "ex:枝番": 1,
             "ex:經典番號": "U1587",
-            "ex:通番": 1602
+            "ex:通番": "1602"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08417.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08417.json#酉蓮社本IIIFコレクション1",
             "ex:from": 70,
             "ex:to": 83,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/fc9248dd3aee25fff2aef2e6e674ce86/manifest.json",
             "ex:画像フォルダ": "u-renja1600-1603",
             "ex:経典名": "原人論1卷"
         }

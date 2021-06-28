@@ -234,6 +234,11 @@
     "table" : "Table",
     "graph" : "Graph",
     "dataset" : "Dataset",
-    "inquiry" : "Questionnaire"
+    "inquiry" : "Questionnaire",
+    "name" : "Name",
+    "cancel": "Cancel",
+    "refine": "Refine",
+    "show all": "Show All",
+    "results" : "results"
 
   }

@@ -33,7 +33,8 @@
             "ex:kmID": "km1527",
             "ex:toページ": 405,
             "ex:to段": "a",
-            "ex:ページ": 405,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=253",
+            "ex:ページ": "405",
             "ex:段": "a"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "佛説正恭敬經",
                     "ex:経典番号": "T1496",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }

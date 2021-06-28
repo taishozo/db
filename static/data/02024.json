@@ -31,7 +31,8 @@
             "ex:kmID": "km0421",
             "ex:toページ": 257,
             "ex:to段": "a",
-            "ex:ページ": 256,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=104",
+            "ex:ページ": "256",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "自在王菩薩經",
                     "ex:経典番号": "T0420",
                     "ex:部門": "大集部",
-                    "ex:配本": 7
+                    "ex:配本": [
+                        7
+                    ]
                 }
             ]
         }

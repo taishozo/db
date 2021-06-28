@@ -32,7 +32,8 @@
             "ex:kmID": "km1910",
             "ex:toページ": 487,
             "ex:to段": "a",
-            "ex:ページ": 487,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=335",
+            "ex:ページ": "487",
             "ex:段": "a"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "華嚴發菩提心章",
                     "ex:経典番号": "T1878",
                     "ex:部門": "諸宗部2",
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

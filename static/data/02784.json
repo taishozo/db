@@ -31,7 +31,8 @@
             "ex:kmID": "km0569",
             "ex:toページ": 272,
             "ex:to段": "c",
-            "ex:ページ": 272,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=120",
+            "ex:ページ": "272",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "有德女所問大乘經",
                     "ex:経典番号": "T0568",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:02784.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=344",
             "ex:枝番": 1,
             "ex:經典番號": "U0339",
-            "ex:通番": 344
+            "ex:通番": "344"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

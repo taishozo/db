@@ -32,7 +32,8 @@
             "ex:kmID": "km1159",
             "ex:toページ": 353,
             "ex:to段": "a",
-            "ex:ページ": 353,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=201",
+            "ex:ページ": "353",
             "ex:段": "a"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "金剛壽命陀羅尼經法",
                     "ex:経典番号": "T1134A",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

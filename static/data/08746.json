@@ -38,7 +38,8 @@
             "ex:kmID": "km2067",
             "ex:toページ": 522,
             "ex:to段": "a",
-            "ex:ページ": 522,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=370",
+            "ex:ページ": "522",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "撰集三藏及雜藏傳",
                     "ex:経典番号": "T2026",
                     "ex:部門": "史伝部1",
-                    "ex:配本": 40
+                    "ex:配本": [
+                        40
+                    ]
                 }
             ]
         }

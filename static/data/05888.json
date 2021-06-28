@@ -34,7 +34,8 @@
             "ex:kmID": "km1317",
             "ex:toページ": 370,
             "ex:to段": "c",
-            "ex:ページ": 370,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=218",
+            "ex:ページ": "370",
             "ex:段": "c"
         }
     ],
@@ -53,7 +54,9 @@
                     "ex:経典名": "堅牢地天儀軌",
                     "ex:経典番号": "T1286",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

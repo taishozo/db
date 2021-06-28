@@ -31,7 +31,8 @@
             "ex:kmID": "km1578",
             "ex:toページ": 416,
             "ex:to段": "c",
-            "ex:ページ": 416,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=264",
+            "ex:ページ": "416",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "鞞婆沙論",
                     "ex:経典番号": "T1547",
                     "ex:部門": "毘曇部3",
-                    "ex:配本": 25
+                    "ex:配本": [
+                        25
+                    ]
                 }
             ]
         }

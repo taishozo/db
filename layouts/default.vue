@@ -1,7 +1,6 @@
 <template>
   <v-app>
     <Header />
-
     <v-content>
       <nuxt />
     </v-content>
@@ -59,10 +58,16 @@ export default class LayoutDefault extends Vue {
 .v-btn {
   text-transform: none !important;
 }
-.link-orange {
-  color: #e64a19;
+a {
+  text-decoration: none;
 }
 body {
   word-break: break-word;
+}
+td {
+  padding: 4px;
+}
+th {
+  padding: 4px;
 }
 </style>

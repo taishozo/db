@@ -42,7 +42,8 @@
             "ex:kmID": "km1362",
             "ex:toページ": 375,
             "ex:to段": "a",
-            "ex:ページ": 374,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=222",
+            "ex:ページ": "374",
             "ex:段": "c"
         }
     ],
@@ -61,7 +62,9 @@
                     "ex:経典名": "佛説灌頂七萬二千神王護比丘呪經（佛説灌頂經）",
                     "ex:経典番号": "T1331",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

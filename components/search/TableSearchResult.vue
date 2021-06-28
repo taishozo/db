@@ -189,7 +189,7 @@ export default class TableSearchResult extends Vue {
   getUrl(ids: number[]) {
     let params: string = ''
     for (let i = 0; i < ids.length; i++) {
-      params += '&fc-通番=' + ids[i]
+      params += '&fc-通番=' + ('0000' + Number(ids[i])).slice(-4)
     }
 
     const uRenja = this.uRenja

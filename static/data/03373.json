@@ -39,7 +39,8 @@
             "ex:kmID": "km0683",
             "ex:toページ": 289,
             "ex:to段": "a",
-            "ex:ページ": 288,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=136",
+            "ex:ページ": "288",
             "ex:段": "c"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "大乘密嚴經",
                     "ex:経典番号": "T0682",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }

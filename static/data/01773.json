@@ -38,7 +38,8 @@
             "ex:kmID": "km0376",
             "ex:toページ": 248,
             "ex:to段": "c",
-            "ex:ページ": 248,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=96",
+            "ex:ページ": "248",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "大般涅槃經",
                     "ex:経典番号": "T0375",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

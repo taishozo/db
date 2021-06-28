@@ -38,7 +38,8 @@
             "ex:kmID": "km2064",
             "ex:toページ": 521,
             "ex:to段": "a",
-            "ex:ページ": 519,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=367",
+            "ex:ページ": "519",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "緇門警訓",
                     "ex:経典番号": "T2023",
                     "ex:部門": "諸宗部5",
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }
@@ -92,9 +95,10 @@
         {
             "@id": "data:08736.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1654",
             "ex:枝番": 1,
             "ex:經典番號": "U1638",
-            "ex:通番": 1654
+            "ex:通番": "1654"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

@@ -31,7 +31,8 @@
             "ex:kmID": "km0534",
             "ex:toページ": 269,
             "ex:to段": "b",
-            "ex:ページ": 269,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=117",
+            "ex:ページ": "269",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "菩薩生地經",
                     "ex:経典番号": "T0533",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:02615.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=379",
             "ex:枝番": 1,
             "ex:經典番號": "U0374",
-            "ex:通番": 379
+            "ex:通番": "379"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

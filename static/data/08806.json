@@ -31,7 +31,8 @@
             "ex:kmID": "km2082",
             "ex:toページ": 537,
             "ex:to段": "a",
-            "ex:ページ": 537,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=385",
+            "ex:ページ": "537",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "釋迦氏譜",
                     "ex:経典番号": "T2041",
                     "ex:部門": "史伝部2",
-                    "ex:配本": 33
+                    "ex:配本": [
+                        33
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:08806.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1475",
             "ex:枝番": 1,
             "ex:經典番號": "U1462",
-            "ex:通番": 1475
+            "ex:通番": "1475"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

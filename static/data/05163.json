@@ -33,7 +33,8 @@
             "ex:kmID": "km1110",
             "ex:toページ": 346,
             "ex:to段": "a",
-            "ex:ページ": 346,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=194",
+            "ex:ページ": "346",
             "ex:段": "a"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "如意輪菩薩觀門義注祕訣",
                     "ex:経典番号": "T1088",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

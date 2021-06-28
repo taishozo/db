@@ -31,7 +31,8 @@
             "ex:kmID": "km2107",
             "ex:toページ": 551,
             "ex:to段": "a",
-            "ex:ページ": 550,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=398",
+            "ex:ページ": "550",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大唐西域求法高僧傳",
                     "ex:経典番号": "T2066",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:08904.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1497",
             "ex:枝番": 1,
             "ex:經典番號": "U1484",
-            "ex:通番": 1497
+            "ex:通番": "1497"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

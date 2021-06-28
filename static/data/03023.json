@@ -31,7 +31,8 @@
             "ex:kmID": "km0615",
             "ex:toページ": 277,
             "ex:to段": "b",
-            "ex:ページ": 277,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=125",
+            "ex:ページ": "277",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "坐禪三昧經",
                     "ex:経典番号": "T0614",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }
@@ -80,9 +83,10 @@
         {
             "@id": "data:03023.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1356",
             "ex:枝番": 1,
             "ex:經典番號": "U1343",
-            "ex:通番": 1356
+            "ex:通番": "1356"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

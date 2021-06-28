@@ -38,7 +38,8 @@
             "ex:kmID": "km0669",
             "ex:toページ": 286,
             "ex:to段": "a",
-            "ex:ページ": 286,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=134",
+            "ex:ページ": "286",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説不増不減經",
                     "ex:経典番号": "T0668",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }

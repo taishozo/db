@@ -31,7 +31,8 @@
             "ex:kmID": "km0064",
             "ex:toページ": 163,
             "ex:to段": "a",
-            "ex:ページ": 163,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=11",
+            "ex:ページ": "163",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説瞻婆比丘經",
                     "ex:経典番号": "T0064",
                     "ex:部門": "阿含部上",
-                    "ex:配本": 1
+                    "ex:配本": [
+                        1
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:00270.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=601",
             "ex:枝番": 1,
             "ex:經典番號": "U0596",
-            "ex:通番": 601
+            "ex:通番": "601"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

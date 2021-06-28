@@ -52,7 +52,8 @@
             "ex:kmID": "km0159",
             "ex:toページ": 191,
             "ex:to段": "a",
-            "ex:ページ": 190,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=38",
+            "ex:ページ": "190",
             "ex:段": "c"
         }
     ],
@@ -71,7 +72,9 @@
                     "ex:経典名": "大乘悲分陀利經",
                     "ex:経典番号": "T0158",
                     "ex:部門": "本縁部上",
-                    "ex:配本": 2
+                    "ex:配本": [
+                        2
+                    ]
                 }
             ]
         }

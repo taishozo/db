@@ -33,7 +33,8 @@
             "ex:kmID": "km1088",
             "ex:toページ": 343,
             "ex:to段": "a",
-            "ex:ページ": 343,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=191",
+            "ex:ページ": "343",
             "ex:段": "a"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "攝無礙大悲心大陀羅尼經計一法中出無量義南方滿願補陀洛海會五部諸尊等弘誓力方位及威儀形色執持三摩耶幖幟曼荼羅儀軌",
                     "ex:経典番号": "T1067",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

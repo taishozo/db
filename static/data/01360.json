@@ -31,7 +31,8 @@
             "ex:kmID": "km0299",
             "ex:toページ": 231,
             "ex:to段": "c",
-            "ex:ページ": 231,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=79",
+            "ex:ページ": "231",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大方廣普賢所説經",
                     "ex:経典番号": "T0298",
                     "ex:部門": "華厳部下",
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:01360.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=98",
             "ex:枝番": 1,
             "ex:經典番號": "U0094",
-            "ex:通番": 98
+            "ex:通番": "98"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

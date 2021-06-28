@@ -42,7 +42,8 @@
             "ex:kmID": "km1495",
             "ex:toページ": 401,
             "ex:to段": "a",
-            "ex:ページ": 400,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=248",
+            "ex:ページ": "400",
             "ex:段": "c"
         }
     ],
@@ -61,7 +62,9 @@
                     "ex:経典名": "鼻奈耶",
                     "ex:経典番号": "T1464",
                     "ex:部門": "律部3",
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }

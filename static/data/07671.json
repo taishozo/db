@@ -31,7 +31,8 @@
             "ex:kmID": "km1696",
             "ex:toページ": 445,
             "ex:to段": "c",
-            "ex:ページ": 445,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=293",
+            "ex:ページ": "445",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "金剛頂瑜伽中發阿耨多羅三藐三菩提心論",
                     "ex:経典番号": "T1665",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }
@@ -80,9 +83,10 @@
         {
             "@id": "data:07671.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1325",
             "ex:枝番": 1,
             "ex:經典番號": "U1312",
-            "ex:通番": 1325
+            "ex:通番": "1325"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

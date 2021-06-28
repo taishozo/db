@@ -29,7 +29,8 @@
             "ex:kmID": "km0673",
             "ex:toページ": 287,
             "ex:to段": "a",
-            "ex:ページ": 286,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=134",
+            "ex:ページ": "286",
             "ex:段": "c"
         }
     ],
@@ -48,7 +49,9 @@
                     "ex:経典名": "大乘入楞伽經",
                     "ex:経典番号": "T0672",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }

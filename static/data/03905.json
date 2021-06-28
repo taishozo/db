@@ -38,7 +38,8 @@
             "ex:kmID": "km0790",
             "ex:toページ": 298,
             "ex:to段": "b",
-            "ex:ページ": 298,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=146",
+            "ex:ページ": "298",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "金剛頂瑜伽念珠經",
                     "ex:経典番号": "T0789",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

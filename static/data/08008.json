@@ -38,7 +38,8 @@
             "ex:kmID": "km1820",
             "ex:toページ": 465,
             "ex:to段": "b",
-            "ex:ページ": 465,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=313",
+            "ex:ページ": "465",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "金光明最勝王經疏",
                     "ex:経典番号": "T1788",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }

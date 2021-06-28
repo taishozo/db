@@ -31,7 +31,8 @@
             "ex:kmID": "km1413",
             "ex:toページ": 382,
             "ex:to段": "c",
-            "ex:ページ": 382,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=230",
+            "ex:ページ": "382",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説宿命智陀羅尼",
                     "ex:経典番号": "T1382",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

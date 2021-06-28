@@ -31,7 +31,8 @@
             "ex:kmID": "km0867",
             "ex:toページ": 309,
             "ex:to段": "a",
-            "ex:ページ": 308,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=156",
+            "ex:ページ": "308",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "金剛頂一切如來眞實攝大乘現證大教王經",
                     "ex:経典番号": "T0865",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:04263.json#酉目1",
             "ex:to枝番": 3,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1021",
             "ex:枝番": 1,
             "ex:經典番號": "U1015",
-            "ex:通番": 1021
+            "ex:通番": "1021"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

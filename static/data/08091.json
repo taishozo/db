@@ -39,7 +39,8 @@
             "ex:kmID": "km1851",
             "ex:toページ": 469,
             "ex:to段": "c",
-            "ex:ページ": 469,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=317",
+            "ex:ページ": "469",
             "ex:段": "c"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "無量壽經優婆提舍願生偈註",
                     "ex:経典番号": "T1819",
                     "ex:部門": "律疏部全/論疏部1",
-                    "ex:配本": 38
+                    "ex:配本": [
+                        38
+                    ]
                 }
             ]
         }

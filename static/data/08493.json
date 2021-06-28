@@ -38,7 +38,8 @@
             "ex:kmID": "km1954",
             "ex:toページ": 493,
             "ex:to段": "a",
-            "ex:ページ": 493,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=341",
+            "ex:ページ": "493",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "觀心論疏",
                     "ex:経典番号": "T1921",
                     "ex:部門": "諸宗部3",
-                    "ex:配本": 44
+                    "ex:配本": [
+                        44
+                    ]
                 }
             ]
         }
@@ -91,16 +94,18 @@
         {
             "@id": "data:08493.json#酉目1",
             "ex:to枝番": 5,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1583",
             "ex:枝番": 1,
             "ex:經典番號": "U1568",
-            "ex:通番": 1583
+            "ex:通番": "1583"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08493.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08493.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 130,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/49512fd8bfca3c69e53606b0b2aec1d8/manifest.json",
             "ex:画像フォルダ": "u-renja1583",
             "ex:経典名": "觀心論疏5卷"
         }

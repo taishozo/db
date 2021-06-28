@@ -38,7 +38,8 @@
             "ex:kmID": "km0359",
             "ex:toページ": 243,
             "ex:to段": "a",
-            "ex:ページ": 242,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=90",
+            "ex:ページ": "242",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "度一切諸佛境界智嚴經",
                     "ex:経典番号": "T0358",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

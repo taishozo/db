@@ -30,7 +30,8 @@
             "ex:kmID": "km0909",
             "ex:toページ": 319,
             "ex:to段": "a",
-            "ex:ページ": 318,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=166",
+            "ex:ページ": "318",
             "ex:段": "c"
         }
     ],
@@ -49,7 +50,9 @@
                     "ex:経典名": "三種悉地破地獄轉業障出三界祕密陀羅尼法",
                     "ex:経典番号": "T0905",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

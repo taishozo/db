@@ -21,7 +21,8 @@
             "ex:kmID": "km1771",
             "ex:toページ": 458,
             "ex:to段": "b",
-            "ex:ページ": 458,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=306",
+            "ex:ページ": "458",
             "ex:段": "a"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "新華嚴經論",
                     "ex:経典番号": "T1739",
                     "ex:部門": "経疏部4",
-                    "ex:配本": 35
+                    "ex:配本": [
+                        35
+                    ]
                 }
             ]
         }

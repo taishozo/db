@@ -38,7 +38,8 @@
             "ex:kmID": "km1880",
             "ex:toページ": 476,
             "ex:to段": "b",
-            "ex:ページ": 476,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=324",
+            "ex:ページ": "476",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "起信論疏筆削記",
                     "ex:経典番号": "T1848",
                     "ex:部門": "論疏部5/諸宗部1",
-                    "ex:配本": 39
+                    "ex:配本": [
+                        39
+                    ]
                 }
             ]
         }

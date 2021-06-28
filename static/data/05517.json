@@ -33,7 +33,8 @@
             "ex:kmID": "km1206",
             "ex:toページ": 358,
             "ex:to段": "b",
-            "ex:ページ": 358,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=206",
+            "ex:ページ": "358",
             "ex:段": "a"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "大乘瑜伽金剛性海曼殊室利千臂千鉢大教王經",
                     "ex:経典番号": "T1177A",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

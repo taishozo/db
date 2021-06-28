@@ -31,7 +31,8 @@
             "ex:kmID": "km1767",
             "ex:toページ": 457,
             "ex:to段": "a",
-            "ex:ページ": 456,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=304",
+            "ex:ページ": "456",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大方廣佛華嚴經疏",
                     "ex:経典番号": "T1735",
                     "ex:部門": "経疏部3",
-                    "ex:配本": 31
+                    "ex:配本": [
+                        31
+                    ]
                 }
             ]
         }
@@ -85,16 +88,18 @@
         {
             "@id": "data:07891.json#酉目1",
             "ex:to枝番": 60,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1597",
             "ex:枝番": 1,
             "ex:經典番號": "U1582",
-            "ex:通番": 1597
+            "ex:通番": "1597"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07891.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07891.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 1679,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/fbed7fcb5c154e2e4af3caebd734baea/manifest.json",
             "ex:画像フォルダ": "u-renja1597",
             "ex:経典名": "大方廣佛華嚴經疏60卷"
         }

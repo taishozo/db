@@ -31,7 +31,8 @@
             "ex:kmID": "km0786",
             "ex:toページ": 298,
             "ex:to段": "a",
-            "ex:ページ": 298,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=146",
+            "ex:ページ": "298",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "得道梯橙錫杖經",
                     "ex:経典番号": "T0785",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:03879.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=692",
             "ex:枝番": 1,
             "ex:經典番號": "U0687",
-            "ex:通番": 692
+            "ex:通番": "692"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

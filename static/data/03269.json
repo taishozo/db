@@ -31,7 +31,8 @@
             "ex:kmID": "km0665",
             "ex:toページ": 285,
             "ex:to段": "b",
-            "ex:ページ": 284,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=132",
+            "ex:ページ": "284",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "合部金光明經",
                     "ex:経典番号": "T0664",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }

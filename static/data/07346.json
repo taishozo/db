@@ -31,7 +31,8 @@
             "ex:kmID": "km1630",
             "ex:toページ": 432,
             "ex:to段": "b",
-            "ex:ページ": 432,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=280",
+            "ex:ページ": "432",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "中邊分別論",
                     "ex:経典番号": "T1599",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

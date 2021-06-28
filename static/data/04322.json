@@ -32,7 +32,8 @@
             "ex:kmID": "km0879",
             "ex:toページ": 310,
             "ex:to段": "c",
-            "ex:ページ": 310,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=158",
+            "ex:ページ": "310",
             "ex:段": "c"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "金剛頂經毘盧遮那一百八尊法身契印",
                     "ex:経典番号": "T0877",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

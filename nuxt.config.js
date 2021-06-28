@@ -84,6 +84,104 @@ const env = {
 }
 env['u-renja'] = 'https://taishozo.github.io/u-renja'
 
+///
+
+env.bc = false
+
+env.index = 'index.json'
+
+env.aggs = {
+  '基-収録巻次': {
+    sort: 'name:asc',
+    label: '基本情報-収録巻次',
+    value: {},
+    key: '基-収録巻次',
+    more: false,
+  },
+  '基-部門': {
+    // sort: 'name:asc',
+    label: '基本情報-部門',
+    value: {},
+    key: '基-部門',
+    more: false,
+  },
+  '基-配本': {
+    // sort: 'name:asc',
+    label: '基本情報-配本',
+    value: {},
+    key: '基-配本',
+    more: false,
+  },
+  '勘-底本/校本': {
+    // sort: 'name:asc',
+    label: '勘同目録-底本/校本',
+    key: '勘-底本/校本',
+    value: {},
+    more: false,
+  },
+  '勘同目録-テキスト': {
+    // sort: 'name:asc',
+    label: '勘同目録-テキスト',
+    key: '勘同目録-テキスト',
+    value: {},
+    more: false,
+  },
+  '脚-底本/校本': {
+    // sort: 'name:asc',
+    label: '脚注-底本/校本',
+    key: '脚-底本/校本',
+    value: {},
+    more: false,
+  },
+  '脚注-テキスト': {
+    // sort: 'name:asc',
+    label: '脚注-テキスト',
+    key: '脚注-テキスト',
+    value: {},
+    more: false,
+  },
+  画像: {
+    // sort: 'name:asc',
+    label: '画像',
+    key: '画像',
+    value: {},
+    more: false,
+  },
+}
+
+env.hide = []
+
+env.list = []
+
+env.sort = [
+  { label: '適合度', value: '_score' },
+  // { label: '基-経典番号', value: 'objectID' },
+  { label: '基本情報-配本', value: '基-配本' },
+]
+
+env.defaultSort = '_score:desc'
+
+env.layout = [
+  {
+    label: 'table',
+    value: 'table',
+    icon: 'mdi-table',
+    component: 'custom-search-layout-table',
+  },
+  {
+    label: 'graph',
+    value: 'graph',
+    icon: 'mdi-chart-bar',
+    component: 'search-layout-graph',
+  },
+]
+
+env.defaultLayout = 'table'
+
+env.advanced = []
+
+///
+
 module.exports = {
   server: {
     port: 8089, // デフォルト: 3000

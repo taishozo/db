@@ -39,7 +39,8 @@
             "ex:kmID": "km1997",
             "ex:toページ": 502,
             "ex:to段": "b",
-            "ex:ページ": 502,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=350",
+            "ex:ページ": "502",
             "ex:段": "a"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "西方要決釋疑通規",
                     "ex:経典番号": "T1964",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }

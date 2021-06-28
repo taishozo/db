@@ -1,14 +1,14 @@
 <template>
   <div>
     <v-container class="my-5">
-      <h2 class="my-5">データセット</h2>
+      <h2 class="my-5">{{ $t('dataset') }}</h2>
 
       <v-simple-table>
         <template v-slot:default>
           <thead>
             <tr>
               <th class="text-left">
-                Label
+                {{ $t('name') }}
               </th>
               <th class="text-left">
                 URL
@@ -49,6 +49,7 @@ export default class Page extends Vue {
       value:
         'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json',
     },
+    /*
     {
       label: 'メタデータ一覧（Excel）',
       value:
@@ -56,9 +57,9 @@ export default class Page extends Vue {
     },
     {
       label: 'メタデータ一覧（JSON-LD）',
-      value:
-        'https://taishozo.github.io/db/data.json',
+      value: 'https://taishozo.github.io/db/data.json',
     },
+    */
   ]
 }
 </script>

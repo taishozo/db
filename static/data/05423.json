@@ -31,7 +31,8 @@
             "ex:kmID": "km1179",
             "ex:toページ": 355,
             "ex:to段": "b",
-            "ex:ページ": 355,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=203",
+            "ex:ページ": "355",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "普遍光明淸淨熾盛如意寶印心無能勝大明王大隨求陀羅尼經",
                     "ex:経典番号": "T1153",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }
@@ -80,9 +83,10 @@
         {
             "@id": "data:05423.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1043",
             "ex:枝番": 1,
             "ex:經典番號": "U1037",
-            "ex:通番": 1043
+            "ex:通番": "1043"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

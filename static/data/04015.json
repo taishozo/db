@@ -38,7 +38,8 @@
             "ex:kmID": "km0812",
             "ex:toページ": 300,
             "ex:to段": "a",
-            "ex:ページ": 300,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=148",
+            "ex:ページ": "300",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説決定總持經",
                     "ex:経典番号": "T0811",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

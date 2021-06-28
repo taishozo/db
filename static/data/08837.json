@@ -31,7 +31,8 @@
             "ex:kmID": "km2088",
             "ex:toページ": 538,
             "ex:to段": "a",
-            "ex:ページ": 537,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=385",
+            "ex:ページ": "537",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "龍樹菩薩傳（別本）",
                     "ex:経典番号": "T2047",
                     "ex:部門": "史伝部2",
-                    "ex:配本": 33
+                    "ex:配本": [
+                        33
+                    ]
                 }
             ]
         }
@@ -77,9 +80,10 @@
         {
             "@id": "data:08837.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1467",
             "ex:枝番": 1,
             "ex:經典番號": "U1454",
-            "ex:通番": 1467
+            "ex:通番": "1467"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

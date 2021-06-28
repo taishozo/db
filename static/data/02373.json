@@ -31,7 +31,8 @@
             "ex:kmID": "km0487",
             "ex:toページ": 265,
             "ex:to段": "c",
-            "ex:ページ": 265,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=113",
+            "ex:ページ": "265",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "師子莊嚴王菩薩請問經",
                     "ex:経典番号": "T0486",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

@@ -40,7 +40,8 @@
             "ex:kmID": "km1699",
             "ex:toページ": 447,
             "ex:to段": "c",
-            "ex:ページ": 447,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=295",
+            "ex:ページ": "447",
             "ex:段": "b"
         }
     ],
@@ -59,7 +60,9 @@
                     "ex:経典名": "釋摩訶衍論",
                     "ex:経典番号": "T1668",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

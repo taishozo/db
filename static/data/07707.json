@@ -38,7 +38,8 @@
             "ex:kmID": "km1705",
             "ex:toページ": 448,
             "ex:to段": "c",
-            "ex:ページ": 448,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=296",
+            "ex:ページ": "448",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "勸發諸王要偈",
                     "ex:経典番号": "T1673",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

@@ -38,7 +38,8 @@
             "ex:kmID": "km1149",
             "ex:toページ": 352,
             "ex:to段": "a",
-            "ex:ページ": 352,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=200",
+            "ex:ページ": "352",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "普賢金剛薩埵略瑜伽念誦儀軌",
                     "ex:経典番号": "T1124",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

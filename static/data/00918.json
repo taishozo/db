@@ -31,7 +31,8 @@
             "ex:kmID": "km0217",
             "ex:toページ": 203,
             "ex:to段": "c",
-            "ex:ページ": 203,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=51",
+            "ex:ページ": "203",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説大魚事經",
                     "ex:経典番号": "T0216",
                     "ex:部門": "本縁部下",
-                    "ex:配本": 3
+                    "ex:配本": [
+                        3
+                    ]
                 }
             ]
         }

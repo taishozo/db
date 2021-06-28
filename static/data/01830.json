@@ -38,7 +38,8 @@
             "ex:kmID": "km0385",
             "ex:toページ": 250,
             "ex:to段": "a",
-            "ex:ページ": 249,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=97",
+            "ex:ページ": "249",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "菩薩從兜術天降神母胎説廣普經",
                     "ex:経典番号": "T0384",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

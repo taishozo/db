@@ -31,7 +31,8 @@
             "ex:kmID": "km1688",
             "ex:toページ": 444,
             "ex:to段": "b",
-            "ex:ページ": 444,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=292",
+            "ex:ページ": "444",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "手杖論",
                     "ex:経典番号": "T1657",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

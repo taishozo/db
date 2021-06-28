@@ -38,7 +38,8 @@
             "ex:kmID": "km0350",
             "ex:toページ": 241,
             "ex:to段": "c",
-            "ex:ページ": 241,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=89",
+            "ex:ページ": "241",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "彌勒菩薩所問本願經",
                     "ex:経典番号": "T0349",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

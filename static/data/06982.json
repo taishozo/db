@@ -31,7 +31,8 @@
             "ex:kmID": "km1565",
             "ex:toページ": 412,
             "ex:to段": "a",
-            "ex:ページ": 412,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=260",
+            "ex:ページ": "412",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "三具足經憂波提舍",
                     "ex:経典番号": "T1534",
                     "ex:部門": "釈経論部下/毘曇部1",
-                    "ex:配本": 23
+                    "ex:配本": [
+                        23
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06982.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1201",
             "ex:枝番": 1,
             "ex:經典番號": "U1189",
-            "ex:通番": 1201
+            "ex:通番": "1201"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

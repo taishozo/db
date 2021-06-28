@@ -51,7 +51,8 @@
             "ex:kmID": "km1466",
             "ex:toページ": 390,
             "ex:to段": "c",
-            "ex:ページ": 389,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=237",
+            "ex:ページ": "389",
             "ex:段": "c"
         }
     ],
@@ -70,7 +71,9 @@
                     "ex:経典名": "十誦律",
                     "ex:経典番号": "T1435",
                     "ex:部門": "律部2",
-                    "ex:配本": 18
+                    "ex:配本": [
+                        18
+                    ]
                 }
             ]
         }

@@ -21,7 +21,8 @@
             "ex:kmID": "km0984",
             "ex:toページ": 329,
             "ex:to段": "a",
-            "ex:ページ": 329,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=177",
+            "ex:ページ": "329",
             "ex:段": "a"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "加句靈驗佛頂尊勝陀羅尼記",
                     "ex:経典番号": "T0974C",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

@@ -261,5 +261,10 @@
     "graph" : "グラフ",
     "dataset" : "データセット",
     "inquiry" : "アンケート"
-
+    ,
+    "name" : "名前",
+    "cancel": "キャンセル",
+    "refine": "絞り込み",
+    "show all": "すべて表示",
+    "results" : "件"
   }

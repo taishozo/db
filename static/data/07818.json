@@ -21,7 +21,8 @@
             "ex:kmID": "km1736",
             "ex:toページ": 451,
             "ex:to段": "b",
-            "ex:ページ": 451,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=299",
+            "ex:ページ": "451",
             "ex:段": "b"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "佛説金剛般若波羅蜜經略疏",
                     "ex:経典番号": "T1704",
                     "ex:部門": "経疏部1",
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }

@@ -21,7 +21,8 @@
             "ex:kmID": "km1720",
             "ex:toページ": 449,
             "ex:to段": "c",
-            "ex:ページ": 449,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=297",
+            "ex:ページ": "449",
             "ex:段": "c"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "密跡力士大權神王經偈頌",
                     "ex:経典番号": "T1688",
                     "ex:部門": "論集部全",
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

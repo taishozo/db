@@ -38,7 +38,8 @@
             "ex:kmID": "km1046",
             "ex:toページ": 337,
             "ex:to段": "a",
-            "ex:ページ": 337,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=185",
+            "ex:ページ": "337",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "童子經念誦法",
                     "ex:経典番号": "T1028B",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

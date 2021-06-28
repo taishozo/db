@@ -38,7 +38,8 @@
             "ex:kmID": "km2055",
             "ex:toページ": 518,
             "ex:to段": "a",
-            "ex:ページ": 518,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=366",
+            "ex:ページ": "518",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "禪源諸詮集都序",
                     "ex:経典番号": "T2015",
                     "ex:部門": "諸宗部5",
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }
@@ -92,16 +95,18 @@
         {
             "@id": "data:08717.json#酉目1",
             "ex:to枝番": 8,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1656",
             "ex:枝番": 1,
             "ex:經典番號": "U1641",
-            "ex:通番": 1656
+            "ex:通番": "1656"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08717.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08717.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 61,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/966eee8b088c15ab27b03c8fff7116ce/manifest.json",
             "ex:画像フォルダ": "u-renja1656-1658",
             "ex:経典名": "禪源諸詮集都序2卷"
         }

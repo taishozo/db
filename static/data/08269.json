@@ -31,7 +31,8 @@
             "ex:kmID": "km1855",
             "ex:toページ": 471,
             "ex:to段": "c",
-            "ex:ページ": 471,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=319",
+            "ex:ページ": "471",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "倶舍論頌疏",
                     "ex:経典番号": "T1823",
                     "ex:部門": "論疏部2",
-                    "ex:配本": 43
+                    "ex:配本": [
+                        43
+                    ]
                 }
             ]
         }

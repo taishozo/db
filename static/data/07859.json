@@ -38,7 +38,8 @@
             "ex:kmID": "km1754",
             "ex:toページ": 454,
             "ex:to段": "c",
-            "ex:ページ": 454,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=302",
+            "ex:ページ": "454",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "法華遊意",
                     "ex:経典番号": "T1722",
                     "ex:部門": "経疏部2",
-                    "ex:配本": 29
+                    "ex:配本": [
+                        29
+                    ]
                 }
             ]
         }

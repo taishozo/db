@@ -31,7 +31,8 @@
             "ex:kmID": "km0949",
             "ex:toページ": 322,
             "ex:to段": "c",
-            "ex:ページ": 322,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=170",
+            "ex:ページ": "322",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説無能勝幡王如來莊嚴陀羅尼經",
                     "ex:経典番号": "T0943",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:04577.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=796",
             "ex:枝番": 1,
             "ex:經典番號": "U0790",
-            "ex:通番": 796
+            "ex:通番": "796"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

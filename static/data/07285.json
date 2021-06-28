@@ -38,7 +38,8 @@
             "ex:kmID": "km1618",
             "ex:toページ": 429,
             "ex:to段": "a",
-            "ex:ページ": 429,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=277",
+            "ex:ページ": "429",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "轉識論",
                     "ex:経典番号": "T1587",
                     "ex:部門": "瑜伽部下",
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

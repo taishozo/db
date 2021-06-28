@@ -32,7 +32,8 @@
             "ex:kmID": "km1834",
             "ex:toページ": 467,
             "ex:to段": "b",
-            "ex:ページ": 467,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=315",
+            "ex:ページ": "467",
             "ex:段": "a"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "十一面神呪心經義疏",
                     "ex:経典番号": "T1802",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }

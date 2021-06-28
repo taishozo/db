@@ -31,7 +31,8 @@
             "ex:kmID": "km0643",
             "ex:toページ": 281,
             "ex:to段": "a",
-            "ex:ページ": 280,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=128",
+            "ex:ページ": "280",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説首楞嚴三昧經",
                     "ex:経典番号": "T0642",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

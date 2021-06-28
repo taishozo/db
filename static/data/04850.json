@@ -38,7 +38,8 @@
             "ex:kmID": "km1025",
             "ex:toページ": 334,
             "ex:to段": "b",
-            "ex:ページ": 334,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=182",
+            "ex:ページ": "334",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説出生無邊門陀羅尼儀軌",
                     "ex:経典番号": "T1010",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

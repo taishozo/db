@@ -38,7 +38,8 @@
             "ex:kmID": "km2034",
             "ex:toページ": 513,
             "ex:to段": "c",
-            "ex:ページ": 513,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=361",
+            "ex:ページ": "513",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "圓悟佛果禪師語録",
                     "ex:経典番号": "T1997",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }
@@ -92,16 +95,18 @@
         {
             "@id": "data:08670.json#酉目1",
             "ex:to枝番": 23,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1538",
             "ex:枝番": 1,
             "ex:經典番號": "U1524",
-            "ex:通番": 1538
+            "ex:通番": "1538"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08670.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08670.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 385,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/1e486908aff588b21b5119010affaeb7/manifest.json",
             "ex:画像フォルダ": "u-renja1538",
             "ex:経典名": "圓悟佛果禪師語録20卷"
         }

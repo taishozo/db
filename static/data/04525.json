@@ -31,7 +31,8 @@
             "ex:kmID": "km0934",
             "ex:toページ": 321,
             "ex:to段": "a",
-            "ex:ページ": 321,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=169",
+            "ex:ページ": "321",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "修藥師儀軌布壇法",
                     "ex:経典番号": "T0928",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

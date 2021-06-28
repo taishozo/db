@@ -31,7 +31,8 @@
             "ex:kmID": "km1544",
             "ex:toページ": 408,
             "ex:to段": "c",
-            "ex:ページ": 408,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=256",
+            "ex:ページ": "408",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "能斷金剛般若波羅蜜多經論釋",
                     "ex:経典番号": "T1513",
                     "ex:部門": "釈経論部上",
-                    "ex:配本": 21
+                    "ex:配本": [
+                        21
+                    ]
                 }
             ]
         }

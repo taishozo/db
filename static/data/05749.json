@@ -33,7 +33,8 @@
             "ex:kmID": "km1275",
             "ex:toページ": 366,
             "ex:to段": "c",
-            "ex:ページ": 366,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=214",
+            "ex:ページ": "366",
             "ex:段": "b"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "毘沙門天王經",
                     "ex:経典番号": "T1244",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

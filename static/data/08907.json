@@ -32,7 +32,8 @@
             "ex:kmID": "km2108",
             "ex:toページ": 552,
             "ex:to段": "a",
-            "ex:ページ": 551,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=399",
+            "ex:ページ": "551",
             "ex:段": "a"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "弘賛法華傳",
                     "ex:経典番号": "T2067",
                     "ex:部門": "史伝部3",
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

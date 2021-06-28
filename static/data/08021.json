@@ -39,7 +39,8 @@
             "ex:kmID": "km1826",
             "ex:toページ": 466,
             "ex:to段": "a",
-            "ex:ページ": 466,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=314",
+            "ex:ページ": "466",
             "ex:段": "a"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "註四十二章經",
                     "ex:経典番号": "T1794",
                     "ex:部門": "経疏部7",
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }
@@ -92,16 +95,18 @@
         {
             "@id": "data:08021.json#酉目1",
             "ex:to枝番": 5,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=679",
             "ex:枝番": 1,
             "ex:經典番號": "U0674",
-            "ex:通番": 679
+            "ex:通番": "679"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08021.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08021.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 22,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/cd04078bf078dd93d935be60160a36e0/manifest.json",
             "ex:画像フォルダ": "u-renja0679",
             "ex:経典名": "佛説四十二章經1卷"
         }

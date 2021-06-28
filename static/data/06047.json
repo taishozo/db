@@ -31,7 +31,8 @@
             "ex:kmID": "km1369",
             "ex:toページ": 378,
             "ex:to段": "a",
-            "ex:ページ": 377,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=225",
+            "ex:ページ": "377",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "呪三首經",
                     "ex:経典番号": "T1338",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

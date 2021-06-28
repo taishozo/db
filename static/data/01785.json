@@ -31,7 +31,8 @@
             "ex:kmID": "km0378",
             "ex:toページ": 249,
             "ex:to段": "a",
-            "ex:ページ": 248,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=96",
+            "ex:ページ": "248",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大般涅槃經後分",
                     "ex:経典番号": "T0377",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }
@@ -79,16 +82,18 @@
         {
             "@id": "data:01785.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=114",
             "ex:枝番": 1,
             "ex:經典番號": "U0111",
-            "ex:通番": 114
+            "ex:通番": "114"
         },
         {
             "@id": "data:01785.json#酉目2",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=0116",
             "ex:枝番": 1,
             "ex:經典番號": "U0111",
-            "ex:通番": 116
+            "ex:通番": "116"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

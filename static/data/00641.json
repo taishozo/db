@@ -31,7 +31,8 @@
             "ex:kmID": "km0154",
             "ex:toページ": 189,
             "ex:to段": "c",
-            "ex:ページ": 189,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=37",
+            "ex:ページ": "189",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "菩薩本縁經",
                     "ex:経典番号": "T0153",
                     "ex:部門": "本縁部上",
-                    "ex:配本": 2
+                    "ex:配本": [
+                        2
+                    ]
                 }
             ]
         }

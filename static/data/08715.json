@@ -38,7 +38,8 @@
             "ex:kmID": "km2054",
             "ex:toページ": 518,
             "ex:to段": "a",
-            "ex:ページ": 517,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=365",
+            "ex:ページ": "517",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "永嘉證道歌/附、無相大師行状",
                     "ex:経典番号": "T2014",
                     "ex:部門": "諸宗部5",
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }
@@ -92,25 +95,28 @@
         {
             "@id": "data:08715.json#酉目1",
             "ex:to枝番": 4,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1590",
             "ex:枝番": 4,
             "ex:經典番號": "U1578",
-            "ex:通番": 1590
+            "ex:通番": "1590"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:08715.json#酉蓮社本IIIコレクション1",
+            "@id": "data:08715.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 4,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/5188f81390839ec61d4572eac0a6e0db/manifest.json",
             "ex:画像フォルダ": "u-renja1590",
-            "ex:経典名": "無相大師行状1卷永嘉證道歌1卷"
+            "ex:経典名": "無相大師行状1卷"
         },
         {
-            "@id": "data:08715.json#酉蓮社本IIIコレクション2",
+            "@id": "data:08715.json#酉蓮社本IIIFコレクション2",
             "ex:from": 49,
             "ex:to": 58,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/2e8d09dcc28bf3eb46d9a1c5c0d3ba36/manifest.json",
             "ex:画像フォルダ": "u-renja1590",
-            "ex:経典名": "無相大師行状1卷永嘉證道歌1卷"
+            "ex:経典名": "永嘉證道歌1卷"
         }
     ]
 }

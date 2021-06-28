@@ -21,7 +21,8 @@
             "ex:kmID": "km0242",
             "ex:toページ": 215,
             "ex:to段": "c",
-            "ex:ページ": 215,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=63",
+            "ex:ページ": "215",
             "ex:段": "b"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "金剛頂瑜伽理趣般若經",
                     "ex:経典番号": "T0241",
                     "ex:部門": "般若部4",
-                    "ex:配本": 4
+                    "ex:配本": [
+                        4
+                    ]
                 }
             ]
         }

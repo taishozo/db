@@ -32,7 +32,8 @@
             "ex:kmID": "km2221",
             "ex:toページ": 655,
             "ex:to段": "c",
-            "ex:ページ": 655,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=503",
+            "ex:ページ": "655",
             "ex:段": "b"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "諸阿闍梨眞言密教部類總録",
                     "ex:経典番号": "T2176",
                     "ex:部門": "目録部全",
-                    "ex:配本": 55
+                    "ex:配本": [
+                        55
+                    ]
                 }
             ]
         }

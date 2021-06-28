@@ -33,7 +33,8 @@
             "ex:kmID": "km1320",
             "ex:toページ": 371,
             "ex:to段": "a",
-            "ex:ページ": 371,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=219",
+            "ex:ページ": "371",
             "ex:段": "a"
         }
     ],
@@ -52,7 +53,9 @@
                     "ex:経典名": "佛説金毘羅童子威德經",
                     "ex:経典番号": "T1289",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

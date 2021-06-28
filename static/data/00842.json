@@ -31,7 +31,8 @@
             "ex:kmID": "km0200",
             "ex:toページ": 197,
             "ex:to段": "b",
-            "ex:ページ": 197,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=45",
+            "ex:ページ": "197",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛五百弟子自説本起經",
                     "ex:経典番号": "T0199",
                     "ex:部門": "本縁部下",
-                    "ex:配本": 3
+                    "ex:配本": [
+                        3
+                    ]
                 }
             ]
         }

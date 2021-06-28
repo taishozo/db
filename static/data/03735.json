@@ -38,7 +38,8 @@
             "ex:kmID": "km0756",
             "ex:toページ": 295,
             "ex:to段": "c",
-            "ex:ページ": 295,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=143",
+            "ex:ページ": "295",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説淨意優婆塞所問經",
                     "ex:経典番号": "T0755",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

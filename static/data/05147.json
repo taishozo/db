@@ -39,7 +39,8 @@
             "ex:kmID": "km1105",
             "ex:toページ": 345,
             "ex:to段": "b",
-            "ex:ページ": 345,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=193",
+            "ex:ページ": "345",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "觀世音菩薩如意摩尼陀羅尼經",
                     "ex:経典番号": "T1083",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

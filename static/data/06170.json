@@ -31,7 +31,8 @@
             "ex:kmID": "km1400",
             "ex:toページ": 381,
             "ex:to段": "b",
-            "ex:ページ": 381,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=229",
+            "ex:ページ": "381",
             "ex:段": "b"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "百千印陀羅尼經（別本）",
                     "ex:経典番号": "T1369",
                     "ex:部門": "密教部4",
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:06170.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=504",
             "ex:枝番": 1,
             "ex:經典番號": "U0499",
-            "ex:通番": 504
+            "ex:通番": "504"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

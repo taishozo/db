@@ -31,7 +31,8 @@
             "ex:kmID": "km1603",
             "ex:toページ": 423,
             "ex:to段": "c",
-            "ex:ページ": 423,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=271",
+            "ex:ページ": "423",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "百字論",
                     "ex:経典番号": "T1572",
                     "ex:部門": "中観部全/瑜伽部上",
-                    "ex:配本": 42
+                    "ex:配本": [
+                        42
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:07194.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1260",
             "ex:枝番": 1,
             "ex:經典番號": "U1247",
-            "ex:通番": 1260
+            "ex:通番": "1260"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

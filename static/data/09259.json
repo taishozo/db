@@ -32,7 +32,8 @@
             "ex:kmID": "km2224",
             "ex:toページ": 655,
             "ex:to段": "c",
-            "ex:ページ": 655,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=503",
+            "ex:ページ": "655",
             "ex:段": "c"
         }
     ],
@@ -51,7 +52,9 @@
                     "ex:経典名": "三論宗章疏",
                     "ex:経典番号": "T2179",
                     "ex:部門": "目録部全",
-                    "ex:配本": 55
+                    "ex:配本": [
+                        55
+                    ]
                 }
             ]
         }

@@ -31,7 +31,8 @@
             "ex:kmID": "km1008",
             "ex:toページ": 331,
             "ex:to段": "c",
-            "ex:ページ": 331,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=179",
+            "ex:ページ": "331",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "仁王護國般若波羅蜜多經陀羅尼念誦儀軌",
                     "ex:経典番号": "T0994",
                     "ex:部門": "密教部2",
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }
@@ -80,9 +83,10 @@
         {
             "@id": "data:04779.json#酉目1",
             "ex:to枝番": 2,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1441",
             "ex:枝番": 1,
             "ex:經典番號": "U1428",
-            "ex:通番": 1441
+            "ex:通番": "1441"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

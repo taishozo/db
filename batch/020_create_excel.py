@@ -13,46 +13,7 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font
 import openpyxl
 
-'''
-wb = openpyxl.Workbook()
-ws = wb.active
-# 2枚目のシートを作成
-ws2 = wb.create_sheet("Sheet2")
 
-# A1にSheet2という文字列を設定して、リンク先に同ドキュメント内の"Sheet2"シートのA1を指定
-ws["A1"].value = "Sheet2"
-ws["A1"].hyperlink = "test.xlsx#sheet2!A1"
-# A2に"CNN"という文字列を設定して、リンク先にCNNのアドレスを指定
-ws["A2"].value = "CNN"
-ws["A2"].hyperlink = "https://edition.cnn.com/cnn10"
-# A3に"はてな"という文字列を設定して、リンク先に「はてな」のアドレスを指定
-ws.cell(row=3, column=1).value = u"はてな"
-ws.cell(row=3, column=1).hyperlink = "http://www.hatena.ne.jp/"
-# HYPERLINK関数自体を設定することも可能
-ws.cell(row=4, column=1).value = '=HYPERLINK("https://www.amazon.co.jp/", "Amazon")'
-ws.cell(row=4, column=1).font = openpyxl.styles.fonts.Font(color='FF0000')
-# 保存
-wb.save('test.xlsx')
-'''
-
-############
-
-'''
-from openpyxl import Workbook, load_workbook
-
-wb = load_workbook('test.xlsx')
-ws = wb.active
-
-r_count = ws.max_row
-c_count = ws.max_column
-
-for j in range(2, r_count):
-    for i in range(0, c_count):
-        cell = ws.cell(row=j+1, column=i+1)
-        print(j, i, cell.value)
-'''
-
-############
 
 with open("/Users/nakamurasatoru/git/d_sat/u-renja/static/iiif2/collection/top.json") as f:
     df2 = json.load(f)
@@ -160,7 +121,7 @@ def read_excel(path):
 
         num2 = ws.cell(row=j+1, column=118+1).value #df.iloc[j, 114]
         if num2 != "" and num2 != None:
-            ws.cell(row=j+1, column=118+1).value = '=HYPERLINK("https://taishozo.github.io/u-renja/search/?fc-通番={}", "{}")'.format(num2, num2)
+            ws.cell(row=j+1, column=118+1).value = '=HYPERLINK("https://taishozo.github.io/u-renja/search/?fc-通番={}", "{}")'.format(str(num2).zfill(4), num2)
             ws.cell(row=j+1, column=118+1).font = hyperlink
 
         kando = ws.cell(row=j+1, column=122+1).value #df.iloc[j, 114]
@@ -168,36 +129,55 @@ def read_excel(path):
             pos = int(kando) - 152
             ws.cell(row=j+1, column=122+1).value = '=HYPERLINK("http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos={}", "{}")'.format(pos, int(kando))
             ws.cell(row=j+1, column=122+1).font = hyperlink
+        
+        # 画像リンク
+        for c in range(0, 3):
 
-        folder1 = ws.cell(row=j+1, column=127+1).value #df.iloc[j, 114]
-        if folder1 != "" and folder1 != None:
+            
 
-            x = ws.cell(row=j+1, column=128+1).value
-            y = ws.cell(row=j+1, column=129+1).value
+            folder1 = ws.cell(row=j+1, column=127+1 + 4 * c).value #df.iloc[j, 114]
+            
+            
+            if folder1 != "" and folder1 != None:
 
-            print(folder1, x, y)
+                x = ws.cell(row=j+1, column=128+1 + 4 * c).value
+                y = ws.cell(row=j+1, column=129+1 + 4 * c).value
 
-            uuid1 = folder1 + "_" + str(x).zfill(4) + "_" + str(y).zfill(4)
+                # print(folder1, x, y)
 
-            num1 = int(num1)
+                uuid1 = folder1 + "_" + str(x).zfill(4) + "_" + str(y).zfill(4)
+                
+                num1 = int(num1)
 
-            if num1 in images:
+                num = num1
 
-                value1 = ""
-                    
-                arr = images[num1]
+                if uuid1 == "u-renja1524-1525_0003_0005":
+                    num += 1
 
-                for a in arr:
-                    if uuid1 == a["identifier"]:
-                        value1 = a["id"]
+                if uuid1 == "u-renja1663-1668_0015_0017":
+                    num += 1
 
-                if value1 == "":
-                    print("missing", uuid1, "value1", value1)
-                else:
-                    ws.cell(row=j+1, column=126+1).value = '=HYPERLINK("http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={}", "{}")'.format(value1, ws.cell(row=j+1, column=126+1).value)
-                    ws.cell(row=j+1, column=126+1).font = hyperlink
-                    # df.iloc[j, 126] = "[{}]({})".format(df.iloc[j, 126], value1)
+                if uuid1 == "u-renja1663-1668_0017_0019":
+                    num += 2
 
+                if num in images:
+
+                    value1 = ""
+                        
+                    arr = images[num]
+
+                    for a in arr:
+                        if uuid1 == a["identifier"]:
+                            value1 = a["id"]
+
+                    if value1 == "":
+                        print("missing", uuid1, "value1", value1, "num", num)
+                    else:
+                        ws.cell(row=j+1, column=126+1 + 4 * c).value = '=HYPERLINK("http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={}", "{}")'.format(value1, ws.cell(row=j+1, column=126+1 + 4 * c).value)
+                        ws.cell(row=j+1, column=126+1 + 4 * c).font = hyperlink
+                        # df.iloc[j, 126] = "[{}]({})".format(df.iloc[j, 126], value1)
+
+        '''
         folder2 = ws.cell(row=j+1, column=131+1).value #df.iloc[j, 114]
         if folder2 != "" and folder2 != None:
 
@@ -225,6 +205,7 @@ def read_excel(path):
                 else:
                     ws.cell(row=j+1, column=130+1).value = '=HYPERLINK("http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={}", "{}")'.format(value2, ws.cell(row=j+1, column=130+1).value)
                     ws.cell(row=j+1, column=130+1).font = hyperlink
+        '''
 
         '''
         num2 = df.iloc[j, 118]
@@ -298,6 +279,13 @@ def read_excel(path):
 
     wb.save('../static/metadata/data.xlsx')
 
-path = "data/『大正新脩大蔵経』底本・校本一覧データベース20210622.xlsx"
+
+with open("config.json") as f:
+    config = json.load(f)
+
+filename = config["filename"]
+
+path = "data/" + filename
+
 # data1 = read_excel(path)
 read_excel(path)

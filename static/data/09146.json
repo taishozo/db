@@ -21,7 +21,8 @@
             "ex:kmID": "km2181",
             "ex:toページ": 648,
             "ex:to段": "c",
-            "ex:ページ": 648,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=496",
+            "ex:ページ": "648",
             "ex:段": "b"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "老子化胡經(第一・第十)",
                     "ex:経典番号": "T2139",
                     "ex:部門": "事彙部下/外教部全",
-                    "ex:配本": 53
+                    "ex:配本": [
+                        53
+                    ]
                 }
             ]
         }

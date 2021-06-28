@@ -41,7 +41,8 @@
             "ex:kmID": "km0339",
             "ex:toページ": 240,
             "ex:to段": "b",
-            "ex:ページ": 240,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=88",
+            "ex:ページ": "240",
             "ex:段": "b"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "佛説離垢施女經",
                     "ex:経典番号": "T0338",
                     "ex:部門": "宝積部下/涅槃部全",
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

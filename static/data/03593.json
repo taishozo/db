@@ -21,7 +21,8 @@
             "ex:kmID": "km0727",
             "ex:toページ": 293,
             "ex:to段": "a",
-            "ex:ページ": 293,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=141",
+            "ex:ページ": "293",
             "ex:段": "a"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "六趣輪廻經",
                     "ex:経典番号": "T0726",
                     "ex:部門": "経集部4",
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

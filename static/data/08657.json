@@ -21,7 +21,8 @@
             "ex:kmID": "km2027",
             "ex:toページ": 513,
             "ex:to段": "a",
-            "ex:ページ": 512,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=360",
+            "ex:ページ": "512",
             "ex:段": "c"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "金陵淸涼院文益禪師語録",
                     "ex:経典番号": "T1991",
                     "ex:部門": "諸宗部4",
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }

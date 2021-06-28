@@ -31,7 +31,8 @@
             "ex:kmID": "km0062",
             "ex:toページ": 162,
             "ex:to段": "c",
-            "ex:ページ": 162,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=10",
+            "ex:ページ": "162",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "佛説新歳經",
                     "ex:経典番号": "T0062",
                     "ex:部門": "阿含部上",
-                    "ex:配本": 1
+                    "ex:配本": [
+                        1
+                    ]
                 }
             ]
         }

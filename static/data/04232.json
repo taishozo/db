@@ -31,7 +31,8 @@
             "ex:kmID": "km0857",
             "ex:toページ": 308,
             "ex:to段": "a",
-            "ex:ページ": 307,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=155",
+            "ex:ページ": "307",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "大毘盧遮那成佛神變加持經略示七支念誦隨行法",
                     "ex:経典番号": "T0856",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:04232.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1401",
             "ex:枝番": 1,
             "ex:經典番號": "U1388",
-            "ex:通番": 1401
+            "ex:通番": "1401"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

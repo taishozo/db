@@ -38,7 +38,8 @@
             "ex:kmID": "km0590",
             "ex:toページ": 275,
             "ex:to段": "a",
-            "ex:ページ": 274,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=122",
+            "ex:ページ": "274",
             "ex:段": "c"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説魔逆經",
                     "ex:経典番号": "T0589",
                     "ex:部門": "経集部2",
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

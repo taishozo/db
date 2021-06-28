@@ -21,7 +21,8 @@
             "ex:kmID": "km1915",
             "ex:toページ": 487,
             "ex:to段": "c",
-            "ex:ページ": 487,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=335",
+            "ex:ページ": "487",
             "ex:段": "c"
         }
     ],
@@ -40,7 +41,9 @@
                     "ex:経典名": "華嚴法界玄鏡",
                     "ex:経典番号": "T1883",
                     "ex:部門": "諸宗部2",
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

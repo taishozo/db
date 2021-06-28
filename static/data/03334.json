@@ -39,7 +39,8 @@
             "ex:kmID": "km0676",
             "ex:toページ": 287,
             "ex:to段": "c",
-            "ex:ページ": 287,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=135",
+            "ex:ページ": "287",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "深密解脱經",
                     "ex:経典番号": "T0675",
                     "ex:部門": "経集部3",
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }

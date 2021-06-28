@@ -38,7 +38,8 @@
             "ex:kmID": "km1089",
             "ex:toページ": 343,
             "ex:to段": "a",
-            "ex:ページ": 343,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=191",
+            "ex:ページ": "343",
             "ex:段": "a"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "千手觀音造次第法儀軌",
                     "ex:経典番号": "T1068",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

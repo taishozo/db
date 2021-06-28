@@ -39,7 +39,8 @@
             "ex:kmID": "km0854",
             "ex:toページ": 307,
             "ex:to段": "c",
-            "ex:ページ": 307,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=155",
+            "ex:ページ": "307",
             "ex:段": "b"
         }
     ],
@@ -58,7 +59,9 @@
                     "ex:経典名": "大毘盧遮那成佛神變加持經蓮華胎藏菩提幢標幟普通眞言藏廣大成就瑜伽",
                     "ex:経典番号": "T0853",
                     "ex:部門": "密教部1",
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

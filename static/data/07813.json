@@ -31,7 +31,8 @@
             "ex:kmID": "km1734",
             "ex:toページ": 451,
             "ex:to段": "a",
-            "ex:ページ": 451,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=299",
+            "ex:ページ": "451",
             "ex:段": "a"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "金剛經纂要刊定記",
                     "ex:経典番号": "T1702",
                     "ex:部門": "経疏部1",
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }
@@ -85,16 +88,18 @@
         {
             "@id": "data:07813.json#酉目1",
             "ex:to枝番": 7,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1641",
             "ex:枝番": 1,
             "ex:經典番號": "U1625",
-            "ex:通番": 1641
+            "ex:通番": "1641"
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
-            "@id": "data:07813.json#酉蓮社本IIIコレクション1",
+            "@id": "data:07813.json#酉蓮社本IIIFコレクション1",
             "ex:from": 66,
             "ex:to": 287,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/97d9bceff189191bb2fa150caebb613d/manifest.json",
             "ex:画像フォルダ": "u-renja1640-1641",
             "ex:経典名": "金剛經纂要刊定記7卷"
         }

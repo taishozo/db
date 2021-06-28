@@ -38,7 +38,8 @@
             "ex:kmID": "km0441",
             "ex:toページ": 259,
             "ex:to段": "b",
-            "ex:ページ": 259,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=107",
+            "ex:ページ": "259",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説佛名經（十二卷）（後魏菩提流支譯）",
                     "ex:経典番号": "T0440",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

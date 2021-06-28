@@ -31,7 +31,8 @@
             "ex:kmID": "km0221",
             "ex:toページ": 207,
             "ex:to段": "c",
-            "ex:ページ": 203,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=51",
+            "ex:ページ": "203",
             "ex:段": "c"
         }
     ],
@@ -52,7 +53,11 @@
                     "ex:経典名": "大般若波羅蜜多經",
                     "ex:経典番号": "T0220",
                     "ex:部門": "般若部1-3",
-                    "ex:配本": "6,10,8"
+                    "ex:配本": [
+                        6,
+                        10,
+                        8
+                    ]
                 }
             ]
         }
@@ -81,9 +86,10 @@
         {
             "@id": "data:00937.json#酉目1",
             "ex:to枝番": 618,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=1",
             "ex:枝番": 1,
             "ex:經典番號": "U0001",
-            "ex:通番": 1
+            "ex:通番": "1"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

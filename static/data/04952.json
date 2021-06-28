@@ -31,7 +31,8 @@
             "ex:kmID": "km1052",
             "ex:toページ": 337,
             "ex:to段": "c",
-            "ex:ページ": 337,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=185",
+            "ex:ページ": "337",
             "ex:段": "c"
         }
     ],
@@ -50,7 +51,9 @@
                     "ex:経典名": "呪五首",
                     "ex:経典番号": "T1034",
                     "ex:部門": "密教部3",
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }
@@ -79,9 +82,10 @@
         {
             "@id": "data:04952.json#酉目1",
             "ex:to枝番": 1,
+            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=331",
             "ex:枝番": 1,
             "ex:經典番號": "U0326",
-            "ex:通番": 331
+            "ex:通番": "331"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

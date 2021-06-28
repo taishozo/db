@@ -38,7 +38,8 @@
             "ex:kmID": "km0498",
             "ex:toページ": 266,
             "ex:to段": "c",
-            "ex:ページ": 266,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=114",
+            "ex:ページ": "266",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "佛説摩訶迦葉度貧母經",
                     "ex:経典番号": "T0497",
                     "ex:部門": "経集部1",
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

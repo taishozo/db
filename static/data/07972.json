@@ -38,7 +38,8 @@
             "ex:kmID": "km1804",
             "ex:toページ": 462,
             "ex:to段": "b",
-            "ex:ページ": 462,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=310",
+            "ex:ページ": "462",
             "ex:段": "b"
         }
     ],
@@ -57,7 +58,9 @@
                     "ex:経典名": "觀彌勒上生兜率天經賛",
                     "ex:経典番号": "T1772",
                     "ex:部門": "経疏部6",
-                    "ex:配本": 32
+                    "ex:配本": [
+                        32
+                    ]
                 }
             ]
         }

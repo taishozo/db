@@ -41,7 +41,8 @@
             "ex:kmID": "km0398",
             "ex:toページ": 253,
             "ex:to段": "a",
-            "ex:ページ": 251,
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=99",
+            "ex:ページ": "251",
             "ex:段": "c"
         }
     ],
@@ -60,7 +61,9 @@
                     "ex:経典名": "大方等大集經（北涼曇無讖譯）",
                     "ex:経典番号": "T0397",
                     "ex:部門": "大集部",
-                    "ex:配本": 7
+                    "ex:配本": [
+                        7
+                    ]
                 }
             ]
         }
