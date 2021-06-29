@@ -96,7 +96,7 @@ def read_excel(path):
 
         経典番号 =  ws.cell(row=j+1, column=1+1).value
         枝番 = ws.cell(row=j+1, column=9+1).value
-        if 枝番 == "" or 枝番 == None:
+        if 枝番 == None:
             枝番 = ""
 
         e1 = ws.cell(row=j+1, column=8+1).value if ws.cell(row=j+1, column=8+1).value != None else ws.cell(row=j+1, column=8+1).value # ""
@@ -114,14 +114,14 @@ def read_excel(path):
         
         num1 = ws.cell(row=j+1, column=114+1).value #df.iloc[j, 114]
         if num1 != "" and num1 != None:
-            ws.cell(row=j+1, column=114+1).value = '=HYPERLINK("https://taishozo.github.io/u-renja/search/?fc-通番={}", "{}")'.format(num1, num1)
+            ws.cell(row=j+1, column=114+1).value = '=HYPERLINK("https://taishozo.github.io/u-renja/search/?main[refinementList][通番]={}", "{}")'.format(num1, num1)
             ws.cell(row=j+1, column=114+1).font = hyperlink
             
             # df.iloc[j, 114] = "[{}]({})".format(num1, num1)
 
         num2 = ws.cell(row=j+1, column=118+1).value #df.iloc[j, 114]
         if num2 != "" and num2 != None:
-            ws.cell(row=j+1, column=118+1).value = '=HYPERLINK("https://taishozo.github.io/u-renja/search/?fc-通番={}", "{}")'.format(str(num2).zfill(4), num2)
+            ws.cell(row=j+1, column=118+1).value = '=HYPERLINK("https://taishozo.github.io/u-renja/search/?main[refinementList][通番]={}", "{}")'.format(str(num2).zfill(4), num2)
             ws.cell(row=j+1, column=118+1).font = hyperlink
 
         kando = ws.cell(row=j+1, column=122+1).value #df.iloc[j, 114]
@@ -176,106 +176,6 @@ def read_excel(path):
                         ws.cell(row=j+1, column=126+1 + 4 * c).value = '=HYPERLINK("http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={}", "{}")'.format(value1, ws.cell(row=j+1, column=126+1 + 4 * c).value)
                         ws.cell(row=j+1, column=126+1 + 4 * c).font = hyperlink
                         # df.iloc[j, 126] = "[{}]({})".format(df.iloc[j, 126], value1)
-
-        '''
-        folder2 = ws.cell(row=j+1, column=131+1).value #df.iloc[j, 114]
-        if folder2 != "" and folder2 != None:
-
-            x = ws.cell(row=j+1, column=132+1).value
-            y = ws.cell(row=j+1, column=132+1).value
-
-            print(folder2, x, y)
-
-            uuid2 = folder2 + "_" + str(x).zfill(4) + "_" + str(y).zfill(4)
-
-            num1 = int(num1)
-
-            if num1 in images:
-
-                value2 = ""
-                    
-                arr = images[num1]
-
-                for a in arr:
-                    if uuid2 == a["identifier"]:
-                        value2 = a["id"]
-
-                if value2 == "":
-                    print("missing", uuid2, "value2", value2)
-                else:
-                    ws.cell(row=j+1, column=130+1).value = '=HYPERLINK("http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={}", "{}")'.format(value2, ws.cell(row=j+1, column=130+1).value)
-                    ws.cell(row=j+1, column=130+1).font = hyperlink
-        '''
-
-        '''
-        num2 = df.iloc[j, 118]
-        if not pd.isnull(num2):
-            df.iloc[j, 118] = "[{}](https://taishozo.github.io/u-renja/search/?fc-通番={})".format(num2, num2)
-
-        kando = df.iloc[j, 122]
-        if not pd.isnull(kando):
-            pos = int(kando) - 152
-            df.iloc[j, 122] = "[{}](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos={})".format(int(kando), pos)
-
-        folder1 = df.iloc[j, 127]
-        if not pd.isnull(folder1):
-
-            uuid1 = folder1 + "_" + str(df.iloc[j, 128]).zfill(4) + "_" + str(df.iloc[j, 129]).zfill(4)
-
-            num1 = int(num1)
-
-            if num1 in images:
-
-                value1 = ""
-                    
-                arr = images[num1]
-
-                for a in arr:
-                    if uuid1 == a["identifier"]:
-                        value1 = a["id"]
-
-                if value1 == "":
-                    print(uuid1, "value1", value1)
-                else:
-                    df.iloc[j, 126] = "[{}]({})".format(df.iloc[j, 126], value1)
-
-            # dir1 = df.iloc[j, 127]
-
-        folder2 = df.iloc[j, 131]
-        if not pd.isnull(folder2):
-            uuid2 = folder2 + "_" + str(df.iloc[j, 132]).zfill(4) + "_" + str(df.iloc[j, 133]).zfill(4)
-
-            num1 = int(num1)
-
-            if num1 in images:
-
-                value2 = ""
-                    
-                arr = images[num1]
-
-                for a in arr:
-                    if uuid2 == a["identifier"]:
-                        value2 = a["id"]
-
-                if value2 == "":
-                    print(uuid2, "value2", value2)
-                else:
-                    df.iloc[j, 130] = "[{}]({})".format(df.iloc[j, 130], value2)
-
-
-        # print(num, kando, title1, dir1, title2, dir2)
-
-        '''
-
-    '''
-    writer = pd.ExcelWriter('../static/metadata/data.xlsx', engine="openpyxl")
-    df.to_excel(writer, index=False, header=False)
-
-    #Excelファイルを保存
-    writer.save()
-    #Excelファイルを閉じる
-    writer.close()
-    '''
 
     wb.save('../static/metadata/data.xlsx')
 

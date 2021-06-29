@@ -19,7 +19,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app>
+    <v-app-bar>
       <v-app-bar-nav-icon v-if="isMobile" @click.stop="drawer = !drawer" />
 
       <v-toolbar-title>

@@ -182,8 +182,15 @@ for item in df:
     for key in item2:
         if key in ["画像"]:
             continue
-        if type(item2[key]) is str:
-            fulltext += ", " + item2[key]
+
+        value = item2[key]
+
+        if type(value) is str:
+
+            if "http" in value:
+                continue
+
+            fulltext += ", " + value
 
     for obj in item2["酉蓮社本IIIFコレクション"]:
         fulltext += ", " + obj["label"]

@@ -82,7 +82,7 @@
         {
             "@id": "data:02006.json#酉目1",
             "ex:to枝番": 6,
-            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=75",
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=75",
             "ex:枝番": 1,
             "ex:經典番號": "U0071",
             "ex:通番": "75"
