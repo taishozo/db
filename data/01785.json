@@ -82,7 +82,7 @@
         {
             "@id": "data:01785.json#酉目1",
             "ex:to枝番": 2,
-            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=114",
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=114",
             "ex:枝番": 1,
             "ex:經典番號": "U0111",
             "ex:通番": "114"
@@ -90,7 +90,7 @@
         {
             "@id": "data:01785.json#酉目2",
             "ex:to枝番": 2,
-            "ex:url": "https://taishozo.github.io/u-renja/search/?fc-通番=0116",
+            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=0116",
             "ex:枝番": 1,
             "ex:經典番號": "U0111",
             "ex:通番": "116"
