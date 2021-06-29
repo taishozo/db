@@ -145,7 +145,6 @@
 
         <td width="5%">
           <nuxt-link
-            target="_blank"
             :to="
               localePath({
                 name: 'item-id',
