@@ -1,3 +1,4 @@
+const fs = require('fs')
 // const webpack = require('webpack')
 require('dotenv').config()
 const {
@@ -179,6 +180,9 @@ env.layout = [
 env.defaultLayout = 'table'
 
 env.advanced = []
+
+const norm = JSON.parse(fs.readFileSync('static/norm.json'))
+env.itaiji = norm
 
 ///
 

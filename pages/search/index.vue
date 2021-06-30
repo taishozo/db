@@ -655,7 +655,7 @@ export default {
     filter() {
       const query = JSON.parse(JSON.stringify(this.$route.query))
 
-      const q = query['main[query]'] || ''
+      let q = query['main[query]'] || ''
 
       const docs = this.docs
       const index = this.index
@@ -673,6 +673,14 @@ export default {
       if (q === '') {
         ids = Object.keys(docs)
       } else {
+        // 異体字対応
+        const spl = q.split('')
+        q = ''
+        const itaiji = process.env.itaiji
+        for (const e of spl) {
+          q += itaiji[e] || e
+        }
+
         const terms = q.split('　').join(' ').split(' ')
 
         for (const key in index) {

@@ -9,6 +9,19 @@ import argparse
 import json
 import html
 
+with open("data/itaiji.json") as f:
+    dd = json.load(f)
+
+
+def itaiji(data):
+    for key in dd:
+        for v in dd[key]:
+            data = data.replace(v, key)
+
+    return data
+
+#####
+
 with open("../static/data.json") as f:
     df = json.load(f)
 
@@ -194,6 +207,9 @@ for item in df:
 
     for obj in item2["酉蓮社本IIIFコレクション"]:
         fulltext += ", " + obj["label"]
+
+    # 変換
+    fulltext = itaiji(fulltext)
 
     item2["fulltext"] = fulltext
 
