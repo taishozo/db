@@ -92,6 +92,13 @@ env.bc = false
 env.index = 'index.json'
 
 env.aggs = {
+  '基-経典番号': {
+    sort: '',
+    label: '基本情報-経典番号',
+    value: {},
+    key: '基-経典番号',
+    more: false,
+  },
   '基-収録巻次': {
     sort: 'name:asc',
     label: '基本情報-収録巻次',
