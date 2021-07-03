@@ -457,17 +457,16 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     'nuxt-i18n',
-    // '@nuxtjs/sitemap',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: GOOGLE_ANALYTICS_ID,
-      },
-    ],
+    '@nuxtjs/sitemap',
     'nuxt-leaflet',
     // ['@nuxtjs/moment', ['ja', 'en']],
     '@nuxtjs/moment',
+    '@nuxtjs/google-gtag',
   ],
+  'google-gtag': {
+    id: 'G-NFP9ZFRP31',
+    debug: true, // Enable to track in dev mode.
+  },
   i18n: {
     locales: [
       { code: 'en', iso: 'en_US', file: 'en.json' },
