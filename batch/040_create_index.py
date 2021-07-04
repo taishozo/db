@@ -189,7 +189,7 @@ for item in df:
     if len(item2["酉蓮社本IIIFコレクション"]) > 0:
         item2["画像"] = "あり"
     else:
-        item2["画像"] = "なし"
+        item2["画像"] = ""
 
     fulltext = ""
     for key in item2:
@@ -214,6 +214,19 @@ for item in df:
     item2["fulltext"] = fulltext
 
     actions.append(item2)
+
+keys = []
+for item in actions:
+    for label in item:
+        if label not in keys:
+            keys.append(label)
+
+for item in actions:
+    for key in keys:
+        if key not in item:
+            item[key] = [""]
+        elif type(item[key]) is list and len(item[key]) == 0:
+            item[key] = [""]
     
 with open("../static/index.json", 'w') as f:
     json.dump(actions, f, ensure_ascii=False, indent=4,

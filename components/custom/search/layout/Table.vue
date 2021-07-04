@@ -2,7 +2,7 @@
   <div>
     <table
       border="1"
-      style="border-collapse: collapse;"
+      style="border-collapse: collapse"
       width="100%"
       class="my-2"
     >
@@ -104,15 +104,17 @@
           {{ $utils.formatArrayValue(item['脚-テキスト']) }}
 
           <template v-if="item['酉目'].length > 0">
-            <a
-              v-for="(value, key2) in item['酉目']"
-              :key="key2"
-              :href="value"
-              target="_blank"
-              class="ma-1"
-            >
-              <v-icon color="primary">mdi-link-variant</v-icon>
-            </a>
+            <template v-for="(value, key2) in item['酉目']">
+              <a
+                v-if="value"
+                :key="key2"
+                :href="value"
+                target="_blank"
+                class="ma-1"
+              >
+                <v-icon color="primary">mdi-link-variant</v-icon>
+              </a>
+            </template>
           </template>
 
           <!-- -->
@@ -120,22 +122,22 @@
           <template v-if="item['酉蓮社本IIIFコレクション'].length > 0">
             <br />
 
-            <v-tooltip
+            <template
               v-for="(item2, index2) in item['酉蓮社本IIIFコレクション']"
-              :key="index2"
-              bottom
             >
-              <template v-slot:activator="{ on, attrs }">
-                <a v-bind="attrs" :href="item2.url" target="_blank" v-on="on">
-                  <img
-                    width="24px"
-                    class="ma-1"
-                    src="https://pbs.twimg.com/profile_images/596366309601845248/2uaPY5NH.png"
-                  />
-                </a>
-              </template>
-              <span>{{ item2.label }}</span>
-            </v-tooltip>
+              <v-tooltip v-if="item2" :key="index2" bottom>
+                <template #activator="{ on, attrs }">
+                  <a v-bind="attrs" :href="item2.url" target="_blank" v-on="on">
+                    <img
+                      width="24px"
+                      class="ma-1"
+                      src="https://pbs.twimg.com/profile_images/596366309601845248/2uaPY5NH.png"
+                    />
+                  </a>
+                </template>
+                <span>{{ item2.label }}</span>
+              </v-tooltip>
+            </template>
           </template>
         </td>
 

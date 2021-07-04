@@ -239,6 +239,7 @@
     "cancel": "Cancel",
     "refine": "Refine",
     "show all": "Show All",
-    "results" : "results"
+    "results" : "results",
+    "none": "None"
 
   }

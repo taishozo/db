@@ -154,6 +154,7 @@ env.aggs = {
     key: '画像',
     value: {},
     more: false,
+    open: true,
   },
 }
 
@@ -292,13 +293,11 @@ module.exports = {
       // fonts
       {
         rel: 'stylesheet',
-        href:
-          'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanmp.min.css',
+        href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanmp.min.css',
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&subset=japanese',
+        href: 'https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&subset=japanese',
       },
       {
         rel: 'icon',
@@ -399,8 +398,7 @@ module.exports = {
       */
       {
         rel: 'stylesheet',
-        href:
-          'https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css',
+        href: 'https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css',
       },
       {
         rel: 'stylesheet',

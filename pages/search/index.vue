@@ -68,7 +68,7 @@
             label
             @click:close="faceted(filter.label, filter.value)"
           >
-            {{ aggs[filter.label].label }}: {{ filter.value }}
+            {{ aggs[filter.label].label }}: <c-render :value="filter.value" />
           </v-chip>
 
           <v-chip
@@ -161,7 +161,7 @@
           </v-col>
         </v-row>
 
-        <div v-show="isPagination" class="text-center mt-10">
+        <div v-show="isPagination" v-if="false" class="text-center mt-10">
           <v-pagination
             v-model="page"
             :length="length"
@@ -198,7 +198,7 @@
                     <v-img
                       contain
                       max-height="150"
-                      style="height: 150px;"
+                      style="height: 150px"
                       width="100%"
                       class="grey lighten-2"
                       :src="item.thumbnail"
@@ -214,7 +214,7 @@
               <v-expansion-panels
                 v-if="!aggList.hide"
                 :key="aggField"
-                :value="0"
+                :value="isEachFacetOpen(aggField, aggList) ? 0 : 1"
                 flat
                 class="mb-4"
               >
@@ -223,58 +223,73 @@
                     <h3>
                       {{ aggList.label }}
                       <small class="ml-2"
-                        >({{ aggList.value.length }} {{ $t('results') }})</small
+                        >({{ aggList.value.length.toLocaleString() }}
+                        {{ $t('results') }})</small
                       >
                     </h3>
                   </v-expansion-panel-header>
                   <v-expansion-panel-content outlined class="py-2">
                     <template v-for="(e, key) in aggList.value">
-                      <div
-                        v-if="key < limit || aggList.more"
-                        :key="key"
-                        class="mt-1"
-                      >
-                        <span
-                          style="cursor: pointer;"
-                          @click="faceted(aggField, e[0])"
+                      <template v-if="key < limit">
+                        <v-row
+                          :key="'2_' + key"
+                          align="center"
+                          justify="center"
+                          dense
                         >
-                          <template v-if="checked(aggField, e[0])">
-                            <v-icon color="primary">
-                              mdi-checkbox-marked
-                            </v-icon>
-                          </template>
-                          <template v-else>
-                            <v-icon> mdi-checkbox-blank-outline </v-icon>
-                          </template>
-                          {{ e[0] }}
-                          <v-chip small>
+                          <v-col
+                            style="cursor: pointer"
+                            cols="8"
+                            @click="faceted(aggField, e[0])"
+                          >
+                            <template v-if="checked(aggField, e[0])">
+                              <v-icon color="primary">
+                                mdi-checkbox-marked
+                              </v-icon>
+                            </template>
+                            <template v-else>
+                              <v-icon> mdi-checkbox-blank-outline </v-icon>
+                            </template>
+
+                            <c-render :value="e[0]"></c-render>
+                          </v-col>
+                          <v-col cols="3">
                             {{ e[1] }}
-                          </v-chip>
-                        </span>
+                            <!-- <v-chip small>
+                            {{ e[1] }}
+                          </v-chip> -->
+                          </v-col>
+                          <v-col class="text-right" cols="1">
+                            <v-btn
+                              v-if="!checked(aggField, e[0])"
+                              icon
+                              @click="faceted(aggField, '-' + e[0])"
+                              ><v-icon>mdi-close-circle-outline</v-icon></v-btn
+                            >
+                          </v-col>
+                        </v-row>
 
-                        <v-btn
-                          v-if="!checked(aggField, e[0])"
-                          icon
-                          @click="faceted(aggField, '-' + e[0])"
-                          ><v-icon>mdi-close-circle-outline</v-icon></v-btn
-                        >
-                      </div>
+                        <v-divider :key="'d-' + key" />
+                      </template>
                     </template>
+                    <template v-for="(e, key) in getMinusValues(aggField)">
+                      <v-row
+                        :key="'r_' + key"
+                        style="cursor: pointer"
+                        align="center"
+                        justify="center"
+                        dense
+                        @click="faceted(aggField, e)"
+                      >
+                        <!-- :key="'rm_' + key" -->
+                        <v-col cols="12"
+                          ><v-icon color="primary">mdi-checkbox-blank</v-icon>
 
-                    <v-divider
-                      v-if="getMinusValues(aggField).length > 0"
-                      class="my-2"
-                    />
-
-                    <div
-                      v-for="(e, key) in getMinusValues(aggField)"
-                      :key="'rm_' + key"
-                      style="cursor: pointer;"
-                      @click="faceted(aggField, e)"
-                    >
-                      <v-icon color="primary"> mdi-checkbox-blank </v-icon>
-                      {{ e.substring(1) }}
-                    </div>
+                          <c-render :value="e.substring(1)"></c-render
+                        ></v-col>
+                      </v-row>
+                      <v-divider :key="'d2-' + key" />
+                    </template>
 
                     <!-- 表示 -->
 
@@ -290,17 +305,6 @@
                         <v-icon>mdi-menu-right</v-icon></v-btn
                       >
                     </div>
-
-                    <!--
-                    <v-btn
-                      v-if="aggList.value.length >= limit"
-                      color="primary"
-                      small
-                      class="mt-4"
-                      @click="aggList.more = !aggList.more"
-                      >{{ $t(aggList.more ? 'Show less' : 'Show more') }}</v-btn
-                    >
-                    -->
                   </v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -323,7 +327,7 @@
         <v-card-title class="text-h5 grey lighten-2">
           <span class="text-h5">{{ selectedAgg.label }}</span>
         </v-card-title>
-        <v-card-text style="height: 600px; overflow-y: auto;" class="py-5">
+        <v-card-text style="height: 600px; overflow-y: auto" class="py-5">
           <!-- :items-per-page="-1" -->
           <v-data-table
             v-model="selected"
@@ -356,6 +360,15 @@
                 class="mx-4 my-5"
               ></v-text-field>
             </template>
+
+            <template v-slot:[`item.label`]="{ item }">
+              <template v-if="item.label === ''">
+                <span style="color: #4caf50">{{ $t('none') }}</span>
+              </template>
+              <template v-else>
+                {{ item.label }}
+              </template>
+            </template>
           </v-data-table>
         </v-card-text>
         <v-divider></v-divider>
@@ -368,7 +381,7 @@
             color="primary"
             @click="
               isShowAll = false
-              faceted(selectedAgg.key, getLabels(selected))
+              faceted(selectedAgg.key, getLabels(selected), 'all')
             "
           >
             {{ $t('refine') }}
@@ -386,6 +399,8 @@ import SearchAdvanced from '~/components/search/Advanced.vue'
 import SearchLayoutGraph from '~/components/search/layout/Graph.vue'
 import CustomSearchLayoutTable from '~/components/custom/search/layout/Table.vue'
 
+import CRender from '~/components/common/view/CRender.vue'
+
 const _ = require('lodash')
 
 export default {
@@ -394,6 +409,7 @@ export default {
     SearchAdvanced,
     SearchLayoutGraph,
     CustomSearchLayoutTable,
+    CRender,
   },
   data() {
     return {
@@ -460,7 +476,7 @@ export default {
         if (key.includes('[refinementList]')) {
           filters.push({
             label: key.split('[')[2].split(']')[0],
-            value: query[key],
+            value: query[key] || '',
           })
         }
       }
@@ -796,6 +812,7 @@ export default {
 
       // クエリ毎に整理
       const queryMap = {}
+
       for (const queryField in query) {
         if (queryField.includes('[refinementList]')) {
           const facetField = queryField.split('[')[2].split(']')[0]
@@ -810,6 +827,8 @@ export default {
           let values = query[queryField]
           if (typeof values === 'string') {
             values = [values]
+          } else if (!values) {
+            values = ['']
           }
 
           for (const v of values) {
@@ -1030,41 +1049,48 @@ export default {
       this.items = items
     },
 
-    faceted(field, selectedValues) {
+    faceted(field, selectedValues, type = 'default') {
       const query = JSON.parse(JSON.stringify(this.$route.query))
-
-      let values = []
-      for (const queryField in query) {
-        if (queryField.includes('[refinementList][' + field + ']')) {
-          values.push(query[queryField])
-          delete query[queryField]
-        }
-      }
 
       if (typeof selectedValues === 'string') {
         selectedValues = [selectedValues]
       }
 
-      for (const value of selectedValues) {
-        if (values.includes(value)) {
-          values = values.filter((n) => n !== value)
-        } else {
-          values.push(value)
+      let values = []
+      for (const queryField in query) {
+        if (queryField.includes('[refinementList][' + field + ']')) {
+          if (type !== 'all') {
+            // ここが重要
+            values.push(query[queryField] || '')
+          }
+
+          delete query[queryField]
         }
       }
 
-      for (let i = 0; i < values.length; i++) {
-        query['main[refinementList][' + field + '][' + i + ']'] = values[i]
+      // リストに違いがなければ
+
+      if (selectedValues.length !== 0) {
+        for (const value of selectedValues) {
+          if (values.includes(value)) {
+            values = values.filter((n) => n !== value)
+          } else {
+            values.push(value)
+          }
+        }
+
+        for (let i = 0; i < values.length; i++) {
+          query['main[refinementList][' + field + '][' + i + ']'] = values[i]
+        }
       }
 
       query['main[page]'] = 1
 
-      this.$router.push(
-        this.localePath({
-          name: 'search',
-          query,
-        })
-      )
+      const to = {
+        name: 'search',
+      }
+      to.query = query
+      this.$router.push(this.localePath(to))
     },
 
     checked(field, value) {
@@ -1073,7 +1099,7 @@ export default {
       const values = []
       for (const queryField in query) {
         if (queryField.includes('[refinementList][' + field + ']')) {
-          values.push(query[queryField])
+          values.push(query[queryField] || '')
         }
       }
 
@@ -1143,7 +1169,7 @@ export default {
       const values = []
       for (const queryField in query) {
         if (queryField.includes('[' + field + ']')) {
-          const value = query[queryField]
+          const value = query[queryField] || ''
           if (value.startsWith('-')) {
             values.push(value)
           }
@@ -1153,10 +1179,23 @@ export default {
     },
 
     showAll(aggList) {
-      // this.selectedField = aggList.label
+      const values = []
+
+      for (const f of this.filters) {
+        if (f.label === aggList.key) {
+          values.push(f.value)
+        }
+      }
       this.selectedAgg = aggList
-      this.selected = []
-      this.isShowAll = true
+      const selected = []
+      for (const e of aggList.value) {
+        if (values.includes(e[0])) {
+          selected.push({
+            label: e[0],
+            value: e[1],
+          })
+        }
+      }
 
       const items = []
       for (const item of aggList.value) {
@@ -1165,7 +1204,12 @@ export default {
           value: item[1],
         })
       }
+
+      this.selected = selected
+      this.isShowAll = true
       this.selectedAggValues = items
+
+      this.facetSearch = ''
     },
 
     getLabels(values) {
@@ -1174,6 +1218,47 @@ export default {
         labels.push(item.label)
       }
       return labels
+    },
+
+    isEachFacetOpen(aggField, aggList) {
+      let filtersFlag = false
+      for (const obj of this.filters) {
+        if (obj.label === aggField) {
+          filtersFlag = true
+          break
+        }
+      }
+
+      /*
+
+      //
+      const key = 'each_facet_open_' + this.baseUrl
+      let map = {}
+      if (Object.prototype.hasOwnProperty.call(sessionStorage, key)) {
+        map = JSON.parse(sessionStorage.getItem(key))
+      }
+
+      */
+
+      //
+
+      return (
+        aggList.open || this.getMinusValues(aggField).length > 0 || filtersFlag
+        // || map[aggField]
+      )
+    },
+
+    saveEachFacetOpen(aggField, value) {
+      const key = 'each_facet_open_' + this.baseUrl
+
+      let map = {}
+      if (Object.prototype.hasOwnProperty.call(sessionStorage, key)) {
+        map = JSON.parse(sessionStorage.getItem(key))
+      }
+
+      map[aggField] = !value
+
+      sessionStorage.setItem(key, JSON.stringify(map))
     },
   },
 

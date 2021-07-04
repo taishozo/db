@@ -266,5 +266,6 @@
     "cancel": "キャンセル",
     "refine": "絞り込み",
     "show all": "すべて表示",
-    "results" : "件"
+    "results" : "件",
+    "none": "なし"
   }
