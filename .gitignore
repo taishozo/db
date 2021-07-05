@@ -1,5 +1,7 @@
 ~*
 
+*.lock
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
@@ -90,3 +92,5 @@ sw.*
 
 # Vim swap files
 *.swp
+
+tmp
